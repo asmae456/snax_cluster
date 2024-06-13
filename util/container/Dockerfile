@@ -61,15 +61,6 @@ RUN git clone https://github.com/verilator/verilator && \
   rm -rf verilator
 ENV VLT_ROOT /usr/local/share/verilator
 
-# Change defaults in verilator file
-RUN sed -i /usr/local/share/verilator/include/verilated.mk \
-        -e "s/CXX = g++/CXX = clang++-17/g" \
-        -e "s/LINK = g++/LINK = clang++-17/g" \
-        -e "s/AR = ar/AR = llvm-ar-17/g" \
-        -e "s/CFG_CXXFLAGS_STD = /CFG_CXXFLAGS_STD = -std=c++20/g" \
-        -e "s/CFG_CXXFLAGS_COROUTINES = -fcoroutines/CFG_CXXFLAGS_COROUTINES = /g"
-
-
 # Install Verible
 ENV VERIBLE_VERSION 0.0-3644-g6882622d
 RUN wget https://github.com/chipsalliance/verible/releases/download/v${VERIBLE_VERSION}/verible-v${VERIBLE_VERSION}-linux-static-x86_64.tar.gz && \
