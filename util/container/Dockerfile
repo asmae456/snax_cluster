@@ -101,7 +101,7 @@ CMD ["zsh"]
 # Default systems
 FROM base as snax-mac
 
-RUN git clone https://github.com/kuleuven-micas/snitch_cluster /src && \
+RUN git clone https://github.com/kuleuven-micas/snax_cluster /src && \
     cd /src && git submodule update --init && \
     cd /src && sbt package && \
     cd /src && \
@@ -116,7 +116,7 @@ RUN git clone https://github.com/kuleuven-micas/snitch_cluster /src && \
 
 FROM base as snax-gemm
 
-RUN git clone https://github.com/kuleuven-micas/snitch_cluster /src && \
+RUN git clone https://github.com/kuleuven-micas/snax_cluster /src && \
     cd /src && git submodule update --init && \
     cd /src && sbt package && \
     cd /src && \
@@ -131,7 +131,7 @@ RUN git clone https://github.com/kuleuven-micas/snitch_cluster /src && \
 
 FROM base as snax-alu
 
-RUN git clone https://github.com/kuleuven-micas/snitch_cluster /src && \
+RUN git clone https://github.com/kuleuven-micas/snax_cluster /src && \
     cd /src && git submodule update --init && \
     cd /src && sbt package && \
     cd /src && \
