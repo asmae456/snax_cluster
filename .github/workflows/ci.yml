@@ -305,6 +305,12 @@ jobs:
         run: |
           make CFG_OVERRIDE=cfg/snax-streamer-gemmX-data-reshuffler.hjson \
           -C target/snitch_cluster bin/snitch_cluster.vlt -j$(nproc)
+      - name: Run Tests
+        working-directory: target/snitch_cluster
+        run: |-
+          ./run.py --simulator verilator \
+          sw/runtime.yaml \
+          sw/snax-streamer-gemm-conv-simd-run.yaml -j
 
   ############################################
   # Build SW on Snitch Cluster w/ Banshee #
