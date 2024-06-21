@@ -415,10 +415,10 @@ def emit_gemm_data(**kwargs):
 
     # M dim
     # K is merged because of the block gemm output stationarity
-    Ctlbound1 = W // 8 * H
+    Ctlbound1 = W // 8
     Ctlstride1 = Cout * 8 * 4
 
-    Ctlbound2 = 1
+    Ctlbound2 = H
     Ctlstride2 = Cout * W * 4
 
     # Batch dim
@@ -449,10 +449,10 @@ def emit_gemm_data(**kwargs):
 
     # M dim
     # K is merged because of the block gemm output stationarity
-    D32tlbound1 = W // 8 * H
+    D32tlbound1 = W // 8
     D32tlstride1 = D32out * 8 * 4
 
-    D32tlbound2 = 1
+    D32tlbound2 = H
     D32tlstride2 = D32out * W * 4
 
     # Batch dim
@@ -483,10 +483,10 @@ def emit_gemm_data(**kwargs):
 
     # M dim
     # K is merged because of the block gemm output stationarity
-    D8tlbound1 = W // 8 * H
+    D8tlbound1 = W // 8
     D8tlstride1 = D8out * 8
 
-    D8tlbound2 = 1
+    D8tlbound2 = H
     D8tlstride2 = D8out * W
 
     # Batch dim
@@ -607,7 +607,6 @@ def emit_gemm_data(**kwargs):
         data_str += [
             format_vector_definition("int8_t", "D8_direct_conv2d", direct_conv2d_res)
         ]
-
 
     data_str = "\n\n".join(data_str)
 

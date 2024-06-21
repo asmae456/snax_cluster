@@ -55,7 +55,7 @@
                 },
                 cores: [
                     { $ref: "#/snax_streamer_gemmX_core_template" },
-                    // { $ref: "#/snax_data_reshuffler_core_template" },
+                    { $ref: "#/snax_data_reshuffler_core_template" },
                     { $ref: "#/dma_core_template" },
                 ]
             }
@@ -91,7 +91,6 @@
             snax_acc_name: "snax_streamer_gemmX",
             // add a checker here?
             // some of the tcdm ports specificed here?
-            // snax_wide_tcdm_ports: 40,
             snax_narrow_tcdm_ports: 56,
             snax_num_rw_csr: 10,
             snax_num_ro_csr: 2,
@@ -163,7 +162,7 @@
     snax_streamer_gemmX_streamer_template :{
 
         temporal_addrgen_unit_params: {
-            loop_dim: [6, 3, 2, 2, 2],
+            loop_dim: [6, 3, 3, 3, 3],
             share_temp_addr_gen_loop_bounds: false,
         }
 

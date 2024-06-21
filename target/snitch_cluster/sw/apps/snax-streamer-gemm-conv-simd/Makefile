@@ -13,7 +13,6 @@ INCDIRS += ../../snax/streamer-gemm-conv-simd/include
 INCDIRS += ../../snax/gemm/include
 INCDIRS += ../../snax/streamer-simd/include
 
-
 # Include this binary in the final build
 RISCV_LDFLAGS += ../../snax/streamer-gemm/build/snax-streamer-gemm-lib.o
 RISCV_LDFLAGS += ../../snax/gemm/build/snax-gemm-lib.o
