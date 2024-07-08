@@ -52,7 +52,7 @@ VCS_BUILDDIR := work-vcs
 
 # fesvr is being installed here
 FESVR         ?= ${MKFILE_DIR}work
-FESVR_VERSION ?= 35d50bc40e59ea1d5566fbd3d9226023821b1bb6
+FESVR_VERSION ?= 98d2c29e431f3b14feefbda48c5f70c2f451acf2
 
 VLT_BENDER   += -t rtl
 VLT_SOURCES   = $(shell ${BENDER} script flist ${VLT_BENDER} | ${SED_SRCS})
