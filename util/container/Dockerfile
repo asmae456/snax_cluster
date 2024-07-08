@@ -2,6 +2,14 @@
 # Licensed under the Apache License, Version 2.0, see LICENSE for details.
 # SPDX-License-Identifier: Apache-2.0
 
+
+FROM ubuntu:24.04 AS build-bender
+
+RUN apt-get update && apt-get install -y curl build-essential
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+ENV PATH="/root/.cargo/bin:${PATH}"
+RUN cargo install bender --version 0.28.1
+
 FROM ubuntu:24.04 AS base
 
 # apt update and upgrade
@@ -35,9 +43,8 @@ RUN apt-get update && apt-get install -y lsb-release wget software-properties-co
   python3-pip && \
   # create symbolic links for all *-18 binaries
   for f in /usr/bin/*-18; do ln -s $f ${f%-18}; done && \
-  # Update pip for git installs
-  python3 -m pip config set global.break-system-packages true && \
-  pip3 install --upgrade pip
+  # Enable break-system-packages for non-venv package installs
+  python3 -m pip config set global.break-system-packages true
 
 
 
@@ -59,7 +66,7 @@ ENV VERIBLE_VERSION 0.0-3644-g6882622d
 
 # Install pre-builts:
 # Bender
-RUN cd /usr/bin && curl --proto '=https' --tlsv1.2 https://pulp-platform.github.io/bender/init -sSf | sh -s 0.28.1 && cd /
+COPY --from=build-bender /root/.cargo/bin/bender /usr/bin/bender
 
 # spike-dasm
 RUN wget https://github.com/pulp-platform/riscv-isa-sim/releases/download/snitch-v0.1.0/snitch-spike-dasm-0.1.0-x86_64-linux-gnu-ubuntu18.04.tar.gz && \
@@ -86,7 +93,7 @@ RUN git clone https://github.com/kuleuven-micas/snax_cluster.git && \
     rm -rf snax_cluster && \
 # Install Python Requirements from kuleuven-micas/snax-mlir
     git clone https://github.com/kuleuven-micas/snax-mlir.git && \
-    cd snax-mlir && pip3 install --no-cache-dir -r requirements.txt && \
+    cd snax-mlir && git checkout joren/bump-tensorflow && pip3 install --no-cache-dir -r requirements.txt && \
     cd .. && \
     rm -rf snax-mlir
 
