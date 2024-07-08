@@ -36,6 +36,7 @@ RUN apt-get update && apt-get install -y lsb-release wget software-properties-co
   # create symbolic links for all *-18 binaries
   for f in /usr/bin/*-18; do ln -s $f ${f%-18}; done && \
   # Update pip for git installs
+  python3 -m pip config set global.break-system-packages true && \
   pip3 install --upgrade pip
 
 
