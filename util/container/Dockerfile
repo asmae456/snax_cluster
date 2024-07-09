@@ -93,7 +93,7 @@ RUN git clone https://github.com/kuleuven-micas/snax_cluster.git && \
     rm -rf snax_cluster && \
 # Install Python Requirements from kuleuven-micas/snax-mlir
     git clone https://github.com/kuleuven-micas/snax-mlir.git && \
-    cd snax-mlir && git checkout joren/bump-tensorflow && pip3 install --no-cache-dir -r requirements.txt && \
+    cd snax-mlir && pip3 install --no-cache-dir -r requirements.txt && \
     cd .. && \
     rm -rf snax-mlir
 
