@@ -75,7 +75,7 @@ VLT_FLAGS    += --unroll-count 1024
 ifeq ($(VERILATOR_VERSION), 5)
 	VLT_CXXSTD_FLAGS += -std=c++20 -pthread -latomic
 else 
-	VLT_CXXSTD_FLAGS += -std=c++14 -pthread
+	VLT_CXXSTD_FLAGS += -std=c++17 -pthread
 endif
 VLT_CFLAGS   += ${VLT_CXXSTD_FLAGS} -I ${VLT_BUILDDIR} -I $(VLT_ROOT)/include -I $(VLT_ROOT)/include/vltstd -I $(VLT_FESVR)/include -I $(TB_DIR) -I ${MKFILE_DIR}/test
 
