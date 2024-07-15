@@ -47,11 +47,11 @@ RUN apt-get update && apt-get install -y lsb-release wget software-properties-co
   python3 -m pip config set global.break-system-packages true
 
 
-# Temporarily install python3.11 until xdsl has moved to newer MLIR version
+# Temporarily install python3.10 until xdsl has moved to newer MLIR version
 RUN add-apt-repository -y ppa:deadsnakes/ppa & \
   apt update & \
-  apt-get instal -y python3.11 & \
-  ln -fs /usr/bin/python3 /usr/bin/python3.11 & \
+  apt-get instal -y python3.10 & \
+  ln -fs /usr/bin/python3 /usr/bin/python3.10 & \
   ln -fs /usr/bin/python3-config /usr/bin/python3-config
 
 # Install Verilator
