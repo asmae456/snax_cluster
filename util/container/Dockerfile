@@ -14,7 +14,7 @@ FROM ubuntu:24.04 AS base
 
 # apt update and upgrade
 RUN apt-get update && apt-get install -y lsb-release wget software-properties-common gnupg curl && \
-  wget https://apt.llvm.org/llvm.sh && chmod +x llvm.sh && ./llvm.sh 18 && rm llvm.sh && \
+  wget https://apt.llvm.org/llvm.sh && chmod +x llvm.sh && ./llvm.sh 17 && rm llvm.sh && \
   echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | tee /etc/apt/sources.list.d/sbt.list && \
   echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | tee /etc/apt/sources.list.d/sbt_old.list && \
   curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | apt-key add && \
@@ -35,18 +35,24 @@ RUN apt-get update && apt-get install -y lsb-release wget software-properties-co
   vim \
   nano \
   openjdk-11-jre-headless openjdk-11-jdk-headless \
-  mlir-18-tools clang-format-18 python3 \
+  mlir-17-tools clang-format-17 python3 \
   help2man perl make autoconf g++ flex bison ccache \
   libgoogle-perftools-dev numactl perl-doc \
   libfl2 libfl-dev zlib1g zlib1g-dev \
   sbt \
   python3-pip && \
-  # create symbolic links for all *-18 binaries
-  for f in /usr/bin/*-18; do ln -s $f ${f%-18}; done && \
+  # create symbolic links for all *-17 binaries
+  for f in /usr/bin/*-17; do ln -s $f ${f%-17}; done && \
   # Enable break-system-packages for non-venv package installs
   python3 -m pip config set global.break-system-packages true
 
 
+# Temporarily install python3.11 until xdsl has moved to newer MLIR version
+RUN add-apt-repository -y ppa:deadsnakes/ppa & \
+  apt update & \
+  apt-get instal -y python3.11 & \
+  ln -fs /usr/bin/python3 /usr/bin/python3.11 & \
+  ln -fs /usr/bin/python3-config /usr/bin/python3-config
 
 # Install Verilator
 RUN git clone https://github.com/verilator/verilator && \
@@ -93,7 +99,7 @@ RUN git clone https://github.com/kuleuven-micas/snax_cluster.git && \
     rm -rf snax_cluster && \
 # Install Python Requirements from kuleuven-micas/snax-mlir
     git clone https://github.com/kuleuven-micas/snax-mlir.git && \
-    cd snax-mlir && git checkout joren/bump-tensorflow && pip3 install --no-cache-dir -r requirements.txt && \
+    cd snax-mlir && pip3 install --no-cache-dir -r requirements.txt && \
     cd .. && \
     rm -rf snax-mlir
 
