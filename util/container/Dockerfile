@@ -48,11 +48,11 @@ RUN apt-get update && apt-get install -y lsb-release wget software-properties-co
 
 
 # Temporarily install python3.10 until xdsl has moved to newer MLIR version
-RUN add-apt-repository -y ppa:deadsnakes/ppa & \
-  apt update & \
-  apt-get install -y python3.10 & \
-  ln -fs /usr/bin/python3.10 /usr/bin/python3 & \
-  ln -fs /usr/bin/python3.10-config /usr/bin/python3-config
+RUN add-apt-repository -y ppa:deadsnakes/ppa && \
+  apt update && \
+  apt install -y python3.10 && \
+  ln -fs /usr/bin/python3.10 /usr/bin/python3 && \
+  ln -fs /bin/python3.10 /bin/python3
 
 # Install Verilator
 RUN git clone https://github.com/verilator/verilator && \
