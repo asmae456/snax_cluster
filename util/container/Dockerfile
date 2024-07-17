@@ -169,10 +169,10 @@ RUN git clone https://github.com/kuleuven-micas/snax_cluster /src && \
     -C target/snitch_cluster \
     SELECT_TOOLCHAIN=llvm-generic \
     SELECT_RUNTIME=rtl-generic \
-    CFG_OVERRIDE=cfg/snax-streamer-gemm.hjson && \
+    CFG_OVERRIDE=cfg/snax-streamer-gemm-add-c.hjson && \
     cd /src && \
     make -C target/snitch_cluster bin/snitch_cluster.vlt \
-    CFG_OVERRIDE=cfg/snax-streamer-gemm.hjson -j $(nproc)
+    CFG_OVERRIDE=cfg/snax-streamer-gemm-add-c.hjson -j $(nproc)
 
 # Copy Hardware to final image
 FROM base as target
