@@ -23,6 +23,8 @@ module snitch_icache_data #(
 );
 
   for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_data_sets
+
+`ifndef TARGET_SYNTHESIS
     tc_sram_impl #(
       .NumWords   ( CFG.LINE_COUNT  ),
       .DataWidth  ( CFG.LINE_WIDTH  ),
@@ -43,5 +45,30 @@ module snitch_icache_data #(
       .rdata_o    ( ram_rdata_o[i]  )
     );
   end
+`else
+    // `include "mem_def/mem_def.svh"
+    //`TC_SRAM_IMPL(128, 128, S)
+    TS1N16FFCLLSBLVTD128X128M4SW i_cache_mem_0(
+                .CLK    (clk_i),
+                .CEB    (~ram_enable_i[i][(CFG.LINE_WIDTH)-1:(CFG.LINE_WIDTH)/2]),
+                .WEB    (~ram_write_i),
+                .A      (ram_addr_i),
+                .D      (ram_wdata_i[(CFG.LINE_WIDTH)-1:(CFG.LINE_WIDTH)/2]),
+                .BWEB   ('0),
+                .RTSEL  (2'b01),
+                .WTSEL  (2'b01),
+                .Q      (ram_rdata_o[i][(CFG.LINE_WIDTH)-1:(CFG.LINE_WIDTH)/2]));
+    //`TC_SRAM_IMPL(128, 128, S)
+    TS1N16FFCLLSBLVTD128X128M4SW i_cache_mem_1(
+                .CLK    (clk_i),
+                .CEB    (~ram_enable_i[i][(CFG.LINE_WIDTH)/2-1:0]),
+                .WEB    (~ram_write_i),
+                .A      (ram_addr_i),
+                .D      (ram_wdata_i[(CFG.LINE_WIDTH)/2-1:0]),
+                .BWEB   ('0),
+                .RTSEL  (2'b01),
+                .WTSEL  (2'b01),
+                .Q  (ram_rdata_o[i][(CFG.LINE_WIDTH)/2-1:0]));
+`endif
 
 endmodule

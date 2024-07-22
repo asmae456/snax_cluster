@@ -30,6 +30,7 @@ module snitch_data_mem #(
 );
 
   for (genvar i = 0; i < NumTotalBanks; i++) begin: gen_banks
+`ifndef TARGET_SYNTHESIS
     tc_sram_impl #(
       .NumWords   ( TCDMDepth         ),
       .DataWidth  ( NarrowDataWidth   ),
@@ -50,5 +51,30 @@ module snitch_data_mem #(
       .rdata_o    ( mem_rdata_o[i]    )
     );
   end
+`else
+  // memory implementation for syntesis
+  logic [NarrowDataWidth - 1 : 0] bit_en;
+
+  always_comb begin
+    for (int j = 0; i < NarrowDataWidth / 8; j = j + 1) begin
+      bit_en[j*8+:8] = {8{mem_be_i[j]}};
+    end
+  end
+  // tech memory macro "M" Means Multi-Bank
+  // tech memory macro "S" Means Single-Bank
+
+  //`include "mem_def/mem_def.svh"
+  //`TC_SRAM_IMPL (S, TCDMDepth, NarrowDataWidth)
+    TS1N16FFCLLSBLVTD512X64M4SW i_data_mem(
+                        .CLK(clk_i),
+                        .CEB(~mem_cs_i),
+                        .WEB(~mem_wen_i),
+                        .A(mem_add_i[$clog2(TCDMDepth)-1:0]),
+                        .D(mem_wdata_i),
+                        .BWEB(~bit_en),
+                        .RTSEL(2'b01),
+                        .WTSEL(2'b01),
+                        .Q(mem_rdata_o));
+`endif
 
 endmodule

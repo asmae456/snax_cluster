@@ -936,58 +936,6 @@ module snitch_cluster
     // generate banks of the superbank
     for (genvar j = 0; j < BanksPerSuperBank; j++) begin : gen_tcdm_bank
 
-      logic mem_cs, mem_wen;
-      tcdm_mem_addr_t mem_add;
-      strb_t mem_be;
-      data_t mem_rdata, mem_wdata;
-
-      `ifndef TARGET_SYNTHESIS
-        tc_sram_impl #(
-          .NumWords (TCDMDepth),
-          .DataWidth (NarrowDataWidth),
-          .ByteWidth (8),
-          .NumPorts (1),
-          .Latency (1),
-          .impl_in_t (sram_cfg_t)
-        ) i_data_mem (
-          .clk_i,
-          .rst_ni,
-          .impl_i (sram_cfgs_i.tcdm),
-          .impl_o (  ),
-          .req_i (mem_cs),
-          .we_i (mem_wen),
-          .addr_i (mem_add),
-          .wdata_i (mem_wdata),
-          .be_i (mem_be),
-          .rdata_o (mem_rdata)
-        );
-      `else
-        // memory implementation for syntesis
-        parameter widthPerBank = 64;
-        logic [widthPerBank - 1 : 0] bit_en;
- 
-        always_comb begin
-          for (int i = 0; i < widthPerBank / 8; i = i + 1) begin
-            bit_en[i*8+:8] = {8{mem_be[i]}};
-          end
-        end
-        // tech memory macro "M" Means Multi-Bank
-        // tech memory macro "S" Means Single-Bank
-
-        //`include "mem_def/mem_def.svh"
-        //`TC_SRAM_IMPL (S, TCDMDepth, NarrowDataWidth)
-         TS1N16FFCLLSBLVTD512X64M4SW i_data_mem(
-                              .CLK(clk_i),
-                              .CEB(~mem_cs),
-                              .WEB(~mem_wen),
-                              .A(mem_add[$clog2(TCDMDepth)-1:0]),
-                              .D(mem_wdata),
-                              .BWEB(~bit_en),
-                              .RTSEL(2'b01),
-                              .WTSEL(2'b01),
-                              .Q(mem_rdata));
-      `endif
-
       data_t amo_rdata_local;
 
       // TODO(zarubaf): Share atomic units between mutltiple cuts
