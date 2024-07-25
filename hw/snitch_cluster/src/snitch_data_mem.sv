@@ -69,7 +69,7 @@ for (genvar i = 0; i < NumTotalBanks; i++) begin: gen_banks
                         .CLK(clk_i),
                         .CEB(~mem_cs_i[i]),
                         .WEB(~mem_wen_i[i]),
-                        .A(mem_add_i[$clog2(TCDMDepth)-1:0][i]),
+                        .A(mem_add_i[i][$clog2(TCDMDepth)-1:0]),
                         .D(mem_wdata_i[i]),
                         .BWEB(~bit_en),
                         .RTSEL(2'b01),
