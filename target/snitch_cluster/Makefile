@@ -82,7 +82,8 @@ ifeq (${CFG_OVERRIDE}, cfg/snax-gemm.hjson)
 
 	SNAX_GEMM_ROOT ?= $(shell $(BENDER) path snax-gemm)
 	include $(SNAX_GEMM_ROOT)/Makefile	
-
+	
+	SYNTH_BENDER+= -t snax-gemm
 	VSIM_BENDER += -t snax-gemm
 	VLT_BENDER  += -t snax-gemm
 	VCS_BENDER  += -t snax-gemm
@@ -96,7 +97,8 @@ $(eval $(call generate_snax_gen,snax_streamer_gemm))
 
 	SNAX_GEMM_ROOT ?= $(shell $(BENDER) path snax-gemm)
 	include $(SNAX_GEMM_ROOT)/Makefile
-
+	
+	SYNTH_BENDER+= -t snax_streamer_gemm
 	VSIM_BENDER += -t snax_streamer_gemm
 	VLT_BENDER  += -t snax_streamer_gemm
 	VCS_BENDER  += -t snax_streamer_gemm
@@ -112,6 +114,7 @@ $(eval $(call generate_snax_gen,snax_streamer_simd))
 	SNAX_GEMM_ROOT ?= $(shell $(BENDER) path snax-postprocessing-simd)
 	include $(SNAX_GEMM_ROOT)/Makefile
 
+	SYNTH_BENDER+= -t snax_streamer_simd
 	VSIM_BENDER += -t snax_streamer_simd
 	VLT_BENDER  += -t snax_streamer_simd
 	VCS_BENDER  += -t snax_streamer_simd
@@ -125,6 +128,7 @@ ifeq (${CFG_OVERRIDE}, cfg/snax-alu.hjson)
 
 $(eval $(call generate_snax_gen,snax_alu))
 
+	SYNTH_BENDER+= -t snax_alu
 	VSIM_BENDER += -t snax_alu
 	VLT_BENDER  += -t snax_alu
 	VCS_BENDER  += -t snax_alu
@@ -140,6 +144,7 @@ $(eval $(call generate_snax_gen,snax_data_reshuffler))
 	SNAX_DR_ROOT ?= $(ROOT)/hw/chisel_acc
 	include $(SNAX_DR_ROOT)/Makefile
 
+	SYNTH_BENDER+= -t snax_data_reshuffler
 	VSIM_BENDER += -t snax_data_reshuffler
 	VLT_BENDER  += -t snax_data_reshuffler
 	VCS_BENDER  += -t snax_data_reshuffler
@@ -154,6 +159,7 @@ $(eval $(call generate_snax_gen,snax_streamer_gemm_add_c))
     SNAX_POOLINGSIMD_ROOT ?= $(ROOT)/hw/chisel_acc
     include $(SNAX_POOLINGSIMD_ROOT)/Makefile
  
+	SYNTH_BENDER+= -t snax_streamer_gemm_add_c
     VSIM_BENDER += -t snax_streamer_gemm_add_c
     VLT_BENDER  += -t snax_streamer_gemm_add_c
     VCS_BENDER  += -t snax_streamer_gemm_add_c
@@ -162,13 +168,14 @@ endif
 
 ifeq (${CFG_OVERRIDE}, cfg/snax-streamer-gemm-conv.hjson)
 
+    SNAX_GEMM_ROOT ?= $(shell $(BENDER) path snax-gemm)
+    include $(SNAX_GEMM_ROOT)/Makefile
+
 	CLUSTER_NAME = snax_streamer_gemm_cluster
 	
 $(eval $(call generate_snax_gen,snax_streamer_gemm))
  
-    SNAX_GEMM_ROOT ?= $(shell $(BENDER) path snax-gemm)
-    include $(SNAX_GEMM_ROOT)/Makefile
-
+	SYNTH_BENDER+= -t snax_streamer_gemm
     VSIM_BENDER += -t snax_streamer_gemm
     VLT_BENDER  += -t snax_streamer_gemm
     VCS_BENDER  += -t snax_streamer_gemm
@@ -183,7 +190,8 @@ $(eval $(call generate_snax_gen,snax_streamer_gemmX))
 
 	SNAX_GEMMX_ROOT ?= $(ROOT)/hw/chisel_acc
     include $(SNAX_GEMMX_ROOT)/Makefile
- 
+
+	SYNTH_BENDER+= -t snax_streamer_gemmX 
     VSIM_BENDER += -t snax_streamer_gemmX
     VLT_BENDER  += -t snax_streamer_gemmX
     VCS_BENDER  += -t snax_streamer_gemmX
@@ -204,6 +212,7 @@ $(eval $(call generate_snax_gen,snax_data_reshuffler))
 	SNAX_DR_ROOT ?= $(ROOT)/hw/chisel_acc
 	include $(SNAX_DR_ROOT)/Makefile
 
+	SYNTH_BENDER+= -t snax_wide_gemm_data_reshuffler 
 	VSIM_BENDER += -t snax_wide_gemm_data_reshuffler
 	VLT_BENDER  += -t snax_wide_gemm_data_reshuffler
 	VCS_BENDER  += -t snax_wide_gemm_data_reshuffler
@@ -215,7 +224,8 @@ ifeq (${CFG_OVERRIDE}, cfg/snax-mac.hjson)
 	CLUSTER_NAME  = snax_mac_cluster
 
 	BYPASS_ACCGEN = true
-	
+
+	SYNTH_BENDER+= -t snax_mac 
 	VSIM_BENDER += -t snax_mac
 	VLT_BENDER  += -t snax_mac
 	VCS_BENDER  += -t snax_mac
@@ -227,7 +237,8 @@ ifeq (${CFG_OVERRIDE}, cfg/snax-mac-mult.hjson)
 	CLUSTER_NAME  = snax_mac_cluster
 
 	BYPASS_ACCGEN = true
-	
+
+	SYNTH_BENDER+= -t snax_mac 	
 	VSIM_BENDER += -t snax_mac
 	VLT_BENDER  += -t snax_mac
 	VCS_BENDER  += -t snax_mac
@@ -240,6 +251,7 @@ ifeq (${CFG_OVERRIDE}, cfg/default.hjson)
 
 	BYPASS_ACCGEN = true
 
+	SYNTH_BENDER+= -t snitch_cluster 
 	VSIM_BENDER += -t snitch_cluster
 	VLT_BENDER  += -t snitch_cluster
 	VCS_BENDER  += -t snitch_cluster
@@ -481,6 +493,15 @@ ${VSIM_BUILDDIR}/compile.vsim.tcl:
 # Build compilation script and compile all sources for Questasim simulation
 bin/snitch_cluster.vsim: ${VSIM_BUILDDIR}/compile.vsim.tcl $(VSIM_SOURCES) ${TB_SRCS} ${TB_CC_SOURCES} ${TB_ASM_SOURCES} work/lib/libfesvr.a
 	$(call QUESTASIM,tb_bin)
+
+
+###############
+# DC Compiler #
+###############
+
+${GENERATED_DIR}/syn_flist.tcl: ${OTHER_SNAX_GEN} $(GENERATED_DIR)/$(CLUSTER_NAME)_wrapper.sv
+	${BENDER} script synopsys ${SYNTH_BENDER} > $@
+	echo 'return 0' >> $@
 
 #######
 # VCS #
