@@ -50,7 +50,7 @@ for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_data_sets
     //`TC_SRAM_IMPL(128, 128, S)
     TS1N16FFCLLSBLVTD128X128M4SW i_cache_mem_0(
                 .CLK    (clk_i),
-                .CEB    (~ram_enable_i[i][(CFG.LINE_WIDTH)-1:(CFG.LINE_WIDTH)/2]),
+                .CEB    (~ram_enable_i[i]),
                 .WEB    (~ram_write_i),
                 .A      (ram_addr_i),
                 .D      (ram_wdata_i[(CFG.LINE_WIDTH)-1:(CFG.LINE_WIDTH)/2]),
@@ -61,7 +61,7 @@ for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_data_sets
     //`TC_SRAM_IMPL(128, 128, S)
     TS1N16FFCLLSBLVTD128X128M4SW i_cache_mem_1(
                 .CLK    (clk_i),
-                .CEB    (~ram_enable_i[i][(CFG.LINE_WIDTH)/2-1:0]),
+                .CEB    (~ram_enable_i[i]),
                 .WEB    (~ram_write_i),
                 .A      (ram_addr_i),
                 .D      (ram_wdata_i[(CFG.LINE_WIDTH)/2-1:0]),
