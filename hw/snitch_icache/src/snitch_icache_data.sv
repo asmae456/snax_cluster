@@ -22,7 +22,7 @@ module snitch_icache_data #(
   output logic [  CFG.SET_COUNT-1:0][CFG.LINE_WIDTH-1:0] ram_rdata_o
 );
 
-  for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_data_sets
+for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_data_sets
 
 `ifndef TARGET_SYNTHESIS
     tc_sram_impl #(
@@ -44,7 +44,7 @@ module snitch_icache_data #(
       .be_i       ( '1              ),
       .rdata_o    ( ram_rdata_o[i]  )
     );
-  end
+
 `else
     // `include "mem_def/mem_def.svh"
     //`TC_SRAM_IMPL(128, 128, S)
@@ -70,5 +70,5 @@ module snitch_icache_data #(
                 .WTSEL  (2'b01),
                 .Q  (ram_rdata_o[i][(CFG.LINE_WIDTH)/2-1:0]));
 `endif
-
+end
 endmodule

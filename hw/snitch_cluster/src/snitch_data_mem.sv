@@ -29,7 +29,7 @@ module snitch_data_mem #(
   output data_t          [NumTotalBanks-1:0] mem_rdata_o
 );
 
-  for (genvar i = 0; i < NumTotalBanks; i++) begin: gen_banks
+for (genvar i = 0; i < NumTotalBanks; i++) begin: gen_banks
 `ifndef TARGET_SYNTHESIS
     tc_sram_impl #(
       .NumWords   ( TCDMDepth         ),
@@ -50,13 +50,13 @@ module snitch_data_mem #(
       .wdata_i    ( mem_wdata_i[i]    ),
       .rdata_o    ( mem_rdata_o[i]    )
     );
-  end
+
 `else
   // memory implementation for syntesis
   logic [NarrowDataWidth - 1 : 0] bit_en;
 
   always_comb begin
-    for (int j = 0; i < NarrowDataWidth / 8; j = j + 1) begin
+    for (int j = 0; j < NarrowDataWidth / 8; j = j + 1) begin
       bit_en[j*8+:8] = {8{mem_be_i[j]}};
     end
   end
@@ -67,14 +67,14 @@ module snitch_data_mem #(
   //`TC_SRAM_IMPL (S, TCDMDepth, NarrowDataWidth)
     TS1N16FFCLLSBLVTD512X64M4SW i_data_mem(
                         .CLK(clk_i),
-                        .CEB(~mem_cs_i),
-                        .WEB(~mem_wen_i),
-                        .A(mem_add_i[$clog2(TCDMDepth)-1:0]),
-                        .D(mem_wdata_i),
+                        .CEB(~mem_cs_i[i]),
+                        .WEB(~mem_wen_i[i]),
+                        .A(mem_add_i[$clog2(TCDMDepth)-1:0][i]),
+                        .D(mem_wdata_i[i]),
                         .BWEB(~bit_en),
                         .RTSEL(2'b01),
                         .WTSEL(2'b01),
-                        .Q(mem_rdata_o));
+                        .Q(mem_rdata_o[i]));
 `endif
-
+end
 endmodule

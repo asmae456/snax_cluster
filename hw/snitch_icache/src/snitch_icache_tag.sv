@@ -22,7 +22,7 @@ module snitch_icache_tag #(
   output logic [  CFG.SET_COUNT-1:0][CFG.TAG_WIDTH+1:0] ram_rtag_o
 );
 
-  for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_tag_sets
+for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_tag_sets
 
 `ifndef TARGET_SYNTHESIS
     tc_sram_impl #(
@@ -44,7 +44,7 @@ module snitch_icache_tag #(
       .be_i       ( '1              ),
       .rdata_o    ( ram_rtag_o[i]   )
     );
-  end
+
 `else
   //`TC_SRAM_IMPL(1056, 39, S)
   TS1N16FFCLLSBLVTD128X39M4SW i_tag_mem(
@@ -58,5 +58,5 @@ module snitch_icache_tag #(
               .WTSEL(2'b01),
               .Q(ram_rtag_o[i]));
 `endif
-
+end
 endmodule
