@@ -7,6 +7,8 @@
 // The actual cache memory. This memory is made into a module
 // to support multiple power domain needed by the floor plan tool
 
+(* no_ungroup *)
+(* no_boundary_optimization *)
 module snitch_icache_data #(
   parameter snitch_icache_pkg::config_t CFG = '0,
   /// Configuration input types for SRAMs used in implementation.
@@ -40,7 +42,7 @@ for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_data_sets
       .req_i      ( ram_enable_i[i] ),
       .we_i       ( ram_write_i     ),
       .addr_i     ( ram_addr_i      ),
-      .wdata_i    ( ram_wdata_i     ),
+      .wdata_i    ( ram_wdata_i[i]  ),
       .be_i       ( '1              ),
       .rdata_o    ( ram_rdata_o[i]  )
     );
@@ -48,23 +50,26 @@ for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_data_sets
 `else
     // `include "mem_def/mem_def.svh"
     //`TC_SRAM_IMPL(128, 128, S)
+
+//                .CEB    (~ram_enable_i[i][(CFG.LINE_WIDTH)-1:(CFG.LINE_WIDTH)/2]),
     TS1N16FFCLLSBLVTD128X128M4SW i_cache_mem_0(
                 .CLK    (clk_i),
                 .CEB    (~ram_enable_i[i]),
                 .WEB    (~ram_write_i),
                 .A      (ram_addr_i),
-                .D      (ram_wdata_i[(CFG.LINE_WIDTH)-1:(CFG.LINE_WIDTH)/2]),
+                .D      (ram_wdata_i[i][(CFG.LINE_WIDTH)-1:(CFG.LINE_WIDTH)/2]),
                 .BWEB   ('0),
                 .RTSEL  (2'b01),
                 .WTSEL  (2'b01),
                 .Q      (ram_rdata_o[i][(CFG.LINE_WIDTH)-1:(CFG.LINE_WIDTH)/2]));
     //`TC_SRAM_IMPL(128, 128, S)
+//                .CEB    (~ram_enable_i[i][(CFG.LINE_WIDTH)/2-1:0]),
     TS1N16FFCLLSBLVTD128X128M4SW i_cache_mem_1(
                 .CLK    (clk_i),
                 .CEB    (~ram_enable_i[i]),
                 .WEB    (~ram_write_i),
                 .A      (ram_addr_i),
-                .D      (ram_wdata_i[(CFG.LINE_WIDTH)/2-1:0]),
+                .D      (ram_wdata_i[i][(CFG.LINE_WIDTH)/2-1:0]),
                 .BWEB   ('0),
                 .RTSEL  (2'b01),
                 .WTSEL  (2'b01),
