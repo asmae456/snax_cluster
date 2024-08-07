@@ -7,6 +7,8 @@
 // The actual cache tag memory. This memory is made into a module
 // to support multiple power domain needed by the floor plan tool
 
+(* no_ungroup *)
+(* no_boundary_optimization *)
 module snitch_icache_tag #(
   parameter snitch_icache_pkg::config_t CFG = '0,
   /// Configuration input types for SRAMs used in implementation.
@@ -40,7 +42,7 @@ for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_tag_sets
       .req_i      ( ram_enable_i[i] ),
       .we_i       ( ram_write_i     ),
       .addr_i     ( ram_addr_i      ),
-      .wdata_i    ( ram_wtag_i      ),
+      .wdata_i    ( ram_wtag_i[i]   ),
       .be_i       ( '1              ),
       .rdata_o    ( ram_rtag_o[i]   )
     );
@@ -52,7 +54,7 @@ for (genvar i = 0; i < CFG.SET_COUNT; i++) begin: g_cache_tag_sets
               .CEB(~ram_enable_i[i]),
               .WEB(~ram_write_i),
               .A(ram_addr_i),
-              .D(ram_wtag_i),
+              .D(ram_wtag_i[i]),
               .BWEB('0),
               .RTSEL(2'b01),
               .WTSEL(2'b01),
