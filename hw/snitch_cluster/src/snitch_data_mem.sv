@@ -7,6 +7,8 @@
 // The actual data memory. This memory is made into a module
 // to support multiple power domain needed by the floor plan tool
 
+(* no_ungroup *)
+(* no_boundary_optimization *)
 module snitch_data_mem #(
   parameter int unsigned TCDMDepth       = 1024,
   parameter int unsigned NarrowDataWidth = 64,
