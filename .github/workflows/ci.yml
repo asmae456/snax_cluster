@@ -421,6 +421,11 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: "recursive"
+      - name: RTL GEN
+        run: |
+          make CFG_OVERRIDE=cfg/snax-kul-cluster-mixed-narrow-wide.hjson \
+          -C target/snitch_cluster rtl-gen
+          
       - name: Build Hardware
         run: |
           make CFG_OVERRIDE=cfg/snax-kul-cluster-mixed-narrow-wide.hjson \
