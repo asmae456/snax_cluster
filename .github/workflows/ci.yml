@@ -425,7 +425,6 @@ jobs:
         run: |
           make CFG_OVERRIDE=cfg/snax-kul-cluster-mixed-narrow-wide.hjson \
           -C target/snitch_cluster rtl-gen
-          
       - name: Build Hardware
         run: |
           make CFG_OVERRIDE=cfg/snax-kul-cluster-mixed-narrow-wide.hjson \
