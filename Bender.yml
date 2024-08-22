@@ -31,7 +31,6 @@ dependencies:
   hwpe-mac-engine:    { git: https://github.com/KULeuven-MICAS/hwpe-mac-engine.git, rev: 5d3b4525b665169fc8321c8a811f3c83ad3c72e8 }
   snax-gemm:          { git: "https://github.com/KULeuven-MICAS/snax-gemm", rev: main }
   snax-postprocessing-simd: { git: "https://github.com/KULeuven-MICAS/snax-postprocessing-simd", rev: main }
-  hypercorex:         { git: "https://github.com/KULeuven-MICAS/hypercorex.git", rev: main }
 
 vendor_package:
   - name: musl
@@ -296,111 +295,19 @@ sources:
       - hw/snax_hwpe_mac/src/snax_hwpe_to_reqrsp.sv
       # Level 1
       - hw/snax_hwpe_mac/src/snax_mac_wrapper.sv
-  # SNAX ALU
-  - target: snax_alu
+  
+  # SNAX DREAM
+  - target: snax_dream
     files:
       # Level 0
-      - hw/snax_alu/src/snax_alu_csr.sv
-      - hw/snax_alu/src/snax_alu_pe.sv
-      - target/snitch_cluster/generated/snax_alu/snax_alu_csrman_CsrManager.sv
-      - target/snitch_cluster/generated/snax_alu/snax_alu_streamer_StreamerTop.sv
+      - target/snitch_cluster/generated/snax_dream/snax_dream_csrman_CsrManager.sv
+      - target/snitch_cluster/generated/snax_dream/snax_dream_streamer_StreamerTop.sv
       # Level 1
-      - hw/snax_alu/src/snax_alu_shell_wrapper.sv
-      - target/snitch_cluster/generated/snax_alu/snax_alu_csrman_wrapper.sv
-      - target/snitch_cluster/generated/snax_alu/snax_alu_streamer_wrapper.sv
+      - hw/snax_dream/src/snax_dream_shell_wrapper.sv
+      - target/snitch_cluster/generated/snax_dream/snax_dream_csrman_wrapper.sv
+      - target/snitch_cluster/generated/snax_dream/snax_dream_streamer_wrapper.sv
       # Level 2
-      - target/snitch_cluster/generated/snax_alu/snax_alu_wrapper.sv
-
-  # Hypercorex
-  - target: hypercorex
-    files:
-      # Level 0
-      - target/snitch_cluster/generated/snax_hypercorex/snax_hypercorex_streamer_StreamerTop.sv
-      # Level 1
-      - hw/snax_hypercorex/snax_hypercorex_shell_wrapper.sv
-      - target/snitch_cluster/generated/snax_hypercorex/snax_hypercorex_streamer_wrapper.sv
-      # Level 2
-      - target/snitch_cluster/generated/snax_hypercorex/snax_hypercorex_wrapper.sv
-
-  - target: any(snax_streamer_gemm, snax_wide_gemm_data_reshuffler)
-    files:
-      # Level 0
-      - target/snitch_cluster/generated/snax_streamer_gemm/snax_streamer_gemm_csrman_CsrManager.sv
-      - target/snitch_cluster/generated/snax_streamer_gemm/snax_streamer_gemm_streamer_StreamerTop.sv
-      # Level 1
-      - target/snitch_cluster/generated/snax_streamer_gemm/snax_streamer_gemm_csrman_wrapper.sv
-      - target/snitch_cluster/generated/snax_streamer_gemm/snax_streamer_gemm_streamer_wrapper.sv
-      # Level 2
-      - target/snitch_cluster/generated/snax_streamer_gemm/snax_streamer_gemm_wrapper.sv
-
-  - target: snax_streamer_gemm_add_c
-    files:
-      # Level 0
-      - hw/chisel_acc/generated/gemm/BlockGemm.sv
-      - hw/chisel_acc/src/snax_streamer_gemm_add_c_shell_wrapper.sv
-      - target/snitch_cluster/generated/snax_streamer_gemm_add_c/snax_streamer_gemm_add_c_csrman_CsrManager.sv
-      - target/snitch_cluster/generated/snax_streamer_gemm_add_c/snax_streamer_gemm_add_c_streamer_StreamerTop.sv
-      # Level 1
-      - target/snitch_cluster/generated/snax_streamer_gemm_add_c/snax_streamer_gemm_add_c_csrman_wrapper.sv
-      - target/snitch_cluster/generated/snax_streamer_gemm_add_c/snax_streamer_gemm_add_c_streamer_wrapper.sv
-      # Level 2
-      - target/snitch_cluster/generated/snax_streamer_gemm_add_c/snax_streamer_gemm_add_c_wrapper.sv
-
-  - target: snax_streamer_simd
-    files:
-      # Level 0
-      - target/snitch_cluster/generated/snax_streamer_simd/snax_streamer_simd_csrman_CsrManager.sv
-      - target/snitch_cluster/generated/snax_streamer_simd/snax_streamer_simd_streamer_StreamerTop.sv
-      # Level 1
-      - target/snitch_cluster/generated/snax_streamer_simd/snax_streamer_simd_csrman_wrapper.sv
-      - target/snitch_cluster/generated/snax_streamer_simd/snax_streamer_simd_streamer_wrapper.sv
-      # Level 2
-      - target/snitch_cluster/generated/snax_streamer_simd/snax_streamer_simd_wrapper.sv
-
-  - target: any(snax_data_reshuffler, snax_wide_gemm_data_reshuffler, snax_KUL_cluster)
-    files:
-      # Level 0
-      - hw/chisel_acc/generated/reshuffle/Reshuffler.sv
-      - target/snitch_cluster/generated/snax_data_reshuffler/snax_data_reshuffler_csrman_CsrManager.sv
-      - target/snitch_cluster/generated/snax_data_reshuffler/snax_data_reshuffler_streamer_StreamerTop.sv
-      # Level 1
-      - target/snitch_cluster/generated/snax_data_reshuffler/snax_data_reshuffler_csrman_wrapper.sv
-      - target/snitch_cluster/generated/snax_data_reshuffler/snax_data_reshuffler_streamer_wrapper.sv
-      # Level 2
-      - hw/chisel_acc/src/snax_data_reshuffler_shell_wrapper.sv
-      - target/snitch_cluster/generated/snax_data_reshuffler/snax_data_reshuffler_wrapper.sv
-
-  - target: any(snax_streamer_gemmX, snax_KUL_cluster)
-    files:
-      # Level 0
-      - hw/chisel_acc/generated/gemmx/BlockGemmRescaleSIMD.sv
-      - hw/chisel_acc/src/snax_streamer_gemmX_shell_wrapper.sv
-      - target/snitch_cluster/generated/snax_streamer_gemmX/snax_streamer_gemmX_csrman_CsrManager.sv
-      - target/snitch_cluster/generated/snax_streamer_gemmX/snax_streamer_gemmX_streamer_StreamerTop.sv
-      # Level 1
-      - target/snitch_cluster/generated/snax_streamer_gemmX/snax_streamer_gemmX_csrman_wrapper.sv
-      - target/snitch_cluster/generated/snax_streamer_gemmX/snax_streamer_gemmX_streamer_wrapper.sv
-      # Level 2
-      - target/snitch_cluster/generated/snax_streamer_gemmX/snax_streamer_gemmX_wrapper.sv
-
-  - target: snax_streamer_gemmX_xdma
-    files:
-      # Level 0
-      - hw/chisel_acc/generated/gemmx/BlockGemmRescaleSIMD.sv
-      - hw/chisel_acc/src/snax_streamer_gemmX_shell_wrapper.sv
-      - target/snitch_cluster/generated/snax_streamer_gemmX/snax_streamer_gemmX_csrman_CsrManager.sv
-      - target/snitch_cluster/generated/snax_streamer_gemmX/snax_streamer_gemmX_streamer_StreamerTop.sv
-      # Level 1
-      - target/snitch_cluster/generated/snax_streamer_gemmX/snax_streamer_gemmX_csrman_wrapper.sv
-      - target/snitch_cluster/generated/snax_streamer_gemmX/snax_streamer_gemmX_streamer_wrapper.sv
-      # Level 2
-      - target/snitch_cluster/generated/snax_streamer_gemmX/snax_streamer_gemmX_wrapper.sv
-
-      # xdma source
-      # Level 0
-      - target/snitch_cluster/generated/snax_streamer_gemmX_xdma_cluster_xdma/snax_streamer_gemmX_xdma_cluster_xdma.sv
-      # Level 1
-      - target/snitch_cluster/generated/snax_streamer_gemmX_xdma_cluster_xdma/snax_streamer_gemmX_xdma_cluster_xdma_wrapper.sv
+      - target/snitch_cluster/generated/snax_dream/snax_dream_wrapper.sv
 
 
   - target: test
@@ -422,54 +329,13 @@ sources:
   - target: snitch_cluster
     files:
       - target/snitch_cluster/generated/snitch_cluster_wrapper.sv
-  - target: snax_mac_cluster
+  
+  - target: snax_dream
     files:
-      - target/snitch_cluster/generated/snax_mac_cluster_wrapper.sv
-  - target: snax_mac_mult_cluster
-    files:
-      - target/snitch_cluster/generated/snax_mac_mult_cluster_wrapper.sv
-  - target: snax_alu_cluster
-    files:
-      - target/snitch_cluster/generated/snax_alu_cluster_wrapper.sv
-  - target: snax_hypercorex_cluster
-    files:
-      - target/snitch_cluster/generated/snax_hypercorex_cluster_wrapper.sv
-  # Note: this is about to be obsolete
-  # but it uses the old snax-gemm still
-  - target: snax_gemm_cluster
-    files:
-      - target/snitch_cluster/generated/snax_gemm_cluster_wrapper.sv
-  - target: snax_streamer_gemm_conv_cluster
-    files:
-      - target/snitch_cluster/generated/snax_streamer_gemm_conv_cluster_wrapper.sv
-  - target: snax_wide_gemm_data_reshuffler_cluster
-    files:
-      - target/snitch_cluster/generated/snax_wide_gemm_data_reshuffler_cluster_wrapper.sv
-  - target: snax_streamer_gemm_cluster
-    files:
-      - target/snitch_cluster/generated/snax_streamer_gemm_cluster_wrapper.sv
-  - target: snax_streamer_simd_cluster
-    files:
-      - target/snitch_cluster/generated/snax_streamer_simd_cluster_wrapper.sv
-  - target: snax_data_reshuffler_cluster
-    files:
-      - target/snitch_cluster/generated/snax_data_reshuffler_cluster_wrapper.sv
-  - target: snax_streamer_gemmX_cluster
-    files:
-      - target/snitch_cluster/generated/snax_streamer_gemmX_cluster_wrapper.sv
-  - target: snax_streamer_gemmX_xdma_cluster
-    files:
-      - target/snitch_cluster/generated/snax_streamer_gemmX_xdma_cluster_wrapper.sv
-  - target: snax_streamer_gemm_add_c_cluster
-    files:
-      - target/snitch_cluster/generated/snax_streamer_gemm_add_c_cluster_wrapper.sv
-  - target: snax_KUL_cluster
-    files:
-      - target/snitch_cluster/generated/snax_KUL_cluster_wrapper.sv
-
+      - target/snitch_cluster/generated/snax_dream_cluster_wrapper.sv
   #---------------------------
   # Test harness declaration
   #---------------------------
-  - target: snax_test_harness
+  - target: any(simulation, verilator)
     files:
       - target/snitch_cluster/test/testharness.sv
