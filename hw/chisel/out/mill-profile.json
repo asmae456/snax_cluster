@@ -1,0 +1,465 @@
+[
+  {
+    "label": "Snax.runClasspath.super.mill.scalalib.RunModule.runClasspath",
+    "millis": 3,
+    "cached": true,
+    "inputsHash": -181585687
+  },
+  {
+    "label": "Snax.scalaVersion",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": -1144305369
+  },
+  {
+    "label": "Snax.platformSuffix",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": -490648598
+  },
+  {
+    "label": "Snax.scalaOrganization",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.scalaVersion"
+    ],
+    "inputsHash": 983575883
+  },
+  {
+    "label": "Snax.runIvyDeps",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": 659681738
+  },
+  {
+    "label": "Snax.ivyDeps",
+    "millis": 2,
+    "cached": true,
+    "inputsHash": -1340160418
+  },
+  {
+    "label": "Snax.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": 872244585
+  },
+  {
+    "label": "Snax.scalaLibraryIvyDeps",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.scalaOrganization",
+      "Snax.scalaVersion"
+    ],
+    "inputsHash": -1076348123
+  },
+  {
+    "label": "Snax.mandatoryIvyDeps",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps",
+      "Snax.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 402505905
+  },
+  {
+    "label": "Snax.transitiveIvyDeps",
+    "millis": 3,
+    "cached": true,
+    "dependencies": [
+      "Snax.scalaVersion",
+      "Snax.platformSuffix",
+      "Snax.ivyDeps",
+      "Snax.mandatoryIvyDeps"
+    ],
+    "inputsHash": -308118080
+  },
+  {
+    "label": "Snax.resolvedRunIvyDeps",
+    "millis": 17,
+    "cached": true,
+    "dependencies": [
+      "Snax.scalaVersion",
+      "Snax.platformSuffix",
+      "Snax.scalaOrganization",
+      "Snax.runIvyDeps",
+      "Snax.transitiveIvyDeps"
+    ],
+    "inputsHash": -744712376
+  },
+  {
+    "label": "Snax.transitiveLocalClasspath",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": -1738548792
+  },
+  {
+    "label": "Snax.compileResources",
+    "millis": 3,
+    "inputsHash": 1621915009,
+    "previousInputsHash": -1082885806
+  },
+  {
+    "label": "Snax.unmanagedClasspath",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": -1827010172
+  },
+  {
+    "label": "Snax.localCompileClasspath",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.compileResources",
+      "Snax.unmanagedClasspath"
+    ],
+    "inputsHash": -1170774213
+  },
+  {
+    "label": "Snax.localRunClasspath.super.mill.scalalib.RunModule.localRunClasspath",
+    "millis": 10,
+    "cached": true,
+    "inputsHash": 405713316
+  },
+  {
+    "label": "Snax.resources",
+    "millis": 2,
+    "inputsHash": -979270685,
+    "previousInputsHash": -1981930848
+  },
+  {
+    "label": "mill.scalalib.ZincWorkerModule.classpath",
+    "millis": 4,
+    "cached": true,
+    "inputsHash": -1009541131
+  },
+  {
+    "label": "mill.scalalib.ZincWorkerModule.zincLogDebug",
+    "millis": 1,
+    "inputsHash": -530379768,
+    "previousInputsHash": -627622331
+  },
+  {
+    "label": "mill.scalalib.ZincWorkerModule.worker",
+    "millis": 0,
+    "cached": true,
+    "dependencies": [
+      "mill.scalalib.ZincWorkerModule.classpath",
+      "mill.scalalib.ZincWorkerModule.zincLogDebug"
+    ],
+    "inputsHash": -133744726
+  },
+  {
+    "label": "Snax.upstreamCompileOutput",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": 908370610
+  },
+  {
+    "label": "Snax.sources",
+    "millis": 7,
+    "inputsHash": 586247740,
+    "previousInputsHash": 1934522943
+  },
+  {
+    "label": "Snax.generatedSources",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": 274061933
+  },
+  {
+    "label": "Snax.allSources",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.sources",
+      "Snax.generatedSources"
+    ],
+    "inputsHash": -1577602780
+  },
+  {
+    "label": "Snax.allSourceFiles",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.allSources"
+    ],
+    "inputsHash": -11536639
+  },
+  {
+    "label": "Snax.compileIvyDeps",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": -2005684025
+  },
+  {
+    "label": "Snax.transitiveCompileIvyDeps",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.scalaVersion",
+      "Snax.platformSuffix",
+      "Snax.compileIvyDeps"
+    ],
+    "inputsHash": -1753292400
+  },
+  {
+    "label": "Snax.resolvedIvyDeps",
+    "millis": 7,
+    "cached": true,
+    "dependencies": [
+      "Snax.scalaVersion",
+      "Snax.platformSuffix",
+      "Snax.scalaOrganization",
+      "Snax.transitiveCompileIvyDeps",
+      "Snax.transitiveIvyDeps"
+    ],
+    "inputsHash": -569392112
+  },
+  {
+    "label": "Snax.transitiveCompileClasspath",
+    "millis": 10,
+    "cached": true,
+    "inputsHash": 978323545
+  },
+  {
+    "label": "Snax.compileClasspath",
+    "millis": 7,
+    "cached": true,
+    "dependencies": [
+      "Snax.resolvedIvyDeps",
+      "Snax.transitiveCompileClasspath",
+      "Snax.localCompileClasspath"
+    ],
+    "inputsHash": -1911054831
+  },
+  {
+    "label": "Snax.javacOptions",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": 756608353
+  },
+  {
+    "label": "Snax.mandatoryScalacOptions",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": -646097836
+  },
+  {
+    "label": "Snax.scalacPluginIvyDeps",
+    "millis": 2,
+    "cached": true,
+    "inputsHash": -1901018426
+  },
+  {
+    "label": "Snax.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+    "millis": 6,
+    "cached": true,
+    "dependencies": [
+      "Snax.scalaVersion",
+      "Snax.platformSuffix",
+      "Snax.scalaOrganization",
+      "Snax.scalacPluginIvyDeps"
+    ],
+    "inputsHash": 1364693856
+  },
+  {
+    "label": "Snax.scalacOptions",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": 1074252680
+  },
+  {
+    "label": "Snax.allScalacOptions",
+    "millis": 2,
+    "cached": true,
+    "dependencies": [
+      "Snax.mandatoryScalacOptions",
+      "Snax.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
+      "Snax.scalacOptions"
+    ],
+    "inputsHash": -399050494
+  },
+  {
+    "label": "Snax.scalaCompilerClasspath",
+    "millis": 2,
+    "cached": true,
+    "dependencies": [
+      "Snax.scalaVersion",
+      "Snax.platformSuffix",
+      "Snax.scalaOrganization",
+      "Snax.scalaLibraryIvyDeps"
+    ],
+    "inputsHash": 947748867
+  },
+  {
+    "label": "Snax.scalacPluginClasspath",
+    "millis": 2,
+    "cached": true,
+    "dependencies": [
+      "Snax.scalaVersion",
+      "Snax.platformSuffix",
+      "Snax.scalaOrganization",
+      "Snax.scalacPluginIvyDeps"
+    ],
+    "inputsHash": 1180701663
+  },
+  {
+    "label": "Snax.zincReportCachedProblems",
+    "millis": 4,
+    "inputsHash": 470385178,
+    "previousInputsHash": 1096006466
+  },
+  {
+    "label": "Snax.zincIncrementalCompilation",
+    "millis": 2,
+    "cached": true,
+    "inputsHash": -536784708
+  },
+  {
+    "label": "Snax.zincAuxiliaryClassFileExtensions.super.mill.scalalib.JavaModule.zincAuxiliaryClassFileExtensions",
+    "millis": 2,
+    "cached": true,
+    "inputsHash": -1282389347
+  },
+  {
+    "label": "Snax.zincAuxiliaryClassFileExtensions",
+    "millis": 2,
+    "cached": true,
+    "dependencies": [
+      "Snax.zincAuxiliaryClassFileExtensions.super.mill.scalalib.JavaModule.zincAuxiliaryClassFileExtensions",
+      "Snax.scalaVersion"
+    ],
+    "inputsHash": -631596928
+  },
+  {
+    "label": "Snax.compile",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.scalaVersion",
+      "mill.scalalib.ZincWorkerModule.worker",
+      "Snax.upstreamCompileOutput",
+      "Snax.allSourceFiles",
+      "Snax.compileClasspath",
+      "Snax.javacOptions",
+      "Snax.scalaOrganization",
+      "Snax.allScalacOptions",
+      "Snax.scalaCompilerClasspath",
+      "Snax.scalacPluginClasspath",
+      "Snax.zincReportCachedProblems",
+      "Snax.zincIncrementalCompilation",
+      "Snax.zincAuxiliaryClassFileExtensions"
+    ],
+    "inputsHash": 1566444621
+  },
+  {
+    "label": "Snax.localRunClasspath",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.localRunClasspath.super.mill.scalalib.RunModule.localRunClasspath",
+      "Snax.resources",
+      "Snax.compile"
+    ],
+    "inputsHash": 2040286735
+  },
+  {
+    "label": "Snax.localClasspath",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.localCompileClasspath",
+      "Snax.localRunClasspath"
+    ],
+    "inputsHash": -1241978993
+  },
+  {
+    "label": "Snax.runClasspath",
+    "millis": 8,
+    "cached": true,
+    "dependencies": [
+      "Snax.runClasspath.super.mill.scalalib.RunModule.runClasspath",
+      "Snax.resolvedRunIvyDeps",
+      "Snax.transitiveLocalClasspath",
+      "Snax.localClasspath"
+    ],
+    "inputsHash": -1048590577
+  },
+  {
+    "label": "Snax.forkArgs.super.mill.scalalib.RunModule.forkArgs",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": 505548065
+  },
+  {
+    "label": "Snax.forkArgs",
+    "millis": 6,
+    "cached": true,
+    "dependencies": [
+      "Snax.forkArgs.super.mill.scalalib.RunModule.forkArgs"
+    ],
+    "inputsHash": -1845283135
+  },
+  {
+    "label": "Snax.forkEnv.super.mill.scalalib.RunModule.forkEnv",
+    "millis": 3,
+    "inputsHash": -1686594437,
+    "previousInputsHash": 2028621971
+  },
+  {
+    "label": "Snax.forkEnv",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.forkEnv.super.mill.scalalib.RunModule.forkEnv"
+    ],
+    "inputsHash": 359060139
+  },
+  {
+    "label": "Snax.forkWorkingDir.super.mill.scalalib.RunModule.forkWorkingDir",
+    "millis": 1,
+    "cached": true,
+    "inputsHash": -1590922299
+  },
+  {
+    "label": "Snax.forkWorkingDir",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.forkWorkingDir.super.mill.scalalib.RunModule.forkWorkingDir"
+    ],
+    "inputsHash": 1738219056
+  },
+  {
+    "label": "Snax.runUseArgsFile.super.mill.scalalib.RunModule.runUseArgsFile",
+    "millis": 0,
+    "cached": true,
+    "inputsHash": 145707260
+  },
+  {
+    "label": "Snax.runUseArgsFile",
+    "millis": 1,
+    "cached": true,
+    "dependencies": [
+      "Snax.runUseArgsFile.super.mill.scalalib.RunModule.runUseArgsFile"
+    ],
+    "inputsHash": 1188041629
+  },
+  {
+    "label": "Snax.runMain",
+    "millis": 3675,
+    "cached": false,
+    "dependencies": [
+      "Snax.runClasspath",
+      "Snax.forkArgs",
+      "Snax.forkEnv",
+      "Snax.forkWorkingDir",
+      "Snax.runUseArgsFile"
+    ],
+    "inputsHash": -950470085,
+    "previousInputsHash": -950470085
+  }
+]

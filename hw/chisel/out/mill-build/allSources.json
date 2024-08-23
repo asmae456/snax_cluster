@@ -1,0 +1,8 @@
+{
+    "value": [
+        "ref:v0:d0315774:/workspaces/snax_cluster/hw/chisel/build.sc",
+        "ref:v0:f27cff96:/workspaces/snax_cluster/hw/chisel/out/mill-build/generateScriptSources.dest"
+    ],
+    "valueHash": -1243982405,
+    "inputsHash": 1200783143
+}

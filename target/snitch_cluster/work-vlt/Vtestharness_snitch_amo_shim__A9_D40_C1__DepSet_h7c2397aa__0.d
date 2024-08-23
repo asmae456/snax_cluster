@@ -1,0 +1,4 @@
+Vtestharness_snitch_amo_shim__A9_D40_C1__DepSet_h7c2397aa__0.o: \
+ Vtestharness_snitch_amo_shim__A9_D40_C1__DepSet_h7c2397aa__0.cpp \
+ Vtestharness__pch.h Vtestharness__Syms.h \
+ Vtestharness_snitch_amo_shim__A9_D40_C1.h

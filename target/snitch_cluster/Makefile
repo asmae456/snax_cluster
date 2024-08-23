@@ -200,25 +200,6 @@ $(eval $(call generate_snax_gen,snax_data_reshuffler))
 
 endif
 
-ifeq (${CFG_OVERRIDE}, cfg/snax-mac.hjson)
-
-	BYPASS_ACCGEN = true
-	
-	VSIM_BENDER += -t snax_mac -t snax_mac_cluster
-	VLT_BENDER  += -t snax_mac -t snax_mac_cluster
-	VCS_BENDER  += -t snax_mac -t snax_mac_cluster
-
-endif
-
-ifeq (${CFG_OVERRIDE}, cfg/snax-mac-mult.hjson)
-
-	BYPASS_ACCGEN = true
-	
-	VSIM_BENDER += -t snax_mac -t snax_mac_mult_cluster
-	VLT_BENDER  += -t snax_mac -t snax_mac_mult_cluster
-	VCS_BENDER  += -t snax_mac -t snax_mac_mult_cluster
-
-endif
 
 ifeq (${CFG_OVERRIDE}, cfg/default.hjson)
 

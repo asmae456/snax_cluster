@@ -1,0 +1,8 @@
+{
+    "value": [
+        "ref:v0:c984eca8:/workspaces/snax_cluster/hw/chisel/src/main/resources",
+        "ref:v0:1a2a0f78:/workspaces/snax_cluster/hw/chisel/out/Snax/compile.dest/classes"
+    ],
+    "valueHash": 1056776087,
+    "inputsHash": 2040286735
+}

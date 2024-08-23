@@ -14,7 +14,7 @@ int main() {
     uint64_t *local_a, *local_o;
 
     local_a = (uint64_t *)snrt_l1_next();
-    local_o = local_b + DATA_LEN;
+    local_o = local_a + DATA_LEN;
 
     // Start of pre-loading data from L2 memory
     // towards the L1 TCDM memory

@@ -1,0 +1,8 @@
+{
+    "value": [
+        "ref:v0:acbd9b07:/workspaces/snax_cluster/hw/chisel/src/main/scala",
+        "ref:v0:c984eca8:/workspaces/snax_cluster/hw/chisel/src/main/java"
+    ],
+    "valueHash": -1243372528,
+    "inputsHash": -1577602780
+}

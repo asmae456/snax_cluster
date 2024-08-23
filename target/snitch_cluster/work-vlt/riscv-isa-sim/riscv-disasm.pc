@@ -1,0 +1,11 @@
+prefix=/workspaces/snax_cluster/target/snitch_cluster/work-vlt/riscv-isa-sim
+exec_prefix=/workspaces/snax_cluster/target/snitch_cluster/work-vlt/riscv-isa-sim
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: riscv-disasm
+Description: RISC-V disassembler
+Version: git
+Libs: -Wl,-rpath,${libdir} -L${libdir} -ldisasm
+Cflags: -I${includedir} 
+URL: http://riscv.org/download.html#tab_disasm
