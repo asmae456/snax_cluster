@@ -396,10 +396,29 @@ sources:
       - target/snitch_cluster/generated/snax_KUL_xdma_cluster_xdma/snax_KUL_xdma_cluster_xdma.sv
       # Level 1
       - target/snitch_cluster/generated/snax_KUL_xdma_cluster_xdma/snax_KUL_xdma_cluster_xdma_wrapper.sv
+   
+  # SNAX DREAM
+  - target: snax_dream
+    files:
+      # Level 0
+      - hw/snax_dream/src/snax_dream_csr.sv
+      - hw/snax_dream/src/Top_level.v
+      - target/snitch_cluster/generated/snax_dream/snax_dream_csrman_CsrManager.sv
+      - target/snitch_cluster/generated/snax_dream/snax_dream_streamer_StreamerTop.sv
+      # Level 1
+      - hw/snax_dream/src/snax_dream_shell_wrapper.sv
+      - target/snitch_cluster/generated/snax_dream/snax_dream_csrman_wrapper.sv
+      - target/snitch_cluster/generated/snax_dream/snax_dream_streamer_wrapper.sv
+      # Level 2
+      - target/snitch_cluster/generated/snax_dream/snax_dream_wrapper.sv
 
   - target: test
     files:
       - hw/snitch_cluster/test/snitch_tcdm_interconnect_tb.sv
+
+  - target: snax_dream
+    files:
+      - target/snitch_cluster/generated/snax_dream_cluster_wrapper.sv
 
   # target/common
   - target: any(simulation, verilator)

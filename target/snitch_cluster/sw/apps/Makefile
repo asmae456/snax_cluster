@@ -26,6 +26,7 @@ SUBDIRS += snax-mac-simple/untiled
 SUBDIRS += snax-mac-simple/tiled
 SUBDIRS += snax-mac-mult
 SUBDIRS += snax-alu
+SUBDIRS += snax-dream
 SUBDIRS += snax-data-reshuffler
 SUBDIRS += snax-streamer-gemm-conv-simd
 SUBDIRS += snax-xdma-memset

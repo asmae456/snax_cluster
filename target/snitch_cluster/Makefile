@@ -98,6 +98,13 @@ $(call add_tags,snax_alu_cluster)
 
 endif
 
+ifeq (${CFG_OVERRIDE}, cfg/snax-dream.hjson)
+
+$(call add_tags,snax_dream)
+$(call add_tags,snax_dream_cluster)
+
+endif
+
 ifeq (${CFG_OVERRIDE}, cfg/snax-hypercorex.hjson)
 
 $(call add_tags,hypercorex)
