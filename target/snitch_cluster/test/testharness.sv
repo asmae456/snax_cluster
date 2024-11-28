@@ -30,7 +30,6 @@ module testharness import snax_dream_cluster_pkg::*; (
     .hart_base_id_i       ( HartBaseID      ),
     .cluster_base_addr_i  ( ClusterBaseAddr ),
     .boot_addr_i          ( BootAddr        ),
-    .debug_req_i          ( '0              ),
     .meip_i               ( '0              ),
     .mtip_i               ( '0              ),
     .msip_i               ( msip            ),

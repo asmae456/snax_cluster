@@ -2,6 +2,7 @@
 // Solderpad Hardware License, Version 0.51, see LICENSE for details.
 // SPDX-License-Identifier: SHL-0.51
 
+// Ryan Antonio <ryan.antonio@esat.kuleuven.be>
 
 //-------------------------------
 // Accelerator wrapper
@@ -38,16 +39,15 @@ module snax_dream_shell_wrapper #(
   input  logic stream2acc_0_valid_i,
   output logic stream2acc_0_ready_o,
 
-  input  logic [(NumPE*DataWidth)-1:0] stream2acc_1_data_i,
-  input  logic stream2acc_1_valid_i,
-  output logic stream2acc_1_ready_o,
-
   //-------------------------------
   // CSR manager ports
   //-------------------------------
-  input  logic [RegRWCount-1:0][RegDataWidth-1:0] csr_reg_set_i,
-  input  logic                                    csr_reg_set_valid_i,
-  output logic                                    csr_reg_set_ready_o,
-  output logic [RegROCount-1:0][RegDataWidth-1:0] csr_reg_ro_set_o
+  input  logic [RegDataWidth-1:0] csr_reg_set_i_0, csr_reg_set_i_1, csr_reg_set_i_2,
+  input  logic                    csr_reg_set_valid_i,
+  output logic                    csr_reg_set_ready_o,
+  output logic [RegDataWidth-1:0] csr_reg_ro_set_o_0, csr_reg_ro_set_o_1
 );
 endmodule
+
+
+

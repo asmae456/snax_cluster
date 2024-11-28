@@ -9,11 +9,11 @@ MK_DIR   := $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
 DATA_DIR := $(realpath $(MK_DIR))
 
 # Set these as default values
-LENGTH ?= 100
+DATA_LEN ?= 100
 MODE ?= 0
 
 # File paths
-#DATAGEN_PY = $(DATA_DIR)/datagen.py
+DATAGEN_PY = $(DATA_DIR)/datagen.py
 DATA_H = $(DATA_DIR)/data.h
 
 .PHONY: clean clean-data
@@ -24,6 +24,6 @@ clean-data:
 clean: clean-data
 
 $(DATA_H): 
-	$(DATAGEN_PY) $< --mode=$(MODE) --length=$(LENGTH) > $@
+	$(DATAGEN_PY) $< --mode=$(MODE) --data_len=$(DATA_LEN) > $@
 
 

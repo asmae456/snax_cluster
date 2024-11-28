@@ -36,6 +36,12 @@ VM_CLASSES_FAST += \
 	Vtestharness___024root__DepSet_hbc650c6c__9 \
 	Vtestharness___024root__DepSet_hbc650c6c__10 \
 	Vtestharness___024root__DepSet_hbc650c6c__11 \
+	Vtestharness___024root__DepSet_hbc650c6c__12 \
+	Vtestharness___024root__DepSet_hbc650c6c__13 \
+	Vtestharness___024root__DepSet_hbc650c6c__14 \
+	Vtestharness___024root__DepSet_hbc650c6c__15 \
+	Vtestharness___024root__DepSet_hbc650c6c__16 \
+	Vtestharness___024root__DepSet_hbc650c6c__17 \
 	Vtestharness___024root__DepSet_h3e9cff1f__0 \
 	Vtestharness___024root__DepSet_h3e9cff1f__1 \
 	Vtestharness___024root__DepSet_h3e9cff1f__2 \
@@ -50,6 +56,11 @@ VM_CLASSES_FAST += \
 	Vtestharness___024root__DepSet_h3e9cff1f__11 \
 	Vtestharness___024root__DepSet_h3e9cff1f__12 \
 	Vtestharness___024root__DepSet_h3e9cff1f__13 \
+	Vtestharness___024root__DepSet_h3e9cff1f__14 \
+	Vtestharness___024root__DepSet_h3e9cff1f__15 \
+	Vtestharness___024root__DepSet_h3e9cff1f__16 \
+	Vtestharness___024root__DepSet_h3e9cff1f__17 \
+	Vtestharness___024root__DepSet_h3e9cff1f__18 \
 	Vtestharness_snitch_amo_shim__A9_D40_C1__DepSet_h7c2397aa__0 \
 	Vtestharness_snitch_amo_shim__A9_D40_C1__DepSet_h7c2397aa__1 \
 	Vtestharness_REG_BUS__A30_D40__DepSet_h9b8387fd__0 \
@@ -66,6 +77,9 @@ VM_CLASSES_FAST += \
 	Vtestharness_axi_demux__pi66__DepSet_h7b04b73c__0 \
 	Vtestharness_axi_demux__pi66__DepSet_h01fb43ef__0 \
 	Vtestharness_axi_err_slv__pi67__DepSet_h9a2f7751__0 \
+	Vtestharness_PISO1__DepSet_h31acbf04__0 \
+	Vtestharness_Word_Accu__DepSet_h751c91cf__0 \
+	Vtestharness_Word_Accu__DepSet_h76401a8e__0 \
 	Vtestharness_tc_sram_impl__pi55__DepSet_he5c22454__0 \
 	Vtestharness_axi_burst_splitter_counters__pi151__DepSet_h074b8b58__0 \
 	Vtestharness_axi_burst_splitter_counters__pi151__DepSet_h074b8b58__1 \
@@ -87,9 +101,12 @@ VM_CLASSES_SLOW += \
 	Vtestharness___024root__DepSet_hbc650c6c__0__Slow \
 	Vtestharness___024root__DepSet_hbc650c6c__1__Slow \
 	Vtestharness___024root__DepSet_hbc650c6c__2__Slow \
+	Vtestharness___024root__DepSet_hbc650c6c__3__Slow \
+	Vtestharness___024root__DepSet_hbc650c6c__4__Slow \
 	Vtestharness___024root__DepSet_h3e9cff1f__0__Slow \
 	Vtestharness___024root__DepSet_h3e9cff1f__1__Slow \
 	Vtestharness___024root__DepSet_h3e9cff1f__2__Slow \
+	Vtestharness___024root__DepSet_h3e9cff1f__3__Slow \
 	Vtestharness___024unit__Slow \
 	Vtestharness___024unit__DepSet_h32825d4c__0__Slow \
 	Vtestharness_snax_dream_cluster_pkg__Slow \
@@ -116,6 +133,11 @@ VM_CLASSES_SLOW += \
 	Vtestharness_axi_demux__pi66__DepSet_h01fb43ef__0__Slow \
 	Vtestharness_axi_err_slv__pi67__Slow \
 	Vtestharness_axi_err_slv__pi67__DepSet_h20e6841c__0__Slow \
+	Vtestharness_PISO1__Slow \
+	Vtestharness_PISO1__DepSet_h1a18f46d__0__Slow \
+	Vtestharness_PISO1__DepSet_h31acbf04__0__Slow \
+	Vtestharness_Word_Accu__Slow \
+	Vtestharness_Word_Accu__DepSet_h751c91cf__0__Slow \
 	Vtestharness_tc_sram_impl__pi55__Slow \
 	Vtestharness_tc_sram_impl__pi55__DepSet_h9739d717__0__Slow \
 	Vtestharness_axi_burst_splitter_counters__pi151__Slow \
@@ -138,6 +160,21 @@ VM_SUPPORT_FAST += \
 	Vtestharness__Trace__2 \
 	Vtestharness__Trace__3 \
 	Vtestharness__Trace__4 \
+	Vtestharness__Trace__5 \
+	Vtestharness__Trace__6 \
+	Vtestharness__Trace__7 \
+	Vtestharness__Trace__8 \
+	Vtestharness__Trace__9 \
+	Vtestharness__Trace__10 \
+	Vtestharness__Trace__11 \
+	Vtestharness__Trace__12 \
+	Vtestharness__Trace__13 \
+	Vtestharness__Trace__14 \
+	Vtestharness__Trace__15 \
+	Vtestharness__Trace__16 \
+	Vtestharness__Trace__17 \
+	Vtestharness__Trace__18 \
+	Vtestharness__Trace__19 \
 
 # Generated support classes, non-fast-path, compile with low/medium optimization
 VM_SUPPORT_SLOW += \
@@ -151,6 +188,25 @@ VM_SUPPORT_SLOW += \
 	Vtestharness__Trace__5__Slow \
 	Vtestharness__Trace__6__Slow \
 	Vtestharness__Trace__7__Slow \
+	Vtestharness__Trace__8__Slow \
+	Vtestharness__Trace__9__Slow \
+	Vtestharness__Trace__10__Slow \
+	Vtestharness__Trace__11__Slow \
+	Vtestharness__Trace__12__Slow \
+	Vtestharness__Trace__13__Slow \
+	Vtestharness__Trace__14__Slow \
+	Vtestharness__Trace__15__Slow \
+	Vtestharness__Trace__16__Slow \
+	Vtestharness__Trace__17__Slow \
+	Vtestharness__Trace__18__Slow \
+	Vtestharness__Trace__19__Slow \
+	Vtestharness__Trace__20__Slow \
+	Vtestharness__Trace__21__Slow \
+	Vtestharness__Trace__22__Slow \
+	Vtestharness__Trace__23__Slow \
+	Vtestharness__Trace__24__Slow \
+	Vtestharness__Trace__25__Slow \
+	Vtestharness__Trace__26__Slow \
 
 # Global classes, need linked once per executable, fast-path, compile with highest optimization
 VM_GLOBAL_FAST += \

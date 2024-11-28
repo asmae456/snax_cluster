@@ -6,10 +6,758 @@
 #include "Vtestharness__Syms.h"
 #include "Vtestharness___024root.h"
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__20(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__148(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__20\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__148\n"); );
+    // Init
+    CData/*3:0*/ __Vfunc_from_axi_amo__14__Vfuncout;
+    __Vfunc_from_axi_amo__14__Vfuncout = 0;
+    CData/*5:0*/ __Vfunc_from_axi_amo__14__amo;
+    __Vfunc_from_axi_amo__14__amo = 0;
+    CData/*3:0*/ __Vfunc_from_axi_amo__14__result;
+    __Vfunc_from_axi_amo__14__result = 0;
+    VlWide<4>/*127:0*/ __Vtemp_2;
+    VlWide<4>/*127:0*/ __Vtemp_4;
+    VlWide<5>/*159:0*/ __Vtemp_6;
+    // Body
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
+        = (0x2fffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[0U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[1U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[1U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[2U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[2U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] = 0U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U] = 0U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U] = 0U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid = 0U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_d 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_q;
+    if ((0U < (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_q))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U] 
+            = ((0xfffffdffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U]) 
+               | ((1U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_q)) 
+                  << 9U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid = 1U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[1U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[2U];
+        VL_ASSIGNSEL_WQ(68,48,0x14U, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta, 
+                        (0xffffffffffffULL & ((((QData)((IData)(
+                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[2U])) 
+                                                << 0x2cU) 
+                                               | (((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[1U])) 
+                                                   << 0xcU) 
+                                                  | ((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[0U])) 
+                                                     >> 0x14U))) 
+                                              + VL_EXTEND_QI(48,16, 
+                                                             ([&]() {
+                                vlSelf->__Vfunc_num_bytes__10__size 
+                                    = (7U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[0U] 
+                                             >> 2U));
+                                vlSelf->__Vfunc_num_bytes__10__Vfuncout 
+                                    = (0xffffU & ((IData)(1U) 
+                                                  << (IData)(vlSelf->__Vfunc_num_bytes__10__size)));
+                            }(), (IData)(vlSelf->__Vfunc_num_bytes__10__Vfuncout))))));
+        if ((1U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_ax_mux__inp_ready_o))) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_d 
+                = (0xffU & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_d) 
+                            - (IData)(1U)));
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U] 
+                = ((0xfffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U]) 
+                   | ((IData)((0xffffffffffffULL & 
+                               (((QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U])) 
+                                 << 0x2cU) | (((QData)((IData)(
+                                                               vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U])) 
+                                               << 0xcU) 
+                                              | ((QData)((IData)(
+                                                                 vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U])) 
+                                                 >> 0x14U))))) 
+                      << 0x14U));
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[1U] 
+                = (((IData)((0xffffffffffffULL & (((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U])) 
+                                                   << 0x2cU) 
+                                                  | (((QData)((IData)(
+                                                                      vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U])) 
+                                                      << 0xcU) 
+                                                     | ((QData)((IData)(
+                                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U])) 
+                                                        >> 0x14U))))) 
+                    >> 0xcU) | ((IData)(((0xffffffffffffULL 
+                                          & (((QData)((IData)(
+                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U])) 
+                                              << 0x2cU) 
+                                             | (((QData)((IData)(
+                                                                 vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U])) 
+                                                 << 0xcU) 
+                                                | ((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U])) 
+                                                   >> 0x14U)))) 
+                                         >> 0x20U)) 
+                                << 0x14U));
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[2U] 
+                = (0xfU & ((IData)(((0xffffffffffffULL 
+                                     & (((QData)((IData)(
+                                                         vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U])) 
+                                         << 0x2cU) 
+                                        | (((QData)((IData)(
+                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U])) 
+                                            << 0xcU) 
+                                           | ((QData)((IData)(
+                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U])) 
+                                              >> 0x14U)))) 
+                                    >> 0x20U)) >> 0xcU));
+        }
+    } else if ((2U & vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U])) {
+        VL_CONCAT_WQI(68,48,20, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d, 
+                      (0xffffffffffffULL & VL_SEL_QWII(128, 
+                                                       ([&]() {
+                            vlSelf->__Vfunc_aligned_addr__11__size 
+                                = (7U & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
+                                         >> 0x16U));
+                            vlSelf->__Vfunc_aligned_addr__11__addr[0U] 
+                                = (IData)((0xffffffffffffULL 
+                                           & (((QData)((IData)(
+                                                               vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
+                                               << 0x1fU) 
+                                              | ((QData)((IData)(
+                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
+                                                 >> 1U))));
+                            vlSelf->__Vfunc_aligned_addr__11__addr[1U] 
+                                = (IData)(((0xffffffffffffULL 
+                                            & (((QData)((IData)(
+                                                                vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
+                                                << 0x1fU) 
+                                               | ((QData)((IData)(
+                                                                  vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
+                                                  >> 1U))) 
+                                           >> 0x20U));
+                            vlSelf->__Vfunc_aligned_addr__11__addr[2U] = 0U;
+                            vlSelf->__Vfunc_aligned_addr__11__addr[3U] = 0U;
+                            VL_SHIFTR_WWI(128,128,3, __Vtemp_2, vlSelf->__Vfunc_aligned_addr__11__addr, (IData)(vlSelf->__Vfunc_aligned_addr__11__size));
+                            VL_SHIFTL_WWI(128,128,3, vlSelf->__Vfunc_aligned_addr__11__Vfuncout, __Vtemp_2, (IData)(vlSelf->__Vfunc_aligned_addr__11__size));
+                        }(), vlSelf->__Vfunc_aligned_addr__11__Vfuncout), 0U, 0x30U)), 
+                      ((0x3c00U & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U] 
+                                   >> 7U)) | (((0U 
+                                                == 
+                                                (0xffU 
+                                                 & ((vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U] 
+                                                     << 7U) 
+                                                    | (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
+                                                       >> 0x19U)))) 
+                                               << 9U) 
+                                              | ((0x1e0U 
+                                                  & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
+                                                     >> 3U)) 
+                                                 | ((0x1cU 
+                                                     & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
+                                                        >> 0x14U)) 
+                                                    | (1U 
+                                                       & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
+                                                          >> 0x13U)))))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[1U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[2U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid = 1U;
+        if ((1U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_ax_mux__inp_ready_o))) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_d 
+                = (0xffU & ((vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U] 
+                             << 7U) | (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
+                                       >> 0x19U)));
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
+                = (0x100000U | vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
+        }
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
+            = ((0xfffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U]) 
+               | ((IData)((0xffffffffffffULL & (((QData)((IData)(
+                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
+                                                 << 0x1fU) 
+                                                | ((QData)((IData)(
+                                                                   vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
+                                                   >> 1U)))) 
+                  << 0x14U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U] 
+            = (((IData)((0xffffffffffffULL & (((QData)((IData)(
+                                                               vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
+                                               << 0x1fU) 
+                                              | ((QData)((IData)(
+                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
+                                                 >> 1U)))) 
+                >> 0xcU) | ((IData)(((0xffffffffffffULL 
+                                      & (((QData)((IData)(
+                                                          vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
+                                          << 0x1fU) 
+                                         | ((QData)((IData)(
+                                                            vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
+                                            >> 1U))) 
+                                     >> 0x20U)) << 0x14U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U] 
+            = (0xfU & ((IData)(((0xffffffffffffULL 
+                                 & (((QData)((IData)(
+                                                     vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
+                                     << 0x1fU) | ((QData)((IData)(
+                                                                  vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
+                                                  >> 1U))) 
+                                >> 0x20U)) >> 0xcU));
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
+        = (0x1fffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
+        = (0x37ffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[0U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[1U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[1U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[2U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[2U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] = 0U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] = 0U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U] = 0U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid = 0U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_d 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_q;
+    if ((0U < (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_q))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U] 
+            = ((0xfffffdffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U]) 
+               | ((1U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_q)) 
+                  << 9U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[1U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[2U];
+        VL_ASSIGNSEL_WQ(68,48,0x14U, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta, 
+                        (0xffffffffffffULL & ((((QData)((IData)(
+                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[2U])) 
+                                                << 0x2cU) 
+                                               | (((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[1U])) 
+                                                   << 0xcU) 
+                                                  | ((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[0U])) 
+                                                     >> 0x14U))) 
+                                              + VL_EXTEND_QI(48,16, 
+                                                             ([&]() {
+                                vlSelf->__Vfunc_num_bytes__12__size 
+                                    = (7U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[0U] 
+                                             >> 2U));
+                                vlSelf->__Vfunc_num_bytes__12__Vfuncout 
+                                    = (0xffffU & ((IData)(1U) 
+                                                  << (IData)(vlSelf->__Vfunc_num_bytes__12__size)));
+                            }(), (IData)(vlSelf->__Vfunc_num_bytes__12__Vfuncout))))));
+        if ((0x400000U & vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid = 1U;
+            if ((2U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_ax_mux__inp_ready_o))) {
+                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_d 
+                    = (0xffU & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_d) 
+                                - (IData)(1U)));
+                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
+                    = (0x80000U | vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
+                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U] 
+                    = ((0xfffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U]) 
+                       | ((IData)((0xffffffffffffULL 
+                                   & (((QData)((IData)(
+                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U])) 
+                                       << 0x2cU) | 
+                                      (((QData)((IData)(
+                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U])) 
+                                        << 0xcU) | 
+                                       ((QData)((IData)(
+                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U])) 
+                                        >> 0x14U))))) 
+                          << 0x14U));
+                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[1U] 
+                    = (((IData)((0xffffffffffffULL 
+                                 & (((QData)((IData)(
+                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U])) 
+                                     << 0x2cU) | (((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U])) 
+                                                   << 0xcU) 
+                                                  | ((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U])) 
+                                                     >> 0x14U))))) 
+                        >> 0xcU) | ((IData)(((0xffffffffffffULL 
+                                              & (((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U])) 
+                                                  << 0x2cU) 
+                                                 | (((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U])) 
+                                                     << 0xcU) 
+                                                    | ((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U])) 
+                                                       >> 0x14U)))) 
+                                             >> 0x20U)) 
+                                    << 0x14U));
+                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[2U] 
+                    = (0xfU & ((IData)(((0xffffffffffffULL 
+                                         & (((QData)((IData)(
+                                                             vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U])) 
+                                             << 0x2cU) 
+                                            | (((QData)((IData)(
+                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U])) 
+                                                << 0xcU) 
+                                               | ((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U])) 
+                                                  >> 0x14U)))) 
+                                        >> 0x20U)) 
+                               >> 0xcU));
+            }
+        }
+    } else if ((1U & ((vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
+                       >> 2U) & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U] 
+                                 >> 0x16U)))) {
+        VL_CONCAT_WQI(68,48,20, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d, 
+                      (0xffffffffffffULL & VL_SEL_QWII(128, 
+                                                       ([&]() {
+                            vlSelf->__Vfunc_aligned_addr__13__size 
+                                = (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
+                                   >> 0x1dU);
+                            vlSelf->__Vfunc_aligned_addr__13__addr[0U] 
+                                = (IData)((0xffffffffffffULL 
+                                           & (((QData)((IData)(
+                                                               vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
+                                               << 0x18U) 
+                                              | ((QData)((IData)(
+                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
+                                                 >> 8U))));
+                            vlSelf->__Vfunc_aligned_addr__13__addr[1U] 
+                                = (IData)(((0xffffffffffffULL 
+                                            & (((QData)((IData)(
+                                                                vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
+                                                << 0x18U) 
+                                               | ((QData)((IData)(
+                                                                  vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
+                                                  >> 8U))) 
+                                           >> 0x20U));
+                            vlSelf->__Vfunc_aligned_addr__13__addr[2U] = 0U;
+                            vlSelf->__Vfunc_aligned_addr__13__addr[3U] = 0U;
+                            VL_SHIFTR_WWI(128,128,3, __Vtemp_4, vlSelf->__Vfunc_aligned_addr__13__addr, (IData)(vlSelf->__Vfunc_aligned_addr__13__size));
+                            VL_SHIFTL_WWI(128,128,3, vlSelf->__Vfunc_aligned_addr__13__Vfuncout, __Vtemp_4, (IData)(vlSelf->__Vfunc_aligned_addr__13__size));
+                        }(), vlSelf->__Vfunc_aligned_addr__13__Vfuncout), 0U, 0x30U)), 
+                      (2U | ((0xfc000U & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
+                                          << 9U)) | 
+                             ((0x3c00U & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U] 
+                                          >> 0xeU)) 
+                              | (((0U == (0xffU & vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
+                                  << 9U) | ((0x1e0U 
+                                             & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
+                                                >> 0xaU)) 
+                                            | ((0x1cU 
+                                                & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
+                                                   >> 0x1bU)) 
+                                               | (1U 
+                                                  & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
+                                                     >> 0x1aU)))))))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[1U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[2U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid = 1U;
+        if ((2U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_ax_mux__inp_ready_o))) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_d 
+                = (0xffU & vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U]);
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
+                = (0x200000U | vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
+                = (0x80000U | vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
+        }
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
+            = ((0xfffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U]) 
+               | ((IData)((0xffffffffffffULL & (((QData)((IData)(
+                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
+                                                 << 0x18U) 
+                                                | ((QData)((IData)(
+                                                                   vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
+                                                   >> 8U)))) 
+                  << 0x14U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] 
+            = (((IData)((0xffffffffffffULL & (((QData)((IData)(
+                                                               vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
+                                               << 0x18U) 
+                                              | ((QData)((IData)(
+                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
+                                                 >> 8U)))) 
+                >> 0xcU) | ((IData)(((0xffffffffffffULL 
+                                      & (((QData)((IData)(
+                                                          vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
+                                          << 0x18U) 
+                                         | ((QData)((IData)(
+                                                            vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
+                                            >> 8U))) 
+                                     >> 0x20U)) << 0x14U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U] 
+            = (0xfU & ((IData)(((0xffffffffffffULL 
+                                 & (((QData)((IData)(
+                                                     vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
+                                     << 0x18U) | ((QData)((IData)(
+                                                                  vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
+                                                  >> 8U))) 
+                                >> 0x20U)) >> 0xcU));
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_q;
+    if (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__sel_lock_q) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_q;
+    } else if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid) 
+                ^ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid;
+    } else if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid) 
+                & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid))) {
+        if (((0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
+                      >> 5U)) > (0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
+                                         >> 5U)))) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d = 1U;
+        } else if (((0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
+                             >> 5U)) > (0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
+                                                >> 5U)))) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d = 0U;
+        } else if (((0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
+                             >> 5U)) == (0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
+                                                 >> 5U)))) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d 
+                = ((1U & ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
+                           >> 9U) & (~ (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
+                                        >> 9U)))) || 
+                   ((0U < (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_q)) 
+                    || ((0U >= (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_q)) 
+                        && (1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_q))))));
+        }
+    }
+    __Vtemp_6[0U] = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U];
+    __Vtemp_6[1U] = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U];
+    __Vtemp_6[2U] = ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
+                      << 4U) | vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U]);
+    __Vtemp_6[3U] = ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
+                      >> 0x1cU) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] 
+                                   << 4U));
+    __Vtemp_6[4U] = ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] 
+                      >> 0x1cU) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U] 
+                                   << 4U));
+    if ((0x87U >= (0xffU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d))))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U] 
+            = (((0U == (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d))))
+                 ? 0U : (__Vtemp_6[((IData)(1U) + (7U 
+                                                   & (((IData)(0x44U) 
+                                                       * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
+                                                      >> 5U)))] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & ((IData)(0x44U) 
+                                                  * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)))))) 
+               | (__Vtemp_6[(7U & (((IData)(0x44U) 
+                                    * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
+                                   >> 5U))] >> (0x1fU 
+                                                & ((IData)(0x44U) 
+                                                   * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[1U] 
+            = (((0U == (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d))))
+                 ? 0U : (__Vtemp_6[((IData)(2U) + (7U 
+                                                   & (((IData)(0x44U) 
+                                                       * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
+                                                      >> 5U)))] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & ((IData)(0x44U) 
+                                                  * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)))))) 
+               | (__Vtemp_6[((IData)(1U) + (7U & (((IData)(0x44U) 
+                                                   * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
+                                                  >> 5U)))] 
+                  >> (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[2U] 
+            = (0xfU & (((0U == (0x1fU & ((IData)(0x44U) 
+                                         * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d))))
+                         ? 0U : (__Vtemp_6[((IData)(3U) 
+                                            + (7U & 
+                                               (((IData)(0x44U) 
+                                                 * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
+                                                >> 5U)))] 
+                                 << ((IData)(0x20U) 
+                                     - (0x1fU & ((IData)(0x44U) 
+                                                 * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)))))) 
+                       | (__Vtemp_6[((IData)(2U) + 
+                                     (7U & (((IData)(0x44U) 
+                                             * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
+                                            >> 5U)))] 
+                          >> (0x1fU & ((IData)(0x44U) 
+                                       * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d))))));
+    } else {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U] = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[1U] = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[2U] = 0U;
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__arb_valid 
+        = (1U & ((((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid) 
+                   << 1U) | (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid)) 
+                 >> (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)));
+    __Vfunc_from_axi_amo__14__amo = (0x3fU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U] 
+                                              >> 0xeU));
+    __Vfunc_from_axi_amo__14__result = ((0x20U & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                         ? ((0x10U 
+                                             & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                             ? ((8U 
+                                                 & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                 ? 0U
+                                                 : 
+                                                ((4U 
+                                                  & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                  ? 0U
+                                                  : 
+                                                 ((2U 
+                                                   & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                   ? 0U
+                                                   : 
+                                                  ((1U 
+                                                    & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                    ? 0U
+                                                    : 1U))))
+                                             : ((8U 
+                                                 & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                 ? 0U
+                                                 : 
+                                                ((4U 
+                                                  & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                  ? 
+                                                 ((2U 
+                                                   & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                   ? 
+                                                  ((1U 
+                                                    & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                    ? 9U
+                                                    : 7U)
+                                                   : 
+                                                  ((1U 
+                                                    & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                    ? 8U
+                                                    : 6U))
+                                                  : 
+                                                 ((2U 
+                                                   & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                   ? 
+                                                  ((1U 
+                                                    & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                    ? 4U
+                                                    : 5U)
+                                                   : 
+                                                  ((1U 
+                                                    & (IData)(__Vfunc_from_axi_amo__14__amo))
+                                                    ? 3U
+                                                    : 2U)))))
+                                         : 0U);
+    __Vfunc_from_axi_amo__14__Vfuncout = __Vfunc_from_axi_amo__14__result;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__amo 
+        = __Vfunc_from_axi_amo__14__Vfuncout;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__data 
+        = (((QData)((IData)(vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U])) 
+            << 0x3eU) | (((QData)((IData)(vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[4U])) 
+                          << 0x1eU) | ((QData)((IData)(
+                                                       vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[3U])) 
+                                       >> 2U)));
+    if ((3U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__amo))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__data 
+            = (~ (((QData)((IData)(vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U])) 
+                   << 0x3eU) | (((QData)((IData)(vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[4U])) 
+                                 << 0x1eU) | ((QData)((IData)(
+                                                              vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[3U])) 
+                                              >> 2U))));
+    }
+    if ((1U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U])) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__amo 
+            = ((2U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U])
+                ? 0xbU : 0xaU);
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellinp__i_sel_buf__data_i 
+        = (((IData)((0x202U == (0x202U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U]))) 
+            << 1U) | (IData)((2U != (0x80002U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U]))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
+        = (6U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
+    if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork__DOT__gen_oup_state__BRA__0__KET____DOT__oup_state_q)))) {
+        if (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__arb_valid) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
+                = (1U | (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
+        }
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
+        = (5U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
+    if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork__DOT__gen_oup_state__BRA__1__KET____DOT__oup_state_q)))) {
+        if (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__arb_valid) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
+                = (2U | (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
+        }
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
+        = (3U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
+    if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork__DOT__gen_oup_state__BRA__2__KET____DOT__oup_state_q)))) {
+        if (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__arb_valid) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
+                = (4U | (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
+        }
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__push 
+        = ((3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__status_cnt_q)) 
+           & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o) 
+              >> 1U));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__push 
+        = ((3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__status_cnt_q)) 
+           & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o) 
+              >> 2U));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__gate_clock = 1U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[0U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[0U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[1U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[1U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[2U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[2U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[3U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[3U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[4U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[4U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[5U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[5U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[6U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[6U];
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__push) 
+         & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__gate_clock = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT____Vlvbound_h3b3dc2ac__0[0U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT____Vlvbound_h3b3dc2ac__0[1U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[1U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT____Vlvbound_h3b3dc2ac__0[2U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[2U];
+        if ((0xcbU >= (0xffU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__write_pointer_q))))) {
+            VL_ASSIGNSEL_WW(204,68,(0xffU & ((IData)(0x44U) 
+                                             * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__write_pointer_q))), vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT____Vlvbound_h3b3dc2ac__0);
+        }
+    }
+    if ((0xcbU >= (0xffU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q))))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[0U] 
+            = (((0U == (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q))))
+                 ? 0U : (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
+                         ((IData)(1U) + (7U & (((IData)(0x44U) 
+                                                * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
+                                               >> 5U)))] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & ((IData)(0x44U) 
+                                                  * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)))))) 
+               | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
+                  (7U & (((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
+                         >> 5U))] >> (0x1fU & ((IData)(0x44U) 
+                                               * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[1U] 
+            = (((0U == (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q))))
+                 ? 0U : (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
+                         ((IData)(2U) + (7U & (((IData)(0x44U) 
+                                                * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
+                                               >> 5U)))] 
+                         << ((IData)(0x20U) - (0x1fU 
+                                               & ((IData)(0x44U) 
+                                                  * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)))))) 
+               | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
+                  ((IData)(1U) + (7U & (((IData)(0x44U) 
+                                         * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
+                                        >> 5U)))] >> 
+                  (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[2U] 
+            = (0xfU & (((0U == (0x1fU & ((IData)(0x44U) 
+                                         * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q))))
+                         ? 0U : (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
+                                 ((IData)(3U) + (7U 
+                                                 & (((IData)(0x44U) 
+                                                     * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
+                                                    >> 5U)))] 
+                                 << ((IData)(0x20U) 
+                                     - (0x1fU & ((IData)(0x44U) 
+                                                 * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)))))) 
+                       | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
+                          ((IData)(2U) + (7U & (((IData)(0x44U) 
+                                                 * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
+                                                >> 5U)))] 
+                          >> (0x1fU & ((IData)(0x44U) 
+                                       * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q))))));
+    } else {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[0U] = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[1U] = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[2U] = 0U;
+    }
+    if (((0U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__status_cnt_q)) 
+         & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__push))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[0U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[1U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[1U];
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[2U] 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[2U];
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__empty 
+        = ((~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__push)) 
+           & (0U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__status_cnt_q)));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__gate_clock = 1U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__mem_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__mem_q;
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__push) 
+         & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__gate_clock = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT____Vlvbound_haaa6db43__0 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellinp__i_sel_buf__data_i;
+        if ((5U >= (7U & VL_SHIFTL_III(3,32,32, (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__write_pointer_q), 1U)))) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__mem_n 
+                = (((~ ((IData)(3U) << (7U & VL_SHIFTL_III(3,32,32, (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__write_pointer_q), 1U)))) 
+                    & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__mem_n)) 
+                   | (0x3fU & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT____Vlvbound_haaa6db43__0) 
+                               << (7U & VL_SHIFTL_III(3,32,32, (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__write_pointer_q), 1U)))));
+        }
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_sel_buf__data_o 
+        = ((5U >= (7U & VL_SHIFTL_III(3,32,32, (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__read_pointer_q), 1U)))
+            ? (3U & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__mem_q) 
+                     >> (7U & VL_SHIFTL_III(3,32,32, (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__read_pointer_q), 1U))))
+            : 0U);
+    if (((0U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__status_cnt_q)) 
+         & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__push))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_sel_buf__data_o 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellinp__i_sel_buf__data_i;
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__empty 
+        = ((~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__push)) 
+           & (0U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__status_cnt_q)));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready 
+        = (2U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready));
+    if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__empty)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready 
+            = ((2U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready)) 
+               | ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_sel_buf__data_o))) 
+                  || (1U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellinp__i_fork_dynamic__ready_i))));
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready 
+        = (1U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready));
+    if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__empty)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready 
+            = ((1U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready)) 
+               | (((1U & (~ ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_sel_buf__data_o) 
+                             >> 1U))) || (1U & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellinp__i_fork_dynamic__ready_i) 
+                                                >> 1U))) 
+                  << 1U));
+    }
+}
+
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__149(Vtestharness___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__149\n"); );
     // Body
     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_mem_dma__DOT__i_split_read_write__DOT__genblk1__DOT__mst_b_readies 
         = ((0x1ffeU & ((vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_dma_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U] 
@@ -20,10 +768,10 @@ VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__20(Vtestharness___
                                                        >> 0x14U))));
 }
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__21(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__150(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__21\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__150\n"); );
     // Body
     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_mem_dma__DOT__i_split_read_write__DOT__genblk1__DOT__mst_r_readies 
         = (((vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_dma_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
@@ -32,10 +780,10 @@ VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__21(Vtestharness___
                             & vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_dma_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U])));
 }
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__22(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__151(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__22\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__151\n"); );
     // Body
     vlSelf->testharness__DOT__i_mem__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__int_axi_w_last 
         = (1U & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__2__KET____DOT__i_axi_mux.mst_req_o[2U] 
@@ -270,10 +1018,10 @@ VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__22(Vtestharness___
     }
 }
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__23(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__152(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__23\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__152\n"); );
     // Body
     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__int_axi_w_last 
         = (1U & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_dma_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux.mst_req_o[2U] 
@@ -511,10 +1259,10 @@ VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__23(Vtestharness___
 extern const VlUnpacked<CData/*0:0*/, 256> Vtestharness__ConstPool__TABLE_h524e65de_0;
 extern const VlUnpacked<CData/*0:0*/, 256> Vtestharness__ConstPool__TABLE_h59fa7ce8_0;
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__26(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__155(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__26\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__155\n"); );
     // Init
     CData/*0:0*/ testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_reqrsp_mux_ptw__DOT____Vlvbound_h4b164014__0;
     testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_reqrsp_mux_ptw__DOT____Vlvbound_h4b164014__0 = 0;
@@ -906,10 +1654,10 @@ VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__26(Vtestharness___
     }
 }
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__32(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__161(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__32\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__161\n"); );
     // Body
     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_hive__BRA__0__KET____DOT__i_snitch_hive__DOT__i_snitch_icache__DOT__i_handler__DOT__pop_enable = 0U;
     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_hive__BRA__0__KET____DOT__i_snitch_hive__DOT__i_snitch_icache__DOT__write_valid = 0U;
@@ -1122,10 +1870,10 @@ VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__32(Vtestharness___
     }
 }
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__33(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__162(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__33\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__162\n"); );
     // Init
     CData/*0:0*/ testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_reqrsp_mux_core__DOT____Vlvbound_hdd4435c9__0;
     testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_reqrsp_mux_core__DOT____Vlvbound_hdd4435c9__0 = 0;
@@ -5793,7 +6541,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
         vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__match_in_id 
             = vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__rifq_oup_id;
     }
-    vlSelf->__VdfgRegularize_hd87f99a1_350_0 = ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__match_in_id_valid) 
+    vlSelf->__VdfgRegularize_hd87f99a1_347_0 = ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__match_in_id_valid) 
                                                 & ((~ 
                                                     ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                      >> 6U)) 
@@ -5832,7 +6580,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
         = ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__slv_r_valid) 
            & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__slv_r_ready));
     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__idx_matches_in_id 
-        = (((IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0) 
+        = (((IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0) 
             << 1U) | ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__match_in_id_valid) 
                       & ((~ (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q)) 
                          & ((7U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
@@ -5863,7 +6611,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                     + 
                                                     (0xfU 
                                                      & ((IData)(6U) 
-                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                   && (1U 
                                                       & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                          >> 
@@ -5871,7 +6619,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                           + 
                                                           (0xfU 
                                                            & ((IData)(6U) 
-                                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))))))))) 
+                                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))))))))) 
                        && (1U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__linked_data_q) 
                                  >> ((IData)(2U) + 
                                      (7U & ((IData)(3U) 
@@ -5881,7 +6629,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                  + 
                                                  (0xfU 
                                                   & ((IData)(6U) 
-                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                && (1U 
                                                    & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                       >> 
@@ -5889,7 +6637,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                        + 
                                                        (0xfU 
                                                         & ((IData)(6U) 
-                                                           * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))))))))));
+                                                           * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))))))))));
             }
         }
     }
@@ -5909,7 +6657,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                   + 
                                                   (0xfU 
                                                    & ((IData)(6U) 
-                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                 && (1U 
                                                     & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                        >> 
@@ -5917,7 +6665,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                         + 
                                                         (0xfU 
                                                          & ((IData)(6U) 
-                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))))))))) {
+                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))))))))) {
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__linked_data_d 
                     = (((~ ((IData)(1U) << ((IData)(1U) 
                                             + (7U & 
@@ -5929,7 +6677,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                      + 
                                                      (0xfU 
                                                       & ((IData)(6U) 
-                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                    && (1U 
                                                        & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                           >> 
@@ -5937,7 +6685,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                            + 
                                                            (0xfU 
                                                             & ((IData)(6U) 
-                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))))))))) 
+                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))))))))) 
                         & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__linked_data_d)) 
                        | (0x3fU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT____Vlvbound_h12e0f2c0__0) 
                                    << ((IData)(1U) 
@@ -5949,7 +6697,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                      + 
                                                      (0xfU 
                                                       & ((IData)(6U) 
-                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                    && (1U 
                                                        & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                           >> 
@@ -5957,22 +6705,22 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                            + 
                                                            (0xfU 
                                                             & ((IData)(6U) 
-                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))))))))));
+                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))))))))));
             }
             vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT____Vlvbound_h3156ccc5__0 
                 = (1U & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__i_ld_free_lzc__DOT__gen_lzc__DOT__index_nodes));
             if ((0xbU >= ((IData)(1U) + (0xfU & ((IData)(6U) 
-                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))) {
+                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))) {
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_d 
                     = (((~ ((IData)(1U) << ((IData)(1U) 
                                             + (0xfU 
                                                & ((IData)(6U) 
-                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))) 
+                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))) 
                         & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_d)) 
                        | (0xfffU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT____Vlvbound_h3156ccc5__0) 
                                     << ((IData)(1U) 
                                         + (0xfU & ((IData)(6U) 
-                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))));
+                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))));
             }
         } else {
             vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT____Vlvbound_hbc57e19e__0 
@@ -6020,7 +6768,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                    + 
                                                    (0xfU 
                                                     & ((IData)(6U) 
-                                                       * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                       * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                  && (1U 
                                                      & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                         >> 
@@ -6028,7 +6776,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                          + 
                                                          (0xfU 
                                                           & ((IData)(6U) 
-                                                             * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))))))))) {
+                                                             * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))))))))) {
                     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__linked_data_d 
                         = (((~ ((IData)(7U) << (7U 
                                                 & ((IData)(3U) 
@@ -6039,7 +6787,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                       + 
                                                       (0xfU 
                                                        & ((IData)(6U) 
-                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                     && (1U 
                                                         & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                            >> 
@@ -6047,7 +6795,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                             + 
                                                             (0xfU 
                                                              & ((IData)(6U) 
-                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))))))))) 
+                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))))))))) 
                             & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__linked_data_d)) 
                            | (0x3fU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT____Vlvbound_h004f40f8__0) 
                                        << (7U & ((IData)(3U) 
@@ -6058,7 +6806,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                     + 
                                                     (0xfU 
                                                      & ((IData)(6U) 
-                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                   && (1U 
                                                       & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                          >> 
@@ -6066,7 +6814,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                           + 
                                                           (0xfU 
                                                            & ((IData)(6U) 
-                                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))))))))));
+                                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))))))))));
                     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__linked_data_d 
                         = (((~ ((IData)(1U) << (7U 
                                                 & ((IData)(3U) 
@@ -6077,7 +6825,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                       + 
                                                       (0xfU 
                                                        & ((IData)(6U) 
-                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                     && (1U 
                                                         & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                            >> 
@@ -6085,7 +6833,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                             + 
                                                             (0xfU 
                                                              & ((IData)(6U) 
-                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))))))))) 
+                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))))))))) 
                             & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__linked_data_d)) 
                            | (0x3fU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT____Vlvbound_h59fbac41__0) 
                                        << (7U & ((IData)(3U) 
@@ -6096,7 +6844,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                     + 
                                                     (0xfU 
                                                      & ((IData)(6U) 
-                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                   && (1U 
                                                       & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                          >> 
@@ -6104,34 +6852,34 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                           + 
                                                           (0xfU 
                                                            & ((IData)(6U) 
-                                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))))))))));
+                                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))))))))));
                 }
                 if ((((0xbU >= ((IData)(2U) + (0xfU 
                                                & ((IData)(6U) 
-                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                       && (1U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                 >> ((IData)(2U) + (0xfU 
                                                    & ((IData)(6U) 
-                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))))) 
+                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))))) 
                      == ((0xbU >= ((IData)(1U) + (0xfU 
                                                   & ((IData)(6U) 
-                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                          && (1U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                    >> ((IData)(1U) 
                                        + (0xfU & ((IData)(6U) 
-                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))))))) {
+                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))))))) {
                     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT____Vlvbound_h7f52022a__0 = 1U;
                     if ((0xbU >= (0xfU & ((IData)(6U) 
-                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) {
+                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) {
                         vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_d 
                             = (((~ ((IData)(0x3fU) 
                                     << (0xfU & ((IData)(6U) 
-                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                 & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_d)) 
                                | (0xfffU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT____Vlvbound_h7f52022a__0) 
                                             << (0xfU 
                                                 & ((IData)(6U) 
-                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))));
+                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))));
                     }
                 } else {
                     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT____Vlvbound_h314c53a3__0 
@@ -6144,7 +6892,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                         + 
                                                         (0xfU 
                                                          & ((IData)(6U) 
-                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                       && (1U 
                                                           & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                              >> 
@@ -6152,7 +6900,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                               + 
                                                               (0xfU 
                                                                & ((IData)(6U) 
-                                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))))))))) 
+                                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))))))))) 
                            && (1U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__linked_data_q) 
                                      >> ((IData)(1U) 
                                          + (7U & ((IData)(3U) 
@@ -6163,7 +6911,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                      + 
                                                      (0xfU 
                                                       & ((IData)(6U) 
-                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0))))) 
+                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0))))) 
                                                    && (1U 
                                                        & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_q) 
                                                           >> 
@@ -6171,21 +6919,21 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                            + 
                                                            (0xfU 
                                                             & ((IData)(6U) 
-                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))))))))));
+                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))))))))));
                     if ((0xbU >= ((IData)(2U) + (0xfU 
                                                  & ((IData)(6U) 
-                                                    * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))) {
+                                                    * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))) {
                         vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_d 
                             = (((~ ((IData)(1U) << 
                                     ((IData)(2U) + 
                                      (0xfU & ((IData)(6U) 
-                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))) 
+                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))) 
                                 & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT__head_tail_d)) 
                                | (0xfffU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_read_in_flight_queue__DOT____Vlvbound_h314c53a3__0) 
                                             << ((IData)(2U) 
                                                 + (0xfU 
                                                    & ((IData)(6U) 
-                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_350_0)))))));
+                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_347_0)))))));
                     }
                 }
             }
@@ -7039,7 +7787,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
         vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__match_in_id 
             = vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__b_status_oup_id;
     }
-    vlSelf->__VdfgRegularize_hd87f99a1_354_0 = ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__match_in_id_valid) 
+    vlSelf->__VdfgRegularize_hd87f99a1_351_0 = ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__match_in_id_valid) 
                                                 & ((~ 
                                                     ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                                      >> 6U)) 
@@ -7135,7 +7883,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
             = vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__slv_aw[2U];
     }
     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__idx_matches_in_id 
-        = (((IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0) 
+        = (((IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0) 
             << 1U) | ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__match_in_id_valid) 
                       & ((~ (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q)) 
                          & ((7U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
@@ -7257,7 +8005,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
             = (7U & (vlSelf->testharness__DOT__i_dma__DOT__i_cut__DOT__slv_resp[0x10U] 
                      >> 0xdU));
     }
-    vlSelf->__VdfgRegularize_hd87f99a1_358_0 = ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__match_in_id_valid) 
+    vlSelf->__VdfgRegularize_hd87f99a1_355_0 = ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__match_in_id_valid) 
                                                 & ((~ 
                                                     ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                      >> 6U)) 
@@ -7281,7 +8029,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                + 
                                                                (0xfU 
                                                                 & ((IData)(6U) 
-                                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                                                              && (1U 
                                                                  & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                                                     >> 
@@ -7289,7 +8037,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                      + 
                                                                      (0xfU 
                                                                       & ((IData)(6U) 
-                                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))), 2U))))
+                                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))), 2U))))
                         ? (3U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__linked_data_q) 
                                  >> ((IData)(2U) + 
                                      (7U & VL_SHIFTL_III(3,32,32, 
@@ -7299,7 +8047,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                             + 
                                                             (0xfU 
                                                              & ((IData)(6U) 
-                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                                                           && (1U 
                                                               & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                                                  >> 
@@ -7307,14 +8055,14 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                   + 
                                                                   (0xfU 
                                                                    & ((IData)(6U) 
-                                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))), 2U)))))
+                                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))), 2U)))))
                         : 0U);
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__b_status_oup_valid = 1U;
             }
         }
     }
     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__idx_matches_in_id 
-        = (((IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0) 
+        = (((IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0) 
             << 1U) | ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__match_in_id_valid) 
                       & ((~ (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q)) 
                          & ((7U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
@@ -7421,7 +8169,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                        + 
                                                        (0xfU 
                                                         & ((IData)(6U) 
-                                                           * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                           * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                      && (1U 
                                                          & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                             >> 
@@ -7429,7 +8177,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                              + 
                                                              (0xfU 
                                                               & ((IData)(6U) 
-                                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))))
+                                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))))
                         ? (0x7fffffffffffULL & (((QData)((IData)(
                                                                  vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__linked_data_q[
                                                                  (((IData)(0x30U) 
@@ -7443,7 +8191,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                           + 
                                                                           (0xfU 
                                                                            & ((IData)(6U) 
-                                                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                                         && (1U 
                                                                             & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                                                >> 
@@ -7451,7 +8199,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                                 + 
                                                                                 (0xfU 
                                                                                 & ((IData)(6U) 
-                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))) 
+                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))) 
                                                                   >> 5U)])) 
                                                  << 
                                                  ((0U 
@@ -7468,7 +8216,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                               + 
                                                               (0xfU 
                                                                & ((IData)(6U) 
-                                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                             && (1U 
                                                                 & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                                    >> 
@@ -7476,7 +8224,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                     + 
                                                                     (0xfU 
                                                                      & ((IData)(6U) 
-                                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))))))))))
+                                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))))))))))
                                                    ? 0x20U
                                                    : 
                                                   ((IData)(0x40U) 
@@ -7493,7 +8241,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                               + 
                                                               (0xfU 
                                                                & ((IData)(6U) 
-                                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                             && (1U 
                                                                 & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                                    >> 
@@ -7501,7 +8249,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                     + 
                                                                     (0xfU 
                                                                      & ((IData)(6U) 
-                                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))))))) 
+                                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))))))) 
                                                 | (((0U 
                                                      == 
                                                      (0x1fU 
@@ -7516,7 +8264,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                 + 
                                                                 (0xfU 
                                                                  & ((IData)(6U) 
-                                                                    * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                                    * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                               && (1U 
                                                                   & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                                      >> 
@@ -7524,7 +8272,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                       + 
                                                                       (0xfU 
                                                                        & ((IData)(6U) 
-                                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))))))))))
+                                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))))))))))
                                                      ? 0ULL
                                                      : 
                                                     ((QData)((IData)(
@@ -7540,7 +8288,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                               + 
                                                                               (0xfU 
                                                                                & ((IData)(6U) 
-                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                                             && (1U 
                                                                                 & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                                                 >> 
@@ -7548,7 +8296,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                                 + 
                                                                                 (0xfU 
                                                                                 & ((IData)(6U) 
-                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))) 
+                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))) 
                                                                       >> 5U)])) 
                                                      << 
                                                      ((IData)(0x20U) 
@@ -7565,7 +8313,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                  + 
                                                                  (0xfU 
                                                                   & ((IData)(6U) 
-                                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                                && (1U 
                                                                    & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                                       >> 
@@ -7573,7 +8321,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                        + 
                                                                        (0xfU 
                                                                         & ((IData)(6U) 
-                                                                           * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))))))) 
+                                                                           * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))))))) 
                                                    | ((QData)((IData)(
                                                                       vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__linked_data_q[
                                                                       (((IData)(2U) 
@@ -7587,7 +8335,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                                + 
                                                                                (0xfU 
                                                                                 & ((IData)(6U) 
-                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                                              && (1U 
                                                                                 & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                                                 >> 
@@ -7595,7 +8343,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                                 + 
                                                                                 (0xfU 
                                                                                 & ((IData)(6U) 
-                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))) 
+                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))) 
                                                                        >> 5U)])) 
                                                       >> 
                                                       (0x1fU 
@@ -7610,7 +8358,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                  + 
                                                                  (0xfU 
                                                                   & ((IData)(6U) 
-                                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                                && (1U 
                                                                    & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                                       >> 
@@ -7618,7 +8366,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                        + 
                                                                        (0xfU 
                                                                         & ((IData)(6U) 
-                                                                           * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))))))))
+                                                                           * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))))))))
                         : 0ULL);
             }
         }
@@ -7646,7 +8394,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                       + 
                                                       (0xfU 
                                                        & ((IData)(6U) 
-                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                     && (1U 
                                                         & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                            >> 
@@ -7654,7 +8402,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                             + 
                                                             (0xfU 
                                                              & ((IData)(6U) 
-                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))))) {
+                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))))) {
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__linked_data_d[(
                                                                                 ((IData)(1U) 
                                                                                 + 
@@ -7667,7 +8415,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                                 + 
                                                                                 (0xfU 
                                                                                 & ((IData)(6U) 
-                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                                                 && (1U 
                                                                                 & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                                                 >> 
@@ -7675,7 +8423,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                                 + 
                                                                                 (0xfU 
                                                                                 & ((IData)(6U) 
-                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))) 
+                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))) 
                                                                                 >> 5U)] 
                     = (((~ ((IData)(1U) << (0x1fU & 
                                             ((IData)(1U) 
@@ -7688,7 +8436,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                       + 
                                                       (0xfU 
                                                        & ((IData)(6U) 
-                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                     && (1U 
                                                         & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                            >> 
@@ -7696,7 +8444,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                             + 
                                                             (0xfU 
                                                              & ((IData)(6U) 
-                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))))))))))) 
+                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))))))))))) 
                         & vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__linked_data_d[
                         (((IData)(1U) + (0x7fU & ((IData)(0x31U) 
                                                   * 
@@ -7706,7 +8454,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                      + 
                                                      (0xfU 
                                                       & ((IData)(6U) 
-                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                    && (1U 
                                                        & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                           >> 
@@ -7714,7 +8462,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                            + 
                                                            (0xfU 
                                                             & ((IData)(6U) 
-                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))) 
+                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))) 
                          >> 5U)]) | ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_h7b38e245__0) 
                                      << (0x1fU & ((IData)(1U) 
                                                   + 
@@ -7727,7 +8475,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                          + 
                                                          (0xfU 
                                                           & ((IData)(6U) 
-                                                             * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                             * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                        && (1U 
                                                            & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                               >> 
@@ -7735,22 +8483,22 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                + 
                                                                (0xfU 
                                                                 & ((IData)(6U) 
-                                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))))));
+                                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))))));
             }
             vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_h3156ccc5__0 
                 = (1U & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__i_ld_free_lzc__DOT__gen_lzc__DOT__index_nodes));
             if ((0xbU >= ((IData)(1U) + (0xfU & ((IData)(6U) 
-                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))) {
+                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))) {
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_d 
                     = (((~ ((IData)(1U) << ((IData)(1U) 
                                             + (0xfU 
                                                & ((IData)(6U) 
-                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))) 
+                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))) 
                         & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_d)) 
                        | (0xfffU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_h3156ccc5__0) 
                                     << ((IData)(1U) 
                                         + (0xfU & ((IData)(6U) 
-                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))));
+                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))));
             }
         } else {
             vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_hbc57e19e__0 
@@ -7798,14 +8546,14 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                  + 
                                                  (0xfU 
                                                   & ((IData)(6U) 
-                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                        && (1U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                  >> 
                                                  ((IData)(2U) 
                                                   + 
                                                   (0xfU 
                                                    & ((IData)(6U) 
-                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))))))))) {
+                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))))))))) {
                 VL_ASSIGNSEL_WQ(98,49,(0x7fU & ((IData)(0x31U) 
                                                 * (
                                                    (0xbU 
@@ -7814,7 +8562,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                      + 
                                                      (0xfU 
                                                       & ((IData)(6U) 
-                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                    && (1U 
                                                        & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                           >> 
@@ -7822,7 +8570,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                            + 
                                                            (0xfU 
                                                             & ((IData)(6U) 
-                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))))))), vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__linked_data_d, vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_he88550f3__0);
+                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))))))), vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__linked_data_d, vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_he88550f3__0);
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__linked_data_d[(3U 
                                                                                 & (((IData)(0x31U) 
                                                                                 * 
@@ -7832,7 +8580,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                                 + 
                                                                                 (0xfU 
                                                                                 & ((IData)(6U) 
-                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                                                 && (1U 
                                                                                 & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                                                 >> 
@@ -7840,7 +8588,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                                 + 
                                                                                 (0xfU 
                                                                                 & ((IData)(6U) 
-                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))) 
+                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))) 
                                                                                 >> 5U))] 
                     = (((~ ((IData)(1U) << (0x1fU & 
                                             ((IData)(0x31U) 
@@ -7850,7 +8598,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                   + 
                                                   (0xfU 
                                                    & ((IData)(6U) 
-                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                 && (1U 
                                                     & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                        >> 
@@ -7858,7 +8606,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                         + 
                                                         (0xfU 
                                                          & ((IData)(6U) 
-                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))))))))) 
+                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))))))))) 
                         & vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__linked_data_d[
                         (3U & (((IData)(0x31U) * ((0xbU 
                                                    >= 
@@ -7866,7 +8614,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                     + 
                                                     (0xfU 
                                                      & ((IData)(6U) 
-                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                        * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                   && (1U 
                                                       & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                          >> 
@@ -7874,7 +8622,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                           + 
                                                           (0xfU 
                                                            & ((IData)(6U) 
-                                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))) 
+                                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))) 
                                >> 5U))]) | ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_hb6f0858b__0) 
                                             << (0x1fU 
                                                 & ((IData)(0x31U) 
@@ -7885,7 +8633,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                       + 
                                                       (0xfU 
                                                        & ((IData)(6U) 
-                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                     && (1U 
                                                         & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                            >> 
@@ -7893,32 +8641,32 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                             + 
                                                             (0xfU 
                                                              & ((IData)(6U) 
-                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))));
+                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))));
             }
             if ((((0xbU >= ((IData)(2U) + (0xfU & ((IData)(6U) 
-                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                   && (1U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                             >> ((IData)(2U) + (0xfU 
                                                & ((IData)(6U) 
-                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))))) 
+                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))))) 
                  == ((0xbU >= ((IData)(1U) + (0xfU 
                                               & ((IData)(6U) 
-                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                      && (1U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                >> ((IData)(1U) + (0xfU 
                                                   & ((IData)(6U) 
-                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))))))) {
+                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))))))) {
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_h7f52022a__0 = 1U;
-                if ((0xbU >= (0xfU & ((IData)(6U) * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) {
+                if ((0xbU >= (0xfU & ((IData)(6U) * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) {
                     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_d 
                         = (((~ ((IData)(0x3fU) << (0xfU 
                                                    & ((IData)(6U) 
-                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                             & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_d)) 
                            | (0xfffU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_h7f52022a__0) 
                                         << (0xfU & 
                                             ((IData)(6U) 
-                                             * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))));
+                                             * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))));
                 }
             } else {
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_h314c53a3__0 
@@ -7931,7 +8679,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                        + 
                                                        (0xfU 
                                                         & ((IData)(6U) 
-                                                           * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                           * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                      && (1U 
                                                          & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                             >> 
@@ -7939,7 +8687,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                              + 
                                                              (0xfU 
                                                               & ((IData)(6U) 
-                                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))))))))) 
+                                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))))))))) 
                        && (1U & (vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__linked_data_q[
                                  (((IData)(1U) + (0x7fU 
                                                   & ((IData)(0x31U) 
@@ -7950,7 +8698,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                         + 
                                                         (0xfU 
                                                          & ((IData)(6U) 
-                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                       && (1U 
                                                           & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                              >> 
@@ -7958,7 +8706,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                               + 
                                                               (0xfU 
                                                                & ((IData)(6U) 
-                                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))))))) 
+                                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))))))) 
                                   >> 5U)] >> (0x1fU 
                                               & ((IData)(1U) 
                                                  + 
@@ -7971,7 +8719,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                         + 
                                                         (0xfU 
                                                          & ((IData)(6U) 
-                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))) 
+                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))) 
                                                       && (1U 
                                                           & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_q) 
                                                              >> 
@@ -7979,21 +8727,21 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                               + 
                                                               (0xfU 
                                                                & ((IData)(6U) 
-                                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0))))))))))))));
+                                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0))))))))))))));
                 if ((0xbU >= ((IData)(2U) + (0xfU & 
                                              ((IData)(6U) 
-                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))) {
+                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))) {
                     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_d 
                         = (((~ ((IData)(1U) << ((IData)(2U) 
                                                 + (0xfU 
                                                    & ((IData)(6U) 
-                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))) 
+                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))) 
                             & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT__head_tail_d)) 
                            | (0xfffU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_write_in_flight_queue__DOT____Vlvbound_h314c53a3__0) 
                                         << ((IData)(2U) 
                                             + (0xfU 
                                                & ((IData)(6U) 
-                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_358_0)))))));
+                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_355_0)))))));
                 }
             }
         }
@@ -8027,7 +8775,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                              + 
                                                              (0xfU 
                                                               & ((IData)(6U) 
-                                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                                                            && (1U 
                                                                & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                                                   >> 
@@ -8035,7 +8783,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                    + 
                                                                    (0xfU 
                                                                     & ((IData)(6U) 
-                                                                       * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))), 2U))))) {
+                                                                       * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))), 2U))))) {
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__linked_data_d 
                     = (((~ ((IData)(1U) << ((IData)(1U) 
                                             + (7U & 
@@ -8046,7 +8794,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                 + 
                                                                 (0xfU 
                                                                  & ((IData)(6U) 
-                                                                    * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                                    * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                                                               && (1U 
                                                                   & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                                                      >> 
@@ -8054,7 +8802,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                       + 
                                                                       (0xfU 
                                                                        & ((IData)(6U) 
-                                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))), 2U))))) 
+                                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))), 2U))))) 
                         & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__linked_data_d)) 
                        | (0xffU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT____Vlvbound_h048e9d6c__0) 
                                    << ((IData)(1U) 
@@ -8065,7 +8813,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                 + 
                                                                 (0xfU 
                                                                  & ((IData)(6U) 
-                                                                    * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                                    * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                                                               && (1U 
                                                                   & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                                                      >> 
@@ -8073,22 +8821,22 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                       + 
                                                                       (0xfU 
                                                                        & ((IData)(6U) 
-                                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))), 2U))))));
+                                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))), 2U))))));
             }
             vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT____Vlvbound_h3156ccc5__0 
                 = (1U & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__i_ld_free_lzc__DOT__gen_lzc__DOT__index_nodes));
             if ((0xbU >= ((IData)(1U) + (0xfU & ((IData)(6U) 
-                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0)))))) {
+                                                 * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0)))))) {
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_d 
                     = (((~ ((IData)(1U) << ((IData)(1U) 
                                             + (0xfU 
                                                & ((IData)(6U) 
-                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0)))))) 
+                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0)))))) 
                         & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_d)) 
                        | (0xfffU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT____Vlvbound_h3156ccc5__0) 
                                     << ((IData)(1U) 
                                         + (0xfU & ((IData)(6U) 
-                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0)))))));
+                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0)))))));
             }
         } else {
             vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT____Vlvbound_hbc57e19e__0 
@@ -8132,7 +8880,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                    + 
                                                                    (0xfU 
                                                                     & ((IData)(6U) 
-                                                                       * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                                       * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                                                                  && (1U 
                                                                      & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                                                         >> 
@@ -8140,7 +8888,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                          + 
                                                                          (0xfU 
                                                                           & ((IData)(6U) 
-                                                                             * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))), 2U)))) 
+                                                                             * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))), 2U)))) 
                        & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__linked_data_d));
                 vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__linked_data_d 
                     = ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__linked_data_d) 
@@ -8152,7 +8900,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                       + 
                                                                       (0xfU 
                                                                        & ((IData)(6U) 
-                                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                                                                     && (1U 
                                                                         & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                                                            >> 
@@ -8160,33 +8908,33 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                             + 
                                                                             (0xfU 
                                                                              & ((IData)(6U) 
-                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))), 2U)))));
+                                                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))), 2U)))));
                 if ((((0xbU >= ((IData)(2U) + (0xfU 
                                                & ((IData)(6U) 
-                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                       && (1U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                 >> ((IData)(2U) + (0xfU 
                                                    & ((IData)(6U) 
-                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))) 
+                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))) 
                      == ((0xbU >= ((IData)(1U) + (0xfU 
                                                   & ((IData)(6U) 
-                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                     * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                          && (1U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                    >> ((IData)(1U) 
                                        + (0xfU & ((IData)(6U) 
-                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))))) {
+                                                  * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))))) {
                     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT____Vlvbound_h7f52022a__0 = 1U;
                     if ((0xbU >= (0xfU & ((IData)(6U) 
-                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) {
+                                          * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) {
                         vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_d 
                             = (((~ ((IData)(0x3fU) 
                                     << (0xfU & ((IData)(6U) 
-                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                                 & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_d)) 
                                | (0xfffU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT____Vlvbound_h7f52022a__0) 
                                             << (0xfU 
                                                 & ((IData)(6U) 
-                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))));
+                                                   * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))));
                     }
                 } else {
                     vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT____Vlvbound_h314c53a3__0 
@@ -8198,7 +8946,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                      + 
                                                                      (0xfU 
                                                                       & ((IData)(6U) 
-                                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                                         * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                                                                    && (1U 
                                                                        & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                                                           >> 
@@ -8206,7 +8954,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                            + 
                                                                            (0xfU 
                                                                             & ((IData)(6U) 
-                                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))), 2U)))) 
+                                                                               * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))), 2U)))) 
                            && (1U & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__linked_data_q) 
                                      >> ((IData)(1U) 
                                          + (7U & VL_SHIFTL_III(3,32,32, 
@@ -8216,7 +8964,7 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                   + 
                                                                   (0xfU 
                                                                    & ((IData)(6U) 
-                                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))) 
+                                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))) 
                                                                 && (1U 
                                                                     & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_q) 
                                                                        >> 
@@ -8224,21 +8972,21 @@ VL_INLINE_OPT void Vtestharness___024root___act_comb__TOP__37(Vtestharness___024
                                                                         + 
                                                                         (0xfU 
                                                                          & ((IData)(6U) 
-                                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0))))))), 2U))))));
+                                                                            * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0))))))), 2U))))));
                     if ((0xbU >= ((IData)(2U) + (0xfU 
                                                  & ((IData)(6U) 
-                                                    * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0)))))) {
+                                                    * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0)))))) {
                         vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_d 
                             = (((~ ((IData)(1U) << 
                                     ((IData)(2U) + 
                                      (0xfU & ((IData)(6U) 
-                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0)))))) 
+                                              * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0)))))) 
                                 & (IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT__head_tail_d)) 
                                | (0xfffU & ((IData)(vlSelf->testharness__DOT__i_dma__DOT__gen_atop_support__DOT__i_axi_riscv_atomics_wrap__DOT__i_atomics__DOT__i_lrsc__DOT__i_b_status_queue__DOT____Vlvbound_h314c53a3__0) 
                                             << ((IData)(2U) 
                                                 + (0xfU 
                                                    & ((IData)(6U) 
-                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_354_0)))))));
+                                                      * (IData)(vlSelf->__VdfgRegularize_hd87f99a1_351_0)))))));
                     }
                 }
             }

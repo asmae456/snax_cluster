@@ -6,13 +6,917 @@
 #include "Vtestharness__Syms.h"
 #include "Vtestharness___024root.h"
 
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__134(Vtestharness___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__134\n"); );
+    // Body
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req_ready 
+        = (((3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__status_cnt_q)) 
+            & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__status_cnt_q))) 
+           & (6U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_q)));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__w_emitter_push 
+        = ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req_valid) 
+           & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req_ready));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__aw_emitter_push 
+        = ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req_valid) 
+           & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req_ready));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__gate_clock = 1U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__write_pointer_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__write_pointer_q;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__gate_clock = 1U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__gate_clock = 1U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__write_pointer_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__write_pointer_q;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__write_pointer_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__write_pointer_q;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_q;
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__aw_emitter_push) 
+         & (6U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__gate_clock = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__write_pointer_n 
+            = ((5U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__write_pointer_q))
+                ? 0U : (7U & ((IData)(1U) + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__write_pointer_q))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_n 
+            = (0xfU & ((IData)(1U) + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_q)));
+    }
+    if (((vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_dma_xbar__DOT__gen_slv_port_demux__BRA__0__KET____DOT__i_axi_demux.slv_resp_o[0x10U] 
+          >> 0xcU) & (0U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_n 
+            = (0xfU & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_q) 
+                       - (IData)(1U)));
+    }
+    if (((((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__aw_emitter_push) 
+           & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_dma_xbar__DOT__gen_slv_port_demux__BRA__0__KET____DOT__i_axi_demux.slv_resp_o[0x10U] 
+              >> 0xcU)) & (6U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_q))) 
+         & (0U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_n 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_q;
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req_ready 
+        = ((3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__status_cnt_q)) 
+           & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_q)));
+    if ((2U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U])) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req_valid 
+            = (1U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U] 
+                     >> 0x10U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req_valid 
+            = (1U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U] 
+                     >> 8U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes_possible 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes_to_pb;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes_possible 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes_to_pb;
+    } else {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req_valid 
+            = (1U & ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U] 
+                      >> 0x10U) & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req_ready)));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req_valid 
+            = (1U & ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U] 
+                      >> 8U) & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req_ready)));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes_possible 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__c_num_bytes_to_pb;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes_possible 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__c_num_bytes_to_pb;
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__r_emitter_push 
+        = ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req_valid) 
+           & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req_ready));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__ar_emitter_push 
+        = ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req_valid) 
+           & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req_ready));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__gate_clock = 1U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__write_pointer_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__write_pointer_q;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_q;
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__r_emitter_push) 
+         & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__gate_clock = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__write_pointer_n 
+            = ((2U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__write_pointer_q))
+                ? 0U : (3U & ((IData)(1U) + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__write_pointer_q))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_n 
+            = (7U & ((IData)(1U) + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_q)));
+    }
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__r_emitter_pop) 
+         & (0U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_n 
+            = (7U & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_q) 
+                     - (IData)(1U)));
+    }
+    if (((((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__r_emitter_push) 
+           & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__r_emitter_pop)) 
+          & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_q))) 
+         & (0U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_n 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_q;
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__gate_clock = 1U;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__write_pointer_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__write_pointer_q;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[1U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[2U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[4U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[4U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[5U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[6U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U];
+    if (((0xffffffffffffULL & (((QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                << 0x29U) | (((QData)((IData)(
+                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[4U])) 
+                                              << 9U) 
+                                             | ((QData)((IData)(
+                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                >> 0x17U)))) 
+         > (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes_possible)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes_possible;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U] 
+            = ((0x7fffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U]) 
+               | ((IData)((0xffffffffffffULL & ((((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                  << 0x29U) 
+                                                 | (((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[4U])) 
+                                                     << 9U) 
+                                                    | ((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                       >> 0x17U))) 
+                                                - (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes_possible))))) 
+                  << 0x17U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[4U] 
+            = (((IData)((0xffffffffffffULL & ((((QData)((IData)(
+                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                << 0x29U) 
+                                               | (((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[4U])) 
+                                                   << 9U) 
+                                                  | ((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                     >> 0x17U))) 
+                                              - (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes_possible))))) 
+                >> 9U) | ((IData)(((0xffffffffffffULL 
+                                    & ((((QData)((IData)(
+                                                         vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                         << 0x29U) 
+                                        | (((QData)((IData)(
+                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[4U])) 
+                                            << 9U) 
+                                           | ((QData)((IData)(
+                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                              >> 0x17U))) 
+                                       - (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes_possible)))) 
+                                   >> 0x20U)) << 0x17U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[5U] 
+            = ((0xffffff80U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[5U]) 
+               | ((IData)(((0xffffffffffffULL & ((((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                   << 0x29U) 
+                                                  | (((QData)((IData)(
+                                                                      vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[4U])) 
+                                                      << 9U) 
+                                                     | ((QData)((IData)(
+                                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                        >> 0x17U))) 
+                                                 - (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes_possible)))) 
+                           >> 0x20U)) >> 9U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_finish = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[5U] 
+            = ((0x7fU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[5U]) 
+               | ((IData)((0xffffffffffffULL & ((1U 
+                                                 == 
+                                                 (3U 
+                                                  & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U] 
+                                                     >> 0x11U)))
+                                                 ? 
+                                                ((((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                   << 0x39U) 
+                                                  | (((QData)((IData)(
+                                                                      vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                      << 0x19U) 
+                                                     | ((QData)((IData)(
+                                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                        >> 7U))) 
+                                                 + (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes)))
+                                                 : 
+                                                (((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                  << 0x39U) 
+                                                 | (((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                     << 0x19U) 
+                                                    | ((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                       >> 7U)))))) 
+                  << 7U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[6U] 
+            = ((0x800000U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[6U]) 
+               | (0xffffffU & (((IData)((0xffffffffffffULL 
+                                         & ((1U == 
+                                             (3U & 
+                                              (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U] 
+                                               >> 0x11U)))
+                                             ? ((((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                  << 0x39U) 
+                                                 | (((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                     << 0x19U) 
+                                                    | ((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                       >> 7U))) 
+                                                + (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes)))
+                                             : (((QData)((IData)(
+                                                                 vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                 << 0x39U) 
+                                                | (((QData)((IData)(
+                                                                    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                    << 0x19U) 
+                                                   | ((QData)((IData)(
+                                                                      vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                      >> 7U)))))) 
+                                >> 0x19U) | ((IData)(
+                                                     ((0xffffffffffffULL 
+                                                       & ((1U 
+                                                           == 
+                                                           (3U 
+                                                            & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U] 
+                                                               >> 0x11U)))
+                                                           ? 
+                                                          ((((QData)((IData)(
+                                                                             vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                             << 0x39U) 
+                                                            | (((QData)((IData)(
+                                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                                << 0x19U) 
+                                                               | ((QData)((IData)(
+                                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                                  >> 7U))) 
+                                                           + (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes)))
+                                                           : 
+                                                          (((QData)((IData)(
+                                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                            << 0x39U) 
+                                                           | (((QData)((IData)(
+                                                                               vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                               << 0x19U) 
+                                                              | ((QData)((IData)(
+                                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                                 >> 7U))))) 
+                                                      >> 0x20U)) 
+                                             << 7U))));
+    } else {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes 
+            = (0x1fffU & ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[4U] 
+                           << 9U) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U] 
+                                     >> 0x17U)));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U] 
+            = (0xffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U]);
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[4U] = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[5U] = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[6U] = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_finish = 1U;
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_addr_offset 
+        = (0x3fU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U] 
+                    >> 7U));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[1U] 
+        = ((7U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[1U]) 
+           | ((IData)((0xffffffffffc0ULL & (((QData)((IData)(
+                                                             vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                             << 0x19U) 
+                                            | (0x1ffffffffffffc0ULL 
+                                               & ((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                  >> 7U))))) 
+              << 3U));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[2U] 
+        = ((0x180000U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[2U]) 
+           | (0x1fffffU & (((IData)((0xffffffffffc0ULL 
+                                     & (((QData)((IData)(
+                                                         vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                         << 0x19U) 
+                                        | (0x1ffffffffffffc0ULL 
+                                           & ((QData)((IData)(
+                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                              >> 7U))))) 
+                            >> 0x1dU) | ((IData)(((0xffffffffffc0ULL 
+                                                   & (((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U])) 
+                                                       << 0x19U) 
+                                                      | (0x1ffffffffffffc0ULL 
+                                                         & ((QData)((IData)(
+                                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[5U])) 
+                                                            >> 7U)))) 
+                                                  >> 0x20U)) 
+                                         << 3U))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U] 
+        = ((0x7ffffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U]) 
+           | (0xf8000000U & ((((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes) 
+                               + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_addr_offset)) 
+                              - (IData)(1U)) << 0x15U)));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[1U] 
+        = ((0xfffffff8U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[1U]) 
+           | (7U & ((((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes) 
+                      + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_addr_offset)) 
+                     - (IData)(1U)) >> 0xbU)));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U] 
+        = (0x6000000U | (0xf8ffffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U]));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[2U] 
+        = ((0x7ffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[2U]) 
+           | (0x180000U & ((0x100000U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[6U] 
+                                         >> 3U)) | 
+                           ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_finish) 
+                            << 0x13U))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U] 
+        = ((0xff03ffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U]) 
+           | (0xfffc0000U & ((0xc00000U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U] 
+                                           << 5U)) 
+                             | (0x3c0000U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U] 
+                                             >> 1U)))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U] 
+        = ((0xfffc003fU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U]) 
+           | (0xffffffc0U & (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_addr_offset) 
+                              << 0xcU) | (0xfc0U & 
+                                          (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_num_bytes) 
+                                            + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_addr_offset)) 
+                                           << 6U)))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U] 
+        = ((0xffffffc0U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U]) 
+           | (0x3fU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U] 
+                       >> 2U)));
+    if (((0xffffffffffffULL & (((QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                << 0x11U) | ((QData)((IData)(
+                                                             vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U])) 
+                                             >> 0xfU))) 
+         > (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes_possible)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes_possible;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U] 
+            = ((0x7fffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U]) 
+               | ((IData)((0xffffffffffffULL & ((((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                  << 0x31U) 
+                                                 | (((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                     << 0x11U) 
+                                                    | ((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U])) 
+                                                       >> 0xfU))) 
+                                                - (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes_possible))))) 
+                  << 0xfU));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[1U] 
+            = ((0x80000000U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[1U]) 
+               | (((IData)((0xffffffffffffULL & ((((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                   << 0x31U) 
+                                                  | (((QData)((IData)(
+                                                                      vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                      << 0x11U) 
+                                                     | ((QData)((IData)(
+                                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U])) 
+                                                        >> 0xfU))) 
+                                                 - (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes_possible))))) 
+                   >> 0x11U) | ((IData)(((0xffffffffffffULL 
+                                          & ((((QData)((IData)(
+                                                               vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                               << 0x31U) 
+                                              | (((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                  << 0x11U) 
+                                                 | ((QData)((IData)(
+                                                                    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U])) 
+                                                    >> 0xfU))) 
+                                             - (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes_possible)))) 
+                                         >> 0x20U)) 
+                                << 0xfU)));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_finish = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[1U] 
+            = ((0x7fffffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[1U]) 
+               | ((IData)((0xffffffffffffULL & ((1U 
+                                                 == 
+                                                 (3U 
+                                                  & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U] 
+                                                     >> 9U)))
+                                                 ? 
+                                                ((((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                   << 0x21U) 
+                                                  | (((QData)((IData)(
+                                                                      vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                                      << 1U) 
+                                                     | ((QData)((IData)(
+                                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                        >> 0x1fU))) 
+                                                 + (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes)))
+                                                 : 
+                                                (((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                  << 0x21U) 
+                                                 | (((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                                     << 1U) 
+                                                    | ((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                       >> 0x1fU)))))) 
+                  << 0x1fU));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[2U] 
+            = (((IData)((0xffffffffffffULL & ((1U == 
+                                               (3U 
+                                                & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U] 
+                                                   >> 9U)))
+                                               ? ((
+                                                   ((QData)((IData)(
+                                                                    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                    << 0x21U) 
+                                                   | (((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                                       << 1U) 
+                                                      | ((QData)((IData)(
+                                                                         vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                         >> 0x1fU))) 
+                                                  + (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes)))
+                                               : (((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                   << 0x21U) 
+                                                  | (((QData)((IData)(
+                                                                      vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                                      << 1U) 
+                                                     | ((QData)((IData)(
+                                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                        >> 0x1fU)))))) 
+                >> 1U) | ((IData)(((0xffffffffffffULL 
+                                    & ((1U == (3U & 
+                                               (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U] 
+                                                >> 9U)))
+                                        ? ((((QData)((IData)(
+                                                             vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                             << 0x21U) 
+                                            | (((QData)((IData)(
+                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                                << 1U) 
+                                               | ((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                  >> 0x1fU))) 
+                                           + (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes)))
+                                        : (((QData)((IData)(
+                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                            << 0x21U) 
+                                           | (((QData)((IData)(
+                                                               vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                               << 1U) 
+                                              | ((QData)((IData)(
+                                                                 vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                 >> 0x1fU))))) 
+                                   >> 0x20U)) << 0x1fU));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U] 
+            = ((0xffff8000U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U]) 
+               | ((IData)(((0xffffffffffffULL & ((1U 
+                                                  == 
+                                                  (3U 
+                                                   & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U] 
+                                                      >> 9U)))
+                                                  ? 
+                                                 ((((QData)((IData)(
+                                                                    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                    << 0x21U) 
+                                                   | (((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                                       << 1U) 
+                                                      | ((QData)((IData)(
+                                                                         vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                         >> 0x1fU))) 
+                                                  + (QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes)))
+                                                  : 
+                                                 (((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                   << 0x21U) 
+                                                  | (((QData)((IData)(
+                                                                      vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                                      << 1U) 
+                                                     | ((QData)((IData)(
+                                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U])) 
+                                                        >> 0x1fU))))) 
+                           >> 0x20U)) >> 1U));
+    } else {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes 
+            = (0x1fffU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U] 
+                          >> 0xfU));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U] 
+            = (0xffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U]);
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[1U] = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[2U] = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U] 
+            = (0xffff0000U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U]);
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_finish = 1U;
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_addr_offset 
+        = (0x3fU & ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U] 
+                     << 1U) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[1U] 
+                               >> 0x1fU)));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[1U] 
+        = ((0x3fU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[1U]) 
+           | ((IData)((0xffffffffffc0ULL & (((QData)((IData)(
+                                                             vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                             << 0x21U) 
+                                            | (0xffffffffffffffc0ULL 
+                                               & ((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                                  << 1U))))) 
+              << 6U));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[2U] 
+        = ((0xc00000U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[2U]) 
+           | (0xffffffU & (((IData)((0xffffffffffc0ULL 
+                                     & (((QData)((IData)(
+                                                         vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                         << 0x21U) 
+                                        | (0xffffffffffffffc0ULL 
+                                           & ((QData)((IData)(
+                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                              << 1U))))) 
+                            >> 0x1aU) | ((IData)(((0xffffffffffc0ULL 
+                                                   & (((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U])) 
+                                                       << 0x21U) 
+                                                      | (0xffffffffffffffc0ULL 
+                                                         & ((QData)((IData)(
+                                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[2U])) 
+                                                            << 1U)))) 
+                                                  >> 0x20U)) 
+                                         << 6U))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U] 
+        = ((0x3fffffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U]) 
+           | (0xc0000000U & ((((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes) 
+                               + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_addr_offset)) 
+                              - (IData)(1U)) << 0x18U)));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[1U] 
+        = ((0xffffffc0U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[1U]) 
+           | (0x3fU & ((((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes) 
+                         + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_addr_offset)) 
+                        - (IData)(1U)) >> 8U)));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U] 
+        = (0x30000000U | (0xc7ffffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U]));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[2U] 
+        = ((0x3fffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[2U]) 
+           | (0xc00000U & ((0x800000U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[3U] 
+                                         << 8U)) | 
+                           ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_finish) 
+                            << 0x16U))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U] 
+        = ((0xf81fffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U]) 
+           | (0xffe00000U & ((0x6000000U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U] 
+                                            << 0x10U)) 
+                             | (0x1e00000U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_q[0U] 
+                                              << 0xaU)))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U] 
+        = ((0xffe001ffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U]) 
+           | (0xfffffe00U & (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_addr_offset) 
+                              << 0xfU) | (0x7e00U & 
+                                          (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_num_bytes) 
+                                            + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_addr_offset)) 
+                                           << 9U)))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U] 
+        = ((0xfffffe01U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U]) 
+           | (0x1feU & ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[1U] 
+                         << 3U) | (6U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U] 
+                                         >> 0x1dU)))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U] 
+        = ((0xfffffffeU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U]) 
+           | (0U == (0xffU & ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[1U] 
+                               << 2U) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U] 
+                                         >> 0x1eU)))));
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req_pop 
+        = (((((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__r_finish) 
+              & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__w_finish)) 
+             & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_valid)) 
+            & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req_ready)) 
+           & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req_ready));
+    if (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req_pop) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U] 
+            = ((0x1ffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U]) 
+               | ((IData)(((0x3ffffffffffffcULL & (
+                                                   ((QData)((IData)(
+                                                                    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[1U])) 
+                                                    << 0x17U) 
+                                                   | (0x7ffffffffffffcULL 
+                                                      & ((QData)((IData)(
+                                                                         vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U])) 
+                                                         >> 9U)))) 
+                           | (QData)((IData)((3U & 
+                                              (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U] 
+                                               >> 5U)))))) 
+                  << 0x11U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[4U] 
+            = (((IData)(((0x3ffffffffffffcULL & (((QData)((IData)(
+                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[1U])) 
+                                                  << 0x17U) 
+                                                 | (0x7ffffffffffffcULL 
+                                                    & ((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U])) 
+                                                       >> 9U)))) 
+                         | (QData)((IData)((3U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U] 
+                                                  >> 5U)))))) 
+                >> 0xfU) | ((IData)((((0x3ffffffffffffcULL 
+                                       & (((QData)((IData)(
+                                                           vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[1U])) 
+                                           << 0x17U) 
+                                          | (0x7ffffffffffffcULL 
+                                             & ((QData)((IData)(
+                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U])) 
+                                                >> 9U)))) 
+                                      | (QData)((IData)(
+                                                        (3U 
+                                                         & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U] 
+                                                            >> 5U))))) 
+                                     >> 0x20U)) << 0x11U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[5U] 
+            = (((0x1ff80U & ((IData)((0x1ffffffffffffULL 
+                                      & (((QData)((IData)(
+                                                          vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[4U])) 
+                                          << 0x11U) 
+                                         | ((QData)((IData)(
+                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[3U])) 
+                                            >> 0xfU)))) 
+                             << 7U)) | ((IData)((((0x3ffffffffffffcULL 
+                                                   & (((QData)((IData)(
+                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[1U])) 
+                                                       << 0x17U) 
+                                                      | (0x7ffffffffffffcULL 
+                                                         & ((QData)((IData)(
+                                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U])) 
+                                                            >> 9U)))) 
+                                                  | (QData)((IData)(
+                                                                    (3U 
+                                                                     & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U] 
+                                                                        >> 5U))))) 
+                                                 >> 0x20U)) 
+                                        >> 0xfU)) | 
+               (0xfffe0000U & ((IData)((0x1ffffffffffffULL 
+                                        & (((QData)((IData)(
+                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[4U])) 
+                                            << 0x11U) 
+                                           | ((QData)((IData)(
+                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[3U])) 
+                                              >> 0xfU)))) 
+                               << 7U)));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[6U] 
+            = (0xffffffU & ((((IData)((0x1ffffffffffffULL 
+                                       & (((QData)((IData)(
+                                                           vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[4U])) 
+                                           << 0x11U) 
+                                          | ((QData)((IData)(
+                                                             vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[3U])) 
+                                             >> 0xfU)))) 
+                              >> 0x19U) | (0x1ff80U 
+                                           & ((IData)(
+                                                      ((0x1ffffffffffffULL 
+                                                        & (((QData)((IData)(
+                                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[4U])) 
+                                                            << 0x11U) 
+                                                           | ((QData)((IData)(
+                                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[3U])) 
+                                                              >> 0xfU))) 
+                                                       >> 0x20U)) 
+                                              << 7U))) 
+                            | (0xfffe0000U & ((IData)(
+                                                      ((0x1ffffffffffffULL 
+                                                        & (((QData)((IData)(
+                                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[4U])) 
+                                                            << 0x11U) 
+                                                           | ((QData)((IData)(
+                                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[3U])) 
+                                                              >> 0xfU))) 
+                                                       >> 0x20U)) 
+                                              << 7U))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U] 
+            = ((0xfffeffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U]) 
+               | (((0ULL != (0xffffffffffffULL & (((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[1U])) 
+                                                   << 0x11U) 
+                                                  | ((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U])) 
+                                                     >> 0xfU)))) 
+                   & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_valid)) 
+                  << 0x10U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U] 
+            = ((0x1ffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U]) 
+               | ((0xffff8000U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U]) 
+                  | ((0x7800U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U] 
+                                 << 4U)) | (0x600U 
+                                            & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U] 
+                                               << 6U)))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[1U] 
+            = ((0x1ffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[1U]) 
+               | ((0x7e00U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[1U]) 
+                  | (0xffff8000U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[1U])));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[2U] 
+            = ((0x1ffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[2U]) 
+               | ((0x7e00U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[2U]) 
+                  | (0xffff8000U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[2U])));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U] 
+            = ((0xffff0000U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[3U]) 
+               | ((0x1ffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[3U]) 
+                  | ((0x7e00U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[3U]) 
+                     | (0x8000U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[4U] 
+                                   >> 0x10U)))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U] 
+            = ((0xfffffeffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U]) 
+               | (((0ULL != (0xffffffffffffULL & (((QData)((IData)(
+                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[1U])) 
+                                                   << 0x11U) 
+                                                  | ((QData)((IData)(
+                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U])) 
+                                                     >> 0xfU)))) 
+                   & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_valid)) 
+                  << 8U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U] 
+            = ((0xffffff00U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_burst_reshaper__DOT__burst_d[0U]) 
+               | ((0xfcU & ((((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[3U] 
+                               << 0x11U) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[3U] 
+                                            >> 0xfU)) 
+                             - ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[2U] 
+                                 << 1U) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[1U] 
+                                           >> 0x1fU))) 
+                            << 2U)) | (3U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req[0U] 
+                                             >> 1U))));
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__read_pointer_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__read_pointer_q;
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_q;
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT____Vcellinp__i_fifo_v3_last_twod_buffer__push_i) 
+         & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_n 
+            = (7U & ((IData)(1U) + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_q)));
+    }
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req_pop) 
+         & (0U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__read_pointer_n 
+            = ((2U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__read_pointer_n))
+                ? 0U : (3U & ((IData)(1U) + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__read_pointer_q))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_n 
+            = (7U & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_q) 
+                     - (IData)(1U)));
+    }
+    if (((((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT____Vcellinp__i_fifo_v3_last_twod_buffer__push_i) 
+           & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req_pop)) 
+          & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_q))) 
+         & (0U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_n 
+            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_q;
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__in_flight_d 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__in_flight_q;
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__burst_req_pop) 
+         & (0U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_burst_request_fifo__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__in_flight_d = 1U;
+    } else if (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__oned_trans_complete) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__in_flight_d = 0U;
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_n[0U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_q[0U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_n[1U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_q[1U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_n[2U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_q[2U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_n[3U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_q[3U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_n[4U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_q[4U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_n[5U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_q[5U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_n[6U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_q[6U];
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__ar_emitter_push) 
+         & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__gate_clock = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__write_pointer_n 
+            = ((2U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__write_pointer_q))
+                ? 0U : (3U & ((IData)(1U) + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__write_pointer_q))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT____Vlvbound_he35985f4__0[0U] 
+            = ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[1U] 
+                << 0xeU) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U] 
+                            >> 0x12U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT____Vlvbound_he35985f4__0[1U] 
+            = ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[2U] 
+                << 0xeU) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[1U] 
+                            >> 0x12U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT____Vlvbound_he35985f4__0[2U] 
+            = (7U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[2U] 
+                     >> 0x12U));
+        if ((0xc8U >= (0xffU & ((IData)(0x43U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__write_pointer_q))))) {
+            VL_ASSIGNSEL_WW(201,67,(0xffU & ((IData)(0x43U) 
+                                             * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__write_pointer_q))), vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT__mem_n, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_ar_emitter__DOT____Vlvbound_he35985f4__0);
+        }
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__mem_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__mem_q;
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__r_emitter_push) 
+         & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT____Vlvbound_hf0255459__0 
+            = (0x3ffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__read_req[0U]);
+        if ((0x35U >= (0x3fU & ((IData)(0x12U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__write_pointer_q))))) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__mem_n 
+                = (((~ (0x3ffffULL << (0x3fU & ((IData)(0x12U) 
+                                                * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__write_pointer_q))))) 
+                    & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__mem_n) 
+                   | (0x3fffffffffffffULL & ((QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT____Vlvbound_hf0255459__0)) 
+                                             << (0x3fU 
+                                                 & ((IData)(0x12U) 
+                                                    * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_r_emitter__DOT__write_pointer_q))))));
+        }
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_n[0U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_q[0U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_n[1U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_q[1U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_n[2U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_q[2U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_n[3U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_q[3U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_n[4U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_q[4U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_n[5U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_q[5U];
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_n[6U] 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_q[6U];
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__aw_emitter_push) 
+         & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__gate_clock = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__write_pointer_n 
+            = ((2U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__write_pointer_q))
+                ? 0U : (3U & ((IData)(1U) + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__write_pointer_q))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT____Vlvbound_he35985f4__0[0U] 
+            = ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[1U] 
+                << 0xbU) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U] 
+                            >> 0x15U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT____Vlvbound_he35985f4__0[1U] 
+            = ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[2U] 
+                << 0xbU) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[1U] 
+                            >> 0x15U));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT____Vlvbound_he35985f4__0[2U] 
+            = (7U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[2U] 
+                     >> 0x15U));
+        if ((0xc8U >= (0xffU & ((IData)(0x43U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__write_pointer_q))))) {
+            VL_ASSIGNSEL_WW(201,67,(0xffU & ((IData)(0x43U) 
+                                             * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__write_pointer_q))), vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT__mem_n, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_aw_emitter__DOT____Vlvbound_he35985f4__0);
+        }
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__mem_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__mem_q;
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__w_emitter_push) 
+         & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__gate_clock = 0U;
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__write_pointer_n 
+            = ((2U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__write_pointer_q))
+                ? 0U : (3U & ((IData)(1U) + (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__write_pointer_q))));
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT____Vlvbound_h66a81901__0 
+            = (0x1fffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[0U]);
+        if ((0x3eU >= (0x3fU & ((IData)(0x15U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__write_pointer_q))))) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__mem_n 
+                = (((~ (0x1fffffULL << (0x3fU & ((IData)(0x15U) 
+                                                 * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__write_pointer_q))))) 
+                    & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__mem_n) 
+                   | (0x7fffffffffffffffULL & ((QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT____Vlvbound_h66a81901__0)) 
+                                               << (0x3fU 
+                                                   & ((IData)(0x15U) 
+                                                      * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_fifo_w_emitter__DOT__write_pointer_q))))));
+        }
+    }
+    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__mem_n 
+        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__mem_q;
+    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__aw_emitter_push) 
+         & (6U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__status_cnt_q)))) {
+        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT____Vlvbound_ha752b5c1__0 
+            = (1U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__write_req[2U] 
+                     >> 0x16U));
+        if ((5U >= (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__write_pointer_q))) {
+            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__mem_n 
+                = (((~ ((IData)(1U) << (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__write_pointer_q))) 
+                    & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__mem_n)) 
+                   | (0x3fU & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT____Vlvbound_ha752b5c1__0) 
+                               << (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_last_transaction_queue__DOT__write_pointer_q))));
+        }
+    }
+}
+
 extern const VlWide<16>/*511:0*/ Vtestharness__ConstPool__CONST_h93e1b771_0;
 extern const VlWide<24>/*767:0*/ Vtestharness__ConstPool__CONST_hc2834e81_0;
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__12(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__141(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__12\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__141\n"); );
     // Body
     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_axi_dma_data_path__DOT__out_mask 
         = ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__gen_core__BRA__1__KET____DOT__i_snitch_cc__DOT__gen_dma__DOT__i_axi_dma_tc_snitch_fe__DOT__i_axi_dma_backend__DOT__i_axi_dma_data_mover__DOT__i_axi_dma_data_path__DOT__is_first_w)
@@ -3399,10 +4303,10 @@ VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__12(Vtestharness___
 
 extern const VlWide<17>/*543:0*/ Vtestharness__ConstPool__CONST_h00a540f1_0;
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__15(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__144(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__15\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__144\n"); );
     // Body
     vlSelf->testharness__DOT__i_dma__DOT__i_axi_to_reg__DOT__i_axi_to_axi_lite__DOT__i_axi_to_axi_lite__DOT__i_axi_burst_splitter__DOT__r_cnt_dec = 0U;
     if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_dma__DOT__i_axi_to_reg__DOT__i_axi_to_axi_lite__DOT__i_axi_to_axi_lite__DOT__i_axi_burst_splitter__DOT__r_state_q)))) {
@@ -3531,10 +4435,10 @@ VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__15(Vtestharness___
     }
 }
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__17(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__146(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__17\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__146\n"); );
     // Body
     vlSelf->testharness__DOT__i_mem__DOT__i_axi_to_reg__DOT__i_axi_to_axi_lite__DOT__i_axi_to_axi_lite__DOT__i_axi_burst_splitter__DOT__r_cnt_dec = 0U;
     if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_mem__DOT__i_axi_to_reg__DOT__i_axi_to_axi_lite__DOT__i_axi_to_axi_lite__DOT__i_axi_burst_splitter__DOT__r_state_q)))) {
@@ -3623,10 +4527,10 @@ extern const VlUnpacked<CData/*0:0*/, 256> Vtestharness__ConstPool__TABLE_h59fa7
 extern const VlWide<21>/*671:0*/ Vtestharness__ConstPool__CONST_h3bb60b43_0;
 extern const VlWide<21>/*671:0*/ Vtestharness__ConstPool__CONST_h1b90c464_0;
 
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__18(Vtestharness___024root* vlSelf) {
+VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__147(Vtestharness___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__18\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__147\n"); );
     // Init
     QData/*47:0*/ __Vfunc_testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_zeromem__DOT__i_axi_to_zeromem__DOT__i_axi_to_detailed_mem__DOT__i_mem_to_banks__DOT__align_addr__5__Vfuncout;
     __Vfunc_testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_zeromem__DOT__i_axi_to_zeromem__DOT__i_axi_to_detailed_mem__DOT__i_mem_to_banks__DOT__align_addr__5__Vfuncout = 0;
@@ -5888,753 +6792,5 @@ VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__18(Vtestharness___
                 }
             }
         }
-    }
-}
-
-VL_INLINE_OPT void Vtestharness___024root___act_sequent__TOP__19(Vtestharness___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtestharness__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtestharness___024root___act_sequent__TOP__19\n"); );
-    // Init
-    CData/*3:0*/ __Vfunc_from_axi_amo__14__Vfuncout;
-    __Vfunc_from_axi_amo__14__Vfuncout = 0;
-    CData/*5:0*/ __Vfunc_from_axi_amo__14__amo;
-    __Vfunc_from_axi_amo__14__amo = 0;
-    CData/*3:0*/ __Vfunc_from_axi_amo__14__result;
-    __Vfunc_from_axi_amo__14__result = 0;
-    VlWide<4>/*127:0*/ __Vtemp_2;
-    VlWide<4>/*127:0*/ __Vtemp_4;
-    VlWide<5>/*159:0*/ __Vtemp_6;
-    // Body
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
-        = (0x2fffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[0U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[1U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[1U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[2U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[2U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] = 0U;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U] = 0U;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U] = 0U;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid = 0U;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_d 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_q;
-    if ((0U < (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_q))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U] 
-            = ((0xfffffdffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U]) 
-               | ((1U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_q)) 
-                  << 9U));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid = 1U;
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[1U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[2U];
-        VL_ASSIGNSEL_WQ(68,48,0x14U, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta, 
-                        (0xffffffffffffULL & ((((QData)((IData)(
-                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[2U])) 
-                                                << 0x2cU) 
-                                               | (((QData)((IData)(
-                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[1U])) 
-                                                   << 0xcU) 
-                                                  | ((QData)((IData)(
-                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[0U])) 
-                                                     >> 0x14U))) 
-                                              + VL_EXTEND_QI(48,16, 
-                                                             ([&]() {
-                                vlSelf->__Vfunc_num_bytes__10__size 
-                                    = (7U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_q[0U] 
-                                             >> 2U));
-                                vlSelf->__Vfunc_num_bytes__10__Vfuncout 
-                                    = (0xffffU & ((IData)(1U) 
-                                                  << (IData)(vlSelf->__Vfunc_num_bytes__10__size)));
-                            }(), (IData)(vlSelf->__Vfunc_num_bytes__10__Vfuncout))))));
-        if ((1U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_ax_mux__inp_ready_o))) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_d 
-                = (0xffU & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_d) 
-                            - (IData)(1U)));
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U] 
-                = ((0xfffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U]) 
-                   | ((IData)((0xffffffffffffULL & 
-                               (((QData)((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U])) 
-                                 << 0x2cU) | (((QData)((IData)(
-                                                               vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U])) 
-                                               << 0xcU) 
-                                              | ((QData)((IData)(
-                                                                 vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U])) 
-                                                 >> 0x14U))))) 
-                      << 0x14U));
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[1U] 
-                = (((IData)((0xffffffffffffULL & (((QData)((IData)(
-                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U])) 
-                                                   << 0x2cU) 
-                                                  | (((QData)((IData)(
-                                                                      vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U])) 
-                                                      << 0xcU) 
-                                                     | ((QData)((IData)(
-                                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U])) 
-                                                        >> 0x14U))))) 
-                    >> 0xcU) | ((IData)(((0xffffffffffffULL 
-                                          & (((QData)((IData)(
-                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U])) 
-                                              << 0x2cU) 
-                                             | (((QData)((IData)(
-                                                                 vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U])) 
-                                                 << 0xcU) 
-                                                | ((QData)((IData)(
-                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U])) 
-                                                   >> 0x14U)))) 
-                                         >> 0x20U)) 
-                                << 0x14U));
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[2U] 
-                = (0xfU & ((IData)(((0xffffffffffffULL 
-                                     & (((QData)((IData)(
-                                                         vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U])) 
-                                         << 0x2cU) 
-                                        | (((QData)((IData)(
-                                                            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U])) 
-                                            << 0xcU) 
-                                           | ((QData)((IData)(
-                                                              vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U])) 
-                                              >> 0x14U)))) 
-                                    >> 0x20U)) >> 0xcU));
-        }
-    } else if ((2U & vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U])) {
-        VL_CONCAT_WQI(68,48,20, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d, 
-                      (0xffffffffffffULL & VL_SEL_QWII(128, 
-                                                       ([&]() {
-                            vlSelf->__Vfunc_aligned_addr__11__size 
-                                = (7U & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
-                                         >> 0x16U));
-                            vlSelf->__Vfunc_aligned_addr__11__addr[0U] 
-                                = (IData)((0xffffffffffffULL 
-                                           & (((QData)((IData)(
-                                                               vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
-                                               << 0x1fU) 
-                                              | ((QData)((IData)(
-                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
-                                                 >> 1U))));
-                            vlSelf->__Vfunc_aligned_addr__11__addr[1U] 
-                                = (IData)(((0xffffffffffffULL 
-                                            & (((QData)((IData)(
-                                                                vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
-                                                << 0x1fU) 
-                                               | ((QData)((IData)(
-                                                                  vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
-                                                  >> 1U))) 
-                                           >> 0x20U));
-                            vlSelf->__Vfunc_aligned_addr__11__addr[2U] = 0U;
-                            vlSelf->__Vfunc_aligned_addr__11__addr[3U] = 0U;
-                            VL_SHIFTR_WWI(128,128,3, __Vtemp_2, vlSelf->__Vfunc_aligned_addr__11__addr, (IData)(vlSelf->__Vfunc_aligned_addr__11__size));
-                            VL_SHIFTL_WWI(128,128,3, vlSelf->__Vfunc_aligned_addr__11__Vfuncout, __Vtemp_2, (IData)(vlSelf->__Vfunc_aligned_addr__11__size));
-                        }(), vlSelf->__Vfunc_aligned_addr__11__Vfuncout), 0U, 0x30U)), 
-                      ((0x3c00U & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U] 
-                                   >> 7U)) | (((0U 
-                                                == 
-                                                (0xffU 
-                                                 & ((vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U] 
-                                                     << 7U) 
-                                                    | (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
-                                                       >> 0x19U)))) 
-                                               << 9U) 
-                                              | ((0x1e0U 
-                                                  & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
-                                                     >> 3U)) 
-                                                 | ((0x1cU 
-                                                     & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
-                                                        >> 0x14U)) 
-                                                    | (1U 
-                                                       & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
-                                                          >> 0x13U)))))));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[0U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[1U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta_d[2U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid = 1U;
-        if ((1U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_ax_mux__inp_ready_o))) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_d 
-                = (0xffU & ((vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U] 
-                             << 7U) | (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[0U] 
-                                       >> 0x19U)));
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
-                = (0x100000U | vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
-        }
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
-            = ((0xfffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U]) 
-               | ((IData)((0xffffffffffffULL & (((QData)((IData)(
-                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
-                                                 << 0x1fU) 
-                                                | ((QData)((IData)(
-                                                                   vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
-                                                   >> 1U)))) 
-                  << 0x14U));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U] 
-            = (((IData)((0xffffffffffffULL & (((QData)((IData)(
-                                                               vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
-                                               << 0x1fU) 
-                                              | ((QData)((IData)(
-                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
-                                                 >> 1U)))) 
-                >> 0xcU) | ((IData)(((0xffffffffffffULL 
-                                      & (((QData)((IData)(
-                                                          vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
-                                          << 0x1fU) 
-                                         | ((QData)((IData)(
-                                                            vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
-                                            >> 1U))) 
-                                     >> 0x20U)) << 0x14U));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U] 
-            = (0xfU & ((IData)(((0xffffffffffffULL 
-                                 & (((QData)((IData)(
-                                                     vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) 
-                                     << 0x1fU) | ((QData)((IData)(
-                                                                  vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[1U])) 
-                                                  >> 1U))) 
-                                >> 0x20U)) >> 0xcU));
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
-        = (0x1fffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
-        = (0x37ffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[0U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[1U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[1U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[2U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[2U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] = 0U;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] = 0U;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U] = 0U;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid = 0U;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_d 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_q;
-    if ((0U < (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_q))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U] 
-            = ((0xfffffdffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U]) 
-               | ((1U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_q)) 
-                  << 9U));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[1U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[2U];
-        VL_ASSIGNSEL_WQ(68,48,0x14U, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta, 
-                        (0xffffffffffffULL & ((((QData)((IData)(
-                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[2U])) 
-                                                << 0x2cU) 
-                                               | (((QData)((IData)(
-                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[1U])) 
-                                                   << 0xcU) 
-                                                  | ((QData)((IData)(
-                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[0U])) 
-                                                     >> 0x14U))) 
-                                              + VL_EXTEND_QI(48,16, 
-                                                             ([&]() {
-                                vlSelf->__Vfunc_num_bytes__12__size 
-                                    = (7U & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_q[0U] 
-                                             >> 2U));
-                                vlSelf->__Vfunc_num_bytes__12__Vfuncout 
-                                    = (0xffffU & ((IData)(1U) 
-                                                  << (IData)(vlSelf->__Vfunc_num_bytes__12__size)));
-                            }(), (IData)(vlSelf->__Vfunc_num_bytes__12__Vfuncout))))));
-        if ((0x400000U & vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U])) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid = 1U;
-            if ((2U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_ax_mux__inp_ready_o))) {
-                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_d 
-                    = (0xffU & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_d) 
-                                - (IData)(1U)));
-                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
-                    = (0x80000U | vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
-                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U] 
-                    = ((0xfffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U]) 
-                       | ((IData)((0xffffffffffffULL 
-                                   & (((QData)((IData)(
-                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U])) 
-                                       << 0x2cU) | 
-                                      (((QData)((IData)(
-                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U])) 
-                                        << 0xcU) | 
-                                       ((QData)((IData)(
-                                                        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U])) 
-                                        >> 0x14U))))) 
-                          << 0x14U));
-                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[1U] 
-                    = (((IData)((0xffffffffffffULL 
-                                 & (((QData)((IData)(
-                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U])) 
-                                     << 0x2cU) | (((QData)((IData)(
-                                                                   vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U])) 
-                                                   << 0xcU) 
-                                                  | ((QData)((IData)(
-                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U])) 
-                                                     >> 0x14U))))) 
-                        >> 0xcU) | ((IData)(((0xffffffffffffULL 
-                                              & (((QData)((IData)(
-                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U])) 
-                                                  << 0x2cU) 
-                                                 | (((QData)((IData)(
-                                                                     vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U])) 
-                                                     << 0xcU) 
-                                                    | ((QData)((IData)(
-                                                                       vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U])) 
-                                                       >> 0x14U)))) 
-                                             >> 0x20U)) 
-                                    << 0x14U));
-                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[2U] 
-                    = (0xfU & ((IData)(((0xffffffffffffULL 
-                                         & (((QData)((IData)(
-                                                             vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U])) 
-                                             << 0x2cU) 
-                                            | (((QData)((IData)(
-                                                                vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U])) 
-                                                << 0xcU) 
-                                               | ((QData)((IData)(
-                                                                  vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U])) 
-                                                  >> 0x14U)))) 
-                                        >> 0x20U)) 
-                               >> 0xcU));
-            }
-        }
-    } else if ((1U & ((vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
-                       >> 2U) & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[2U] 
-                                 >> 0x16U)))) {
-        VL_CONCAT_WQI(68,48,20, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d, 
-                      (0xffffffffffffULL & VL_SEL_QWII(128, 
-                                                       ([&]() {
-                            vlSelf->__Vfunc_aligned_addr__13__size 
-                                = (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
-                                   >> 0x1dU);
-                            vlSelf->__Vfunc_aligned_addr__13__addr[0U] 
-                                = (IData)((0xffffffffffffULL 
-                                           & (((QData)((IData)(
-                                                               vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
-                                               << 0x18U) 
-                                              | ((QData)((IData)(
-                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
-                                                 >> 8U))));
-                            vlSelf->__Vfunc_aligned_addr__13__addr[1U] 
-                                = (IData)(((0xffffffffffffULL 
-                                            & (((QData)((IData)(
-                                                                vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
-                                                << 0x18U) 
-                                               | ((QData)((IData)(
-                                                                  vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
-                                                  >> 8U))) 
-                                           >> 0x20U));
-                            vlSelf->__Vfunc_aligned_addr__13__addr[2U] = 0U;
-                            vlSelf->__Vfunc_aligned_addr__13__addr[3U] = 0U;
-                            VL_SHIFTR_WWI(128,128,3, __Vtemp_4, vlSelf->__Vfunc_aligned_addr__13__addr, (IData)(vlSelf->__Vfunc_aligned_addr__13__size));
-                            VL_SHIFTL_WWI(128,128,3, vlSelf->__Vfunc_aligned_addr__13__Vfuncout, __Vtemp_4, (IData)(vlSelf->__Vfunc_aligned_addr__13__size));
-                        }(), vlSelf->__Vfunc_aligned_addr__13__Vfuncout), 0U, 0x30U)), 
-                      (2U | ((0xfc000U & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
-                                          << 9U)) | 
-                             ((0x3c00U & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U] 
-                                          >> 0xeU)) 
-                              | (((0U == (0xffU & vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
-                                  << 9U) | ((0x1e0U 
-                                             & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
-                                                >> 0xaU)) 
-                                            | ((0x1cU 
-                                                & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
-                                                   >> 0x1bU)) 
-                                               | (1U 
-                                                  & (vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U] 
-                                                     >> 0x1aU)))))))));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[0U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[1U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta_d[2U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid = 1U;
-        if ((2U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_ax_mux__inp_ready_o))) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_d 
-                = (0xffU & vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U]);
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
-                = (0x200000U | vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U] 
-                = (0x80000U | vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT____Vcellout__i_axi_to_tcdm__axi_rsp_o[2U]);
-        }
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
-            = ((0xfffffU & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U]) 
-               | ((IData)((0xffffffffffffULL & (((QData)((IData)(
-                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
-                                                 << 0x18U) 
-                                                | ((QData)((IData)(
-                                                                   vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
-                                                   >> 8U)))) 
-                  << 0x14U));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] 
-            = (((IData)((0xffffffffffffULL & (((QData)((IData)(
-                                                               vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
-                                               << 0x18U) 
-                                              | ((QData)((IData)(
-                                                                 vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
-                                                 >> 8U)))) 
-                >> 0xcU) | ((IData)(((0xffffffffffffULL 
-                                      & (((QData)((IData)(
-                                                          vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
-                                          << 0x18U) 
-                                         | ((QData)((IData)(
-                                                            vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
-                                            >> 8U))) 
-                                     >> 0x20U)) << 0x14U));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U] 
-            = (0xfU & ((IData)(((0xffffffffffffULL 
-                                 & (((QData)((IData)(
-                                                     vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[7U])) 
-                                     << 0x18U) | ((QData)((IData)(
-                                                                  vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[6U])) 
-                                                  >> 8U))) 
-                                >> 0x20U)) >> 0xcU));
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_q;
-    if (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__sel_lock_q) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_q;
-    } else if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid) 
-                ^ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid;
-    } else if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid) 
-                & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid))) {
-        if (((0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
-                      >> 5U)) > (0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
-                                         >> 5U)))) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d = 1U;
-        } else if (((0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
-                             >> 5U)) > (0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
-                                                >> 5U)))) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d = 0U;
-        } else if (((0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
-                             >> 5U)) == (0xfU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
-                                                 >> 5U)))) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d 
-                = ((1U & ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
-                           >> 9U) & (~ (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U] 
-                                        >> 9U)))) || 
-                   ((0U < (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__w_cnt_q)) 
-                    || ((0U >= (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__r_cnt_q)) 
-                        && (1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_q))))));
-        }
-    }
-    __Vtemp_6[0U] = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[0U];
-    __Vtemp_6[1U] = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[1U];
-    __Vtemp_6[2U] = ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
-                      << 4U) | vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_meta[2U]);
-    __Vtemp_6[3U] = ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[0U] 
-                      >> 0x1cU) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] 
-                                   << 4U));
-    __Vtemp_6[4U] = ((vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[1U] 
-                      >> 0x1cU) | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_meta[2U] 
-                                   << 4U));
-    if ((0x87U >= (0xffU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d))))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U] 
-            = (((0U == (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d))))
-                 ? 0U : (__Vtemp_6[((IData)(1U) + (7U 
-                                                   & (((IData)(0x44U) 
-                                                       * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
-                                                      >> 5U)))] 
-                         << ((IData)(0x20U) - (0x1fU 
-                                               & ((IData)(0x44U) 
-                                                  * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)))))) 
-               | (__Vtemp_6[(7U & (((IData)(0x44U) 
-                                    * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
-                                   >> 5U))] >> (0x1fU 
-                                                & ((IData)(0x44U) 
-                                                   * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)))));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[1U] 
-            = (((0U == (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d))))
-                 ? 0U : (__Vtemp_6[((IData)(2U) + (7U 
-                                                   & (((IData)(0x44U) 
-                                                       * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
-                                                      >> 5U)))] 
-                         << ((IData)(0x20U) - (0x1fU 
-                                               & ((IData)(0x44U) 
-                                                  * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)))))) 
-               | (__Vtemp_6[((IData)(1U) + (7U & (((IData)(0x44U) 
-                                                   * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
-                                                  >> 5U)))] 
-                  >> (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)))));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[2U] 
-            = (0xfU & (((0U == (0x1fU & ((IData)(0x44U) 
-                                         * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d))))
-                         ? 0U : (__Vtemp_6[((IData)(3U) 
-                                            + (7U & 
-                                               (((IData)(0x44U) 
-                                                 * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
-                                                >> 5U)))] 
-                                 << ((IData)(0x20U) 
-                                     - (0x1fU & ((IData)(0x44U) 
-                                                 * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)))))) 
-                       | (__Vtemp_6[((IData)(2U) + 
-                                     (7U & (((IData)(0x44U) 
-                                             * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)) 
-                                            >> 5U)))] 
-                          >> (0x1fU & ((IData)(0x44U) 
-                                       * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d))))));
-    } else {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U] = 0U;
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[1U] = 0U;
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[2U] = 0U;
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__arb_valid 
-        = (1U & ((((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__wr_valid) 
-                   << 1U) | (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__rd_valid)) 
-                 >> (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_sel_d)));
-    __Vfunc_from_axi_amo__14__amo = (0x3fU & (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U] 
-                                              >> 0xeU));
-    __Vfunc_from_axi_amo__14__result = ((0x20U & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                         ? ((0x10U 
-                                             & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                             ? ((8U 
-                                                 & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                 ? 0U
-                                                 : 
-                                                ((4U 
-                                                  & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                  ? 0U
-                                                  : 
-                                                 ((2U 
-                                                   & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                   ? 0U
-                                                   : 
-                                                  ((1U 
-                                                    & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                    ? 0U
-                                                    : 1U))))
-                                             : ((8U 
-                                                 & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                 ? 0U
-                                                 : 
-                                                ((4U 
-                                                  & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                  ? 
-                                                 ((2U 
-                                                   & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                   ? 
-                                                  ((1U 
-                                                    & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                    ? 9U
-                                                    : 7U)
-                                                   : 
-                                                  ((1U 
-                                                    & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                    ? 8U
-                                                    : 6U))
-                                                  : 
-                                                 ((2U 
-                                                   & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                   ? 
-                                                  ((1U 
-                                                    & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                    ? 4U
-                                                    : 5U)
-                                                   : 
-                                                  ((1U 
-                                                    & (IData)(__Vfunc_from_axi_amo__14__amo))
-                                                    ? 3U
-                                                    : 2U)))))
-                                         : 0U);
-    __Vfunc_from_axi_amo__14__Vfuncout = __Vfunc_from_axi_amo__14__result;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__amo 
-        = __Vfunc_from_axi_amo__14__Vfuncout;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__data 
-        = (((QData)((IData)(vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U])) 
-            << 0x3eU) | (((QData)((IData)(vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[4U])) 
-                          << 0x1eU) | ((QData)((IData)(
-                                                       vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[3U])) 
-                                       >> 2U)));
-    if ((3U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__amo))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__data 
-            = (~ (((QData)((IData)(vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[5U])) 
-                   << 0x3eU) | (((QData)((IData)(vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[4U])) 
-                                 << 0x1eU) | ((QData)((IData)(
-                                                              vlSymsp->TOP__testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_cluster_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux.mst_req_o[3U])) 
-                                              >> 2U))));
-    }
-    if ((1U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U])) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__amo 
-            = ((2U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U])
-                ? 0xbU : 0xaU);
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellinp__i_sel_buf__data_i 
-        = (((IData)((0x202U == (0x202U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U]))) 
-            << 1U) | (IData)((2U != (0x80002U & vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U]))));
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
-        = (6U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
-    if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork__DOT__gen_oup_state__BRA__0__KET____DOT__oup_state_q)))) {
-        if (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__arb_valid) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
-                = (1U | (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
-        }
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
-        = (5U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
-    if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork__DOT__gen_oup_state__BRA__1__KET____DOT__oup_state_q)))) {
-        if (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__arb_valid) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
-                = (2U | (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
-        }
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
-        = (3U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
-    if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork__DOT__gen_oup_state__BRA__2__KET____DOT__oup_state_q)))) {
-        if (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__arb_valid) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o 
-                = (4U | (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o));
-        }
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__push 
-        = ((3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__status_cnt_q)) 
-           & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o) 
-              >> 1U));
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__push 
-        = ((3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__status_cnt_q)) 
-           & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_fork__valid_o) 
-              >> 2U));
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__gate_clock = 1U;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[0U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[0U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[1U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[1U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[2U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[2U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[3U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[3U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[4U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[4U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[5U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[5U];
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n[6U] 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[6U];
-    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__push) 
-         & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__status_cnt_q)))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__gate_clock = 0U;
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT____Vlvbound_h3b3dc2ac__0[0U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT____Vlvbound_h3b3dc2ac__0[1U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[1U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT____Vlvbound_h3b3dc2ac__0[2U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[2U];
-        if ((0xcbU >= (0xffU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__write_pointer_q))))) {
-            VL_ASSIGNSEL_WW(204,68,(0xffU & ((IData)(0x44U) 
-                                             * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__write_pointer_q))), vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_n, vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT____Vlvbound_h3b3dc2ac__0);
-        }
-    }
-    if ((0xcbU >= (0xffU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q))))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[0U] 
-            = (((0U == (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q))))
-                 ? 0U : (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
-                         ((IData)(1U) + (7U & (((IData)(0x44U) 
-                                                * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
-                                               >> 5U)))] 
-                         << ((IData)(0x20U) - (0x1fU 
-                                               & ((IData)(0x44U) 
-                                                  * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)))))) 
-               | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
-                  (7U & (((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
-                         >> 5U))] >> (0x1fU & ((IData)(0x44U) 
-                                               * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)))));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[1U] 
-            = (((0U == (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q))))
-                 ? 0U : (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
-                         ((IData)(2U) + (7U & (((IData)(0x44U) 
-                                                * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
-                                               >> 5U)))] 
-                         << ((IData)(0x20U) - (0x1fU 
-                                               & ((IData)(0x44U) 
-                                                  * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)))))) 
-               | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
-                  ((IData)(1U) + (7U & (((IData)(0x44U) 
-                                         * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
-                                        >> 5U)))] >> 
-                  (0x1fU & ((IData)(0x44U) * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)))));
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[2U] 
-            = (0xfU & (((0U == (0x1fU & ((IData)(0x44U) 
-                                         * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q))))
-                         ? 0U : (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
-                                 ((IData)(3U) + (7U 
-                                                 & (((IData)(0x44U) 
-                                                     * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
-                                                    >> 5U)))] 
-                                 << ((IData)(0x20U) 
-                                     - (0x1fU & ((IData)(0x44U) 
-                                                 * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)))))) 
-                       | (vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__mem_q[
-                          ((IData)(2U) + (7U & (((IData)(0x44U) 
-                                                 * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q)) 
-                                                >> 5U)))] 
-                          >> (0x1fU & ((IData)(0x44U) 
-                                       * (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__read_pointer_q))))));
-    } else {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[0U] = 0U;
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[1U] = 0U;
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[2U] = 0U;
-    }
-    if (((0U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__status_cnt_q)) 
-         & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__push))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[0U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[0U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[1U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[1U];
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta_buf[2U] 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__meta[2U];
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__empty 
-        = ((~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__push)) 
-           & (0U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_meta_buf__DOT__fifo_i__DOT__status_cnt_q)));
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__gate_clock = 1U;
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__mem_n 
-        = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__mem_q;
-    if (((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__push) 
-         & (3U != (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__status_cnt_q)))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__gate_clock = 0U;
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT____Vlvbound_haaa6db43__0 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellinp__i_sel_buf__data_i;
-        if ((5U >= (7U & VL_SHIFTL_III(3,32,32, (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__write_pointer_q), 1U)))) {
-            vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__mem_n 
-                = (((~ ((IData)(3U) << (7U & VL_SHIFTL_III(3,32,32, (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__write_pointer_q), 1U)))) 
-                    & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__mem_n)) 
-                   | (0x3fU & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT____Vlvbound_haaa6db43__0) 
-                               << (7U & VL_SHIFTL_III(3,32,32, (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__write_pointer_q), 1U)))));
-        }
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_sel_buf__data_o 
-        = ((5U >= (7U & VL_SHIFTL_III(3,32,32, (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__read_pointer_q), 1U)))
-            ? (3U & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__mem_q) 
-                     >> (7U & VL_SHIFTL_III(3,32,32, (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__read_pointer_q), 1U))))
-            : 0U);
-    if (((0U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__status_cnt_q)) 
-         & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__push))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_sel_buf__data_o 
-            = vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellinp__i_sel_buf__data_i;
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__empty 
-        = ((~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__push)) 
-           & (0U == (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__fifo_i__DOT__status_cnt_q)));
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready 
-        = (2U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready));
-    if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__empty)))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready 
-            = ((2U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready)) 
-               | ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_sel_buf__data_o))) 
-                  || (1U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellinp__i_fork_dynamic__ready_i))));
-    }
-    vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready 
-        = (1U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready));
-    if ((1U & (~ (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_sel_buf__DOT__empty)))) {
-        vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready 
-            = ((1U & (IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT__i_fork_dynamic__DOT__int_oup_ready)) 
-               | (((1U & (~ ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellout__i_sel_buf__data_o) 
-                             >> 1U))) || (1U & ((IData)(vlSelf->testharness__DOT__i_snax_dream_cluster__DOT__i_cluster__DOT__i_axi_to_tcdm__DOT__i_axi_to_reqrsp__DOT____Vcellinp__i_fork_dynamic__ready_i) 
-                                                >> 1U))) 
-                  << 1U));
     }
 }

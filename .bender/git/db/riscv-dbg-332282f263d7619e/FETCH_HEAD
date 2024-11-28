@@ -4,6 +4,7 @@ a847d781acc4a65126142edac09e13188b257499	not-for-merge	branch 'feature/dmi-bscan
 786e01917da2c9550a8044765ea08a9a85242826	not-for-merge	branch 'for-release' of https://github.com/pulp-platform/riscv-dbg
 618ee6e0e2610ef47e0dcc4df6748af3dffff731	not-for-merge	branch 'master' of https://github.com/pulp-platform/riscv-dbg
 5b21f3504fc3913320b39b477ef2a4274e09581d	not-for-merge	branch 'pr/fixready' of https://github.com/pulp-platform/riscv-dbg
+618ee6e0e2610ef47e0dcc4df6748af3dffff731	not-for-merge	branch 'pr/verilator' of https://github.com/pulp-platform/riscv-dbg
 7c6918a5a5bd865b11d55a1e1f17ddeed32d6e5e	not-for-merge	branch 'reset_fix' of https://github.com/pulp-platform/riscv-dbg
 8ef87abf81cab39ad7b52435aa2a3357678fa1d6	not-for-merge	branch 'verilator-phsauter' of https://github.com/pulp-platform/riscv-dbg
 ae7df0f2b2552df2c5d95b38e8579dcccb0e102d	not-for-merge	branch 'verilator-tbenz' of https://github.com/pulp-platform/riscv-dbg

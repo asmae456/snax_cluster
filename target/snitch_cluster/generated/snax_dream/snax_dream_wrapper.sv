@@ -89,6 +89,8 @@ module snax_dream_wrapper # (
   logic                         acc_csr_reg_set_valid;
   logic                         acc_csr_reg_set_ready;
   logic [NumRoCsr-1:0][31:0]    acc_csr_reg_ro_set;
+  logic                         acc2stream_0_ready1= 1'b1;
+
 
   //-------------------------------
   // MUX and DEMUX for control signals
@@ -202,10 +204,14 @@ module snax_dream_wrapper # (
     //-----------------------------
     // Packed CSR register signals
     //-----------------------------
-    .csr_reg_set_i        ( acc_csr_reg_rw_set    ),
+    .csr_reg_set_i_0   ( acc_csr_reg_rw_set[0] ),
+    .csr_reg_set_i_1   ( acc_csr_reg_rw_set[1] ),
+    .csr_reg_set_i_2   ( acc_csr_reg_rw_set[2] ),
     .csr_reg_set_valid_i  ( acc_csr_reg_set_valid ),
     .csr_reg_set_ready_o  ( acc_csr_reg_set_ready ),
-    .csr_reg_ro_set_o     ( acc_csr_reg_ro_set    )
+    // Read-only CSRs
+    .csr_reg_ro_set_o_0   ( acc_csr_reg_ro_set[0] ),  
+    .csr_reg_ro_set_o_1   ( acc_csr_reg_ro_set[1] )  
   );
 
   //-----------------------------

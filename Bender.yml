@@ -89,6 +89,7 @@ export_include_dirs:
   - hw/snitch/include
   - hw/snitch_ssr/include
 
+
 sources:
   # future
   - files:
@@ -112,6 +113,11 @@ sources:
       - hw/future/test/fixture_axi_dma_backend.sv
       - hw/future/test/tb_axi_dma_backend.sv
 
+  #Include memory IP 
+  - target: tech_cells_generic_exclude_tc_sram
+    files:
+      - target/snitch_cluster/Memory_SRAM/TUDDCIM_sram.sv
+  
   # reqrsp_interface
   - files:
       # Level 0
@@ -300,6 +306,8 @@ sources:
   - target: snax_dream
     files:
       # Level 0
+      #- hw/snax_dream/src/snax_dream_csr.sv
+      #- hw/snax_dream/src/Top_level.v
       - target/snitch_cluster/generated/snax_dream/snax_dream_csrman_CsrManager.sv
       - target/snitch_cluster/generated/snax_dream/snax_dream_streamer_StreamerTop.sv
       # Level 1

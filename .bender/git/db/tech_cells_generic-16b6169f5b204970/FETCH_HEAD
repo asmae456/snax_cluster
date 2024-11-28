@@ -4,6 +4,7 @@ bc74aa5b1383660c95e90a0800abb545e917a5f1	not-for-merge	branch 'bender-synth-fix'
 7e92d7aae3af501b7f0d96bf902ee84b50e1b5c6	not-for-merge	branch 'ck/feature/tc_sram_macro' of https://github.com/pulp-platform/tech_cells_generic
 46f5584b0b81be9d9736ff3be3cb5c2c593763a4	not-for-merge	branch 'disable_init' of https://github.com/pulp-platform/tech_cells_generic
 d630579ee989bcef62414373fca3a4854e504bbb	not-for-merge	branch 'feature/tc_sram_impl' of https://github.com/pulp-platform/tech_cells_generic
+f994e040cf2e2858456b14f8264260240a39bf9c	not-for-merge	branch 'feature/tc_sram_pwrgate' of https://github.com/pulp-platform/tech_cells_generic
 86188d33d0204aa8b3079b33f7e15abfdb0b4272	not-for-merge	branch 'features/snitch' of https://github.com/pulp-platform/tech_cells_generic
 360fe59db4b37975a3f1b4f33ef385b7f2e0cd92	not-for-merge	branch 'fix/fpga_clk_mux' of https://github.com/pulp-platform/tech_cells_generic
 c815e3a9673522a01c1192fb543a9fd186a32737	not-for-merge	branch 'fix/verilator' of https://github.com/pulp-platform/tech_cells_generic

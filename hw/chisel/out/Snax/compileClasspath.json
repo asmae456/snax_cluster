@@ -80,8 +80,8 @@
         "qref:v1:307e573e:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar",
         "qref:v1:02881b91:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar",
         "qref:v1:6cc36184:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar",
-        "ref:v0:c984eca8:/workspaces/snax_cluster/hw/chisel/compile-resources"
+        "ref:v0:c984eca8:/workspaces/snax_cluster/hw/chisel/out/Snax/compileResources.dest/compile-resources"
     ],
-    "valueHash": 150958118,
-    "inputsHash": -1911054831
+    "valueHash": 990679980,
+    "inputsHash": 13573403
 }

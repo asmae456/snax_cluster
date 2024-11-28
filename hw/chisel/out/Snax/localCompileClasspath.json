@@ -1,7 +1,7 @@
 {
     "value": [
-        "ref:v0:c984eca8:/workspaces/snax_cluster/hw/chisel/compile-resources"
+        "ref:v0:c984eca8:/workspaces/snax_cluster/hw/chisel/out/Snax/compileResources.dest/compile-resources"
     ],
-    "valueHash": -1791666201,
-    "inputsHash": -1170774213
+    "valueHash": -362670641,
+    "inputsHash": 933163499
 }

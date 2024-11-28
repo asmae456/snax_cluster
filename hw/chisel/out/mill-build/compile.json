@@ -1,8 +1,8 @@
 {
     "value": {
         "analysisFile": "/workspaces/snax_cluster/hw/chisel/out/mill-build/compile.dest/zinc",
-        "classes": "ref:v0:07592734:/workspaces/snax_cluster/hw/chisel/out/mill-build/compile.dest/classes"
+        "classes": "ref:v0:1223e390:/workspaces/snax_cluster/hw/chisel/out/mill-build/compile.dest/classes"
     },
-    "valueHash": -273456724,
-    "inputsHash": 1633636356
+    "valueHash": 964425952,
+    "inputsHash": 2083608563
 }

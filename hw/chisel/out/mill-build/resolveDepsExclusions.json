@@ -2,7 +2,19 @@
     "value": [
         [
             "com.lihaoyi",
+            "mill-main-init_2.13"
+        ],
+        [
+            "com.lihaoyi",
             "mill-idea_2.13"
+        ],
+        [
+            "com.lihaoyi",
+            "mill-runner-client"
+        ],
+        [
+            "com.lihaoyi",
+            "mill-main-server_2.13"
         ],
         [
             "com.lihaoyi",
@@ -31,6 +43,14 @@
         [
             "com.lihaoyi",
             "mill-scalajslib_2.13"
+        ],
+        [
+            "com.lihaoyi",
+            "mill-kotlinlib-worker_2.13"
+        ],
+        [
+            "com.lihaoyi",
+            "mill-kotlinlib_2.13"
         ],
         [
             "com.lihaoyi",
@@ -81,16 +101,12 @@
             "mill-runner_2.13"
         ],
         [
-            "com.lihaoyi",
-            "fastparse_2.13"
+            "com.eed3si9n.jarjar",
+            "jarjar"
         ],
         [
             "org.codehaus.plexus",
             "plexus-utils"
-        ],
-        [
-            "com.lihaoyi",
-            "upack_2.13"
         ],
         [
             "org.codehaus.plexus",
@@ -98,43 +114,63 @@
         ],
         [
             "com.lihaoyi",
-            "sourcecode_2.13"
+            "upickle_2.13"
         ],
         [
-            "com.kohlschutter.junixsocket",
-            "junixsocket-native-common"
+            "org.scala-lang.modules",
+            "scala-parallel-collections_2.13"
+        ],
+        [
+            "com.lihaoyi",
+            "requests_2.13"
+        ],
+        [
+            "io.github.java-diff-utils",
+            "java-diff-utils"
+        ],
+        [
+            "org.scala-lang",
+            "scala-reflect"
         ],
         [
             "com.eed3si9n.jarjarabrams",
             "jarjar-abrams-core_2.13"
         ],
         [
-            "io.github.alexarchambault",
-            "concurrent-reference-hash-map"
+            "com.lihaoyi",
+            "sourcecode_2.13"
         ],
         [
-            "com.typesafe",
-            "config"
+            "com.lihaoyi",
+            "scalaparse_2.13"
+        ],
+        [
+            "org.ow2.asm",
+            "asm-tree"
         ],
         [
             "org.scala-lang.modules",
             "scala-xml_2.13"
         ],
         [
+            "org.jheaps",
+            "jheaps"
+        ],
+        [
             "org.codehaus.plexus",
             "plexus-archiver"
         ],
         [
-            "io.get-coursier",
-            "coursier-cache_2.13"
-        ],
-        [
-            "com.eed3si9n.jarjar",
-            "jarjar"
+            "org.apache.commons",
+            "commons-compress"
         ],
         [
             "com.lihaoyi",
             "ujson_2.13"
+        ],
+        [
+            "org.apache.commons",
+            "commons-lang3"
         ],
         [
             "org.apache.xbean",
@@ -145,16 +181,52 @@
             "upickle-implicits_2.13"
         ],
         [
-            "org.scalameta",
-            "scalafmt-dynamic_2.13"
+            "ch.qos.logback",
+            "logback-core"
         ],
         [
-            "org.apache.commons",
-            "commons-lang3"
+            "org.jline",
+            "jline"
         ],
         [
-            "commons-codec",
-            "commons-codec"
+            "com.lihaoyi",
+            "os-lib_2.13"
+        ],
+        [
+            "org.slf4j",
+            "slf4j-api"
+        ],
+        [
+            "com.lihaoyi",
+            "fastparse_2.13"
+        ],
+        [
+            "io.get-coursier",
+            "coursier-util_2.13"
+        ],
+        [
+            "ch.qos.logback",
+            "logback-classic"
+        ],
+        [
+            "com.lihaoyi",
+            "upack_2.13"
+        ],
+        [
+            "com.google.code.findbugs",
+            "jsr305"
+        ],
+        [
+            "com.kohlschutter.junixsocket",
+            "junixsocket-common"
+        ],
+        [
+            "guru.nidi.com.eclipsesource.j2v8",
+            "j2v8_linux_x86_64"
+        ],
+        [
+            "net.java.dev.jna",
+            "jna-platform"
         ],
         [
             "com.lihaoyi",
@@ -162,31 +234,23 @@
         ],
         [
             "org.scalameta",
-            "scalafmt-interfaces"
+            "scalafmt-sysops_2.13"
         ],
         [
-            "com.lihaoyi",
-            "os-lib_2.13"
+            "com.kohlschutter.junixsocket",
+            "junixsocket-native-common"
         ],
         [
-            "com.lihaoyi",
-            "upickle_2.13"
+            "org.slf4j",
+            "jul-to-slf4j"
         ],
         [
-            "io.get-coursier",
-            "coursier-proxy-setup"
-        ],
-        [
-            "net.java.dev.jna",
-            "jna-platform"
+            "org.scala-lang",
+            "scala-compiler"
         ],
         [
             "com.github.luben",
             "zstd-jni"
-        ],
-        [
-            "com.kohlschutter.junixsocket",
-            "junixsocket-core"
         ],
         [
             "com.lihaoyi",
@@ -201,20 +265,12 @@
             "plexus-io"
         ],
         [
-            "io.get-coursier",
-            "coursier_2.13"
+            "org.jgrapht",
+            "jgrapht-core"
         ],
         [
             "org.tukaani",
             "xz"
-        ],
-        [
-            "org.apache.commons",
-            "commons-compress"
-        ],
-        [
-            "net.java.dev.jna",
-            "jna"
         ],
         [
             "org.virtuslab.scala-cli",
@@ -225,10 +281,6 @@
             "geny_2.13"
         ],
         [
-            "org.jline",
-            "jline"
-        ],
-        [
             "com.lihaoyi",
             "pprint_2.13"
         ],
@@ -237,36 +289,24 @@
             "upickle-core_2.13"
         ],
         [
-            "io.get-coursier.jniutils",
-            "windows-jni-utils"
+            "guru.nidi",
+            "graphviz-java-min-deps"
         ],
         [
-            "com.lihaoyi",
-            "requests_2.13"
+            "io.get-coursier.jniutils",
+            "windows-jni-utils"
         ],
         [
             "javax.inject",
             "javax.inject"
         ],
         [
-            "io.github.java-diff-utils",
-            "java-diff-utils"
+            "com.kohlschutter.junixsocket",
+            "junixsocket-core"
         ],
         [
-            "io.get-coursier",
-            "interface"
-        ],
-        [
-            "org.scala-lang",
-            "scala-compiler"
-        ],
-        [
-            "org.scala-lang",
-            "scala-library"
-        ],
-        [
-            "io.get-coursier",
-            "coursier-core_2.13"
+            "com.lihaoyi",
+            "mill-moduledefs_2.13"
         ],
         [
             "org.iq80.snappy",
@@ -277,12 +317,48 @@
             "jansi"
         ],
         [
-            "commons-io",
-            "commons-io"
+            "commons-codec",
+            "commons-codec"
         ],
         [
             "io.get-coursier",
-            "coursier-util_2.13"
+            "coursier-core_2.13"
+        ],
+        [
+            "io.get-coursier",
+            "interface"
+        ],
+        [
+            "org.scala-lang",
+            "scala-library"
+        ],
+        [
+            "com.typesafe",
+            "config"
+        ],
+        [
+            "org.ow2.asm",
+            "asm"
+        ],
+        [
+            "io.github.alexarchambault",
+            "concurrent-reference-hash-map"
+        ],
+        [
+            "guru.nidi",
+            "graphviz-java"
+        ],
+        [
+            "io.get-coursier",
+            "coursier-cache_2.13"
+        ],
+        [
+            "io.get-coursier",
+            "coursier_2.13"
+        ],
+        [
+            "io.get-coursier",
+            "coursier-proxy-setup"
         ],
         [
             "org.scala-sbt",
@@ -290,49 +366,41 @@
         ],
         [
             "org.ow2.asm",
-            "asm-tree"
+            "asm-commons"
         ],
         [
-            "org.ow2.asm",
-            "asm-commons"
+            "commons-io",
+            "commons-io"
         ],
         [
             "com.github.plokhotnyuk.jsoniter-scala",
             "jsoniter-scala-core_2.13"
         ],
         [
-            "org.scala-lang",
-            "scala-reflect"
+            "org.scalameta",
+            "scalafmt-interfaces"
+        ],
+        [
+            "org.scalameta",
+            "scalafmt-dynamic_2.13"
+        ],
+        [
+            "net.java.dev.jna",
+            "jna"
+        ],
+        [
+            "org.slf4j",
+            "jcl-over-slf4j"
         ],
         [
             "org.codehaus.plexus",
             "plexus-classworlds"
         ],
         [
-            "org.slf4j",
-            "slf4j-api"
-        ],
-        [
             "io.github.alexarchambault.windows-ansi",
             "windows-ansi"
-        ],
-        [
-            "com.kohlschutter.junixsocket",
-            "junixsocket-common"
-        ],
-        [
-            "org.ow2.asm",
-            "asm"
-        ],
-        [
-            "com.lihaoyi",
-            "mill-moduledefs_2.13"
-        ],
-        [
-            "com.lihaoyi",
-            "scalaparse_2.13"
         ]
     ],
-    "valueHash": -1508367399,
-    "inputsHash": -1009541131
+    "valueHash": 373412848,
+    "inputsHash": -744318735
 }

@@ -12,7 +12,7 @@ e81983275921c6d55786ca5e2be1a2438df5e79a	not-for-merge	branch 'fix_subword-tbenz
 a8828a5919b5ea16ef16d747f7935410956eb430	not-for-merge	branch 'hero-clic' of https://github.com/pulp-platform/register_interface
 ab057a1db49d0c185f739ca395ad0e979da34a1b	not-for-merge	branch 'ipapprox' of https://github.com/pulp-platform/register_interface
 b1bc9c22e0c2a5801107070c022904498dbae34b	not-for-merge	branch 'ipapprox-keep' of https://github.com/pulp-platform/register_interface
-ae616e5a1ec2b41e72d200e5ab09c65e94aebd3d	not-for-merge	branch 'master' of https://github.com/pulp-platform/register_interface
+3a7b9e28d671ab646e25338caa89bb0c22dfcae8	not-for-merge	branch 'master' of https://github.com/pulp-platform/register_interface
 fad20a39732f6bd0193f90cbea294d4a81571f2f	not-for-merge	branch 'paulsc/reg_to_axi' of https://github.com/pulp-platform/register_interface
 673eeda79958fc015bae298e4eaf7346421cba35	not-for-merge	branch 'sriedel/param' of https://github.com/pulp-platform/register_interface
 0f4bd05f3ebc7397290ac38f194f2362b7a054f2	not-for-merge	branch 'vendor_rebase' of https://github.com/pulp-platform/register_interface
@@ -38,3 +38,4 @@ e3a4955071fcf554febd4b29a7c7a52c7f1e7fc6	not-for-merge	tag 'v0.3.8' of https://g
 d7693be4aef1fc7e7eb2b00b41c42e87d959866c	not-for-merge	tag 'v0.4.2' of https://github.com/pulp-platform/register_interface
 e25b36670ff7aab3402f40efcc2b11ee0f31cf19	not-for-merge	tag 'v0.4.3' of https://github.com/pulp-platform/register_interface
 ae616e5a1ec2b41e72d200e5ab09c65e94aebd3d	not-for-merge	tag 'v0.4.4' of https://github.com/pulp-platform/register_interface
+5daa85d164cf6b54ad061ea1e4c6f3624556e467	not-for-merge	tag 'v0.4.5' of https://github.com/pulp-platform/register_interface
