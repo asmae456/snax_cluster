@@ -2,6 +2,7 @@
 7cadddf44517d8a064d8e70c0c88017d1dc43ea5	not-for-merge	branch 'ci' of https://github.com/pulp-platform/common_verification
 8e96774180c607b179189f6ee105fedeb87829d7	not-for-merge	branch 'fix-clk_rst_gen' of https://github.com/pulp-platform/common_verification
 9c07fa860593b2caabd9b5681740c25fac04b878	not-for-merge	branch 'master' of https://github.com/pulp-platform/common_verification
+1cf6feb3bf779029bd0039a2b18e1da35954ef83	not-for-merge	branch 'scheremo/verilator' of https://github.com/pulp-platform/common_verification
 e1180111e2bb9def1eb790d96a3a65993b84536f	not-for-merge	branch 'verilator-fix' of https://github.com/pulp-platform/common_verification
 52e27bcf483534fc4f78770ef1024a6c2402a51f	not-for-merge	tag 'v0.1.0' of https://github.com/pulp-platform/common_verification
 6ce8f2acf88907549d1deeb658e1c0431c56c6b9	not-for-merge	tag 'v0.1.1' of https://github.com/pulp-platform/common_verification

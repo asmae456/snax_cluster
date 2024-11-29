@@ -34,11 +34,13 @@
                     }
                 },
                 "optional": false,
-                "transitive": true
+                "transitive": true,
+                "overrides": [],
+                "boms": []
             },
             "force": true
         }
     ],
-    "valueHash": -1197461526,
-    "inputsHash": -125426136
+    "valueHash": -1840769555,
+    "inputsHash": 1122760366
 }

@@ -24,6 +24,7 @@ c439813c28dda0d6b74e9b72539c546c9c15c5ae	not-for-merge	branch 'michaero/mem_to_b
 0b8c10c21c9f810509bbd7bf86cfbdc4e6626c8e	not-for-merge	branch 'pulp-soc' of https://github.com/pulp-platform/common_cells
 842753eabe166818bde831908c865872d115528d	not-for-merge	branch 'remove-ffnr' of https://github.com/pulp-platform/common_cells
 3e433be23a022467a33bebc6c8ef7a6effb5b93e	not-for-merge	branch 'rr_distributor' of https://github.com/pulp-platform/common_cells
+96562c55bacff747482ad93a3f8b66d6adcd0448	not-for-merge	branch 'scheremo/verilator' of https://github.com/pulp-platform/common_cells
 7522cba64336f130a538b6f869618960210bcd98	not-for-merge	branch 'scheremo/vlt' of https://github.com/pulp-platform/common_cells
 944538538befdbd26698800bfd24f808373e82b7	not-for-merge	branch 'sync_t' of https://github.com/pulp-platform/common_cells
 78ca0981f2814848d4a3263d6ee8c56ecbe725f9	not-for-merge	branch 'update-deps' of https://github.com/pulp-platform/common_cells

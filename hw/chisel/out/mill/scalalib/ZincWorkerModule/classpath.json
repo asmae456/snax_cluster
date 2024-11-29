@@ -1,12 +1,12 @@
 {
     "value": [
-        "qref:v1:4e105171:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-worker_2.13/0.12.2/mill-scalalib-worker_2.13-0.12.2.jar",
+        "qref:v1:55fe3961:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-worker_2.13/0.12.3/mill-scalalib-worker_2.13-0.12.3.jar",
         "qref:v1:7e651572:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc_2.13/1.10.4/zinc_2.13-1.10.4.jar",
         "qref:v1:69af3197:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.24.1/log4j-core-2.24.1.jar",
         "qref:v1:5baca8bd:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.15/scalap-2.13.15.jar",
         "qref:v1:66635991:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar",
         "qref:v1:147a7190:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-moduledefs_2.13/0.11.1/mill-moduledefs_2.13-0.11.1.jar",
-        "qref:v1:ed8d9165:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-api_2.13/0.12.2/mill-scalalib-api_2.13-0.12.2.jar",
+        "qref:v1:37925280:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-api_2.13/0.12.3/mill-scalalib-api_2.13-0.12.3.jar",
         "qref:v1:424de848:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.13/1.10.4/zinc-core_2.13-1.10.4.jar",
         "qref:v1:723fb5ec:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.13/1.10.4/zinc-persist_2.13-1.10.4.jar",
         "qref:v1:26688d5c:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.13/1.10.4/zinc-compile-core_2.13-1.10.4.jar",
@@ -14,7 +14,7 @@
         "qref:v1:0ef00ae5:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.24.1/log4j-api-2.24.1.jar",
         "qref:v1:930501cd:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.15/scala-compiler-2.13.15.jar",
         "qref:v1:c69a5577:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.4.0/sourcecode_2.13-0.4.0.jar",
-        "qref:v1:4ba8c57f:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-main-api_2.13/0.12.2/mill-main-api_2.13-0.12.2.jar",
+        "qref:v1:8f1ee3b4:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-main-api_2.13/0.12.3/mill-main-api_2.13-0.12.3.jar",
         "qref:v1:698f2364:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.13/1.10.4/zinc-apiinfo_2.13-1.10.4.jar",
         "qref:v1:0e92ea7f:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.13/1.10.4/zinc-classpath_2.13-1.10.4.jar",
         "qref:v1:ab0cd31d:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.10.4/compiler-interface-1.10.4.jar",
@@ -31,15 +31,15 @@
         "qref:v1:75266263:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-control_2.13/1.10.4/util-control_2.13-1.10.4.jar",
         "qref:v1:0d6dad67:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.15/scala-reflect-2.13.15.jar",
         "qref:v1:c3fede0e:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
-        "qref:v1:b7df70f4:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.27.1/jline-3.27.1.jar",
+        "qref:v1:756f448c:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.26.3/jline-3.26.3.jar",
         "qref:v1:93dd03ee:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar",
-        "qref:v1:7dee6da8:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.11.3/os-lib_2.13-0.11.3.jar",
+        "qref:v1:6fef0d50:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.11.4-M2/os-lib_2.13-0.11.4-M2.jar",
         "qref:v1:a05e9f28:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mainargs_2.13/0.7.6/mainargs_2.13-0.7.6.jar",
         "qref:v1:c96b9ea6:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/3.3.1/upickle_2.13-3.3.1.jar",
         "qref:v1:4996cefa:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.13/0.9.0/pprint_2.13-0.9.0.jar",
         "qref:v1:9c205598:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.5.0/fansi_2.13-0.5.0.jar",
         "qref:v1:9ca2e086:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
-        "qref:v1:68e53024:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.12.2/mill-main-client-0.12.2.jar",
+        "qref:v1:fe5ff218:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-main-client/0.12.3/mill-main-client-0.12.3.jar",
         "qref:v1:86b32939:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.10.4/compiler-bridge_2.13-1.10.4.jar",
         "qref:v1:594b679e:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.4/util-interface-1.10.4.jar",
         "qref:v1:247f0ea8:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar",
@@ -61,10 +61,8 @@
         "qref:v1:5ad44f48:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.4.0/jansi-2.4.0.jar",
         "qref:v1:7f0c9e25:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.13/1.0.0-M4/shaded-scalajson_2.13-1.0.0-M4.jar",
         "qref:v1:77272a7a:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.13/1.3.2/shaded-jawn-parser_2.13-1.3.2.jar",
-        "qref:v1:9002d91b:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/3.3.1/upickle-core_2.13-3.3.1.jar",
-        "qref:v1:0cf8d200:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/kohlschutter/junixsocket/junixsocket-native-common/2.10.1/junixsocket-native-common-2.10.1.jar",
-        "qref:v1:5e5cddb7:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/kohlschutter/junixsocket/junixsocket-common/2.10.1/junixsocket-common-2.10.1.jar"
+        "qref:v1:9002d91b:/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/3.3.1/upickle-core_2.13-3.3.1.jar"
     ],
-    "valueHash": -380496805,
-    "inputsHash": -744318735
+    "valueHash": 1084711981,
+    "inputsHash": 1707036327
 }

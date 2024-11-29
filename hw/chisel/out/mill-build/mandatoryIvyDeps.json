@@ -31,7 +31,9 @@
                     }
                 },
                 "optional": false,
-                "transitive": true
+                "transitive": true,
+                "overrides": [],
+                "boms": []
             },
             "cross": {
                 "$type": "mill.scalalib.CrossVersion.Constant",
@@ -41,6 +43,6 @@
             "force": true
         }
     ],
-    "valueHash": -819952544,
-    "inputsHash": 1644539068
+    "valueHash": 1886641276,
+    "inputsHash": -1984535704
 }
