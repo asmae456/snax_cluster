@@ -7,7 +7,6 @@ Vtestharness__Syms.o: Vtestharness__Syms.cpp Vtestharness__pch.h \
  Vtestharness_axi_mux__pi51.h Vtestharness_axi_to_mem__pi54.h \
  Vtestharness_axi_mux__pi69.h Vtestharness_axi_demux__pi48.h \
  Vtestharness_axi_demux__pi66.h Vtestharness_axi_err_slv__pi67.h \
- Vtestharness_PISO1.h Vtestharness_Word_Accu.h \
  Vtestharness_tc_sram_impl__pi55.h \
  Vtestharness_axi_burst_splitter_counters__pi151.h \
  Vtestharness_axi_burst_splitter_counters__pi153.h \

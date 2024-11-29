@@ -57,58 +57,94 @@ module TUDDCIM_sram #(
       end
     end
 
-    IN22FDX_R1PL_NFLG_W00512B064M02C256 i_data_mem (
-      .CLK    (   clk_i ),
-      .CEB    (  ~req_i ),
-      .WEB    (   ~we_i ),
-      .A      (  addr_i ),
-      .D      ( wdata_i ),
-      .BWEB   (  bit_en ),
-      .RTSEL  (   2'b01 ),
-      .WTSEL  (   2'b00 ),
-      .Q      ( rdata_o )
+    IN22FDX_R1PH_NFHN_W00512B064M02C256 i_data_mem (
+       // Normal Pins
+            .CLK      (clk_i),
+            .CEN      (~req_i[0]),                 // Active low chip enable
+            .RDWEN    (~we_i[0]),                  // Active low write enable
+            .AC       (addr_i[0][0]),              // Address LSB
+            .AW       (addr_i[0][AddrWidth-1:1]),  // Address bits except LSB
+            .D        (wdata_i[0]),                // Write data
+            .BW       (bit_en[DataWidth-1:0]),     // Bit write enable
+            .Q        (rdata_o[0]),                // Read data
+            // Test Pins: all disabled
+            .T_LOGIC  (1'b0),
+            // Margin Ajust Pins
+            .MA_SAWL  (1'b0),
+            .MA_WL    (1'b0),
+            .MA_WRAS  (1'b0),
+            .MA_WRASD (1'b0),
+            // Observation Output (Ignore)
+            .OBSV_CTL ()
     );
 
   // For cache data memory
   end else if (NumWords == 128 && DataWidth == 256) begin: gen_cache_data_mem
 
-    IN22FDX_R1PL_NFLG_W00128B128M02C256 i_cache_mem_0(
-      .CLK    ( clk_i                                 ),
-      .CEB    ( ~req_i                                ),
-      .WEB    ( ~we_i                                 ),
-      .A      ( addr_i                                ),
-      .D      ( wdata_i[0][DataWidth-1:(DataWidth/2)] ),
-      .BWEB   ( '0                                    ),
-      .RTSEL  ( 2'b01                                 ),
-      .WTSEL  ( 2'b00                                 ),
-      .Q      ( rdata_o[0][DataWidth-1:(DataWidth/2)] )
+    IN22FDX_R1PH_NFHN_W00128B128M02C256 i_cache_mem_0(
+       // Normal Pins
+            .CLK      (clk_i),
+            .CEN      (~req_i[0]),                    // Active low chip enable
+            .RDWEN    (~we_i[0]),                     // Active low write enable
+            .AC       (addr_i[0][0]),                 // Address LSB
+            .AW       (addr_i[0][AddrWidth-1:1]),     // Address bits except LSB
+            .D        (wdata_i[0][DataWidth-1:128]),  // Write data
+            .BW       (bit_en[DataWidth-1:128]),      // Bit write enable
+            .Q        (rdata_o[0][DataWidth-1:128]),  // Read data
+            // Test Pins: all disabled
+            .T_LOGIC  (1'b0),
+            // Margin Ajust Pins
+            .MA_SAWL  (1'b0),
+            .MA_WL    (1'b0),
+            .MA_WRAS  (1'b0),
+            .MA_WRASD (1'b0),
+            // Observation Output (Ignore)
+            .OBSV_CTL ()
     );
 
-    IN22FDX_R1PL_NFLG_W00128B128M02C256 i_cache_mem_1(
-      .CLK    ( clk_i                         ),
-      .CEB    ( ~req_i                        ),
-      .WEB    ( ~we_i                         ),
-      .A      ( addr_i                        ),
-      .D      ( wdata_i[0][(DataWidth/2)-1:0] ),
-      .BWEB   ( '0                            ),
-      .RTSEL  ( 2'b01                         ),
-      .WTSEL  ( 2'b00                         ),
-      .Q      ( rdata_o[0][(DataWidth/2)-1:0] )
+    IN22FDX_R1PH_NFHN_W00128B128M02C256 i_cache_mem_1(
+      // Normal Pins
+            .CLK      (clk_i),
+            .CEN      (~req_i[0]),                 // Active low chip enable
+            .RDWEN    (~we_i[0]),                  // Active low write enable
+            .AC       (addr_i[0][0]),              // Address LSB
+            .AW       (addr_i[0][AddrWidth-1:1]),  // Address bits except LSB
+            .D        (wdata_i[0][127:0]),         // Write data
+            .BW       (bit_en[127:0]),             // Bit write enable
+            .Q        (rdata_o[0][127:0]),         // Read data
+            // Test Pins: all disabled
+            .T_LOGIC  (1'b0),
+            // Margin Ajust Pins
+            .MA_SAWL  (1'b0),
+            .MA_WL    (1'b0),
+            .MA_WRAS  (1'b0),
+            .MA_WRASD (1'b0),
+            // Observation Output (Ignore)
+            .OBSV_CTL ()
     );
 
   // For cache tag memory
   end else if (NumWords == 128 && DataWidth == 39) begin: gen_cache_tag_mem
 
-    IN22FDX_R1PL_NFLG_W00128B039M02C256 i_tag_mem(
-      .CLK   ( clk_i   ),
-      .CEB   ( ~req_i  ),
-      .WEB   ( ~we_i   ),
-      .A     ( addr_i  ),
-      .D     ( wdata_i ),
-      .BWEB  ( '0      ),
-      .RTSEL ( 2'b01   ),
-      .WTSEL ( 2'b00   ),
-      .Q     ( rdata_o )
+    IN22FDX_R1PH_NFHN_W00128B039M02C256 i_tag_mem(
+       // Normal Pins
+            .CLK      (clk_i),
+            .CEN      (~req_i[0]),                 // Active low chip enable
+            .RDWEN    (~we_i[0]),                  // Active low write enable
+            .AC       (addr_i[0][0]),              // Address LSB
+            .AW       (addr_i[0][AddrWidth-1:1]),  // Address bits except LSB
+            .D        (wdata_i[0]),                // Write data
+            .BW       (bit_en[DataWidth-1:0]),     // Bit write enable
+            .Q        (rdata_o[0]),                // Read data
+            // Test Pins: all disabled
+            .T_LOGIC  (1'b0),
+            // Margin Ajust Pins
+            .MA_SAWL  (1'b0),
+            .MA_WL    (1'b0),
+            .MA_WRAS  (1'b0),
+            .MA_WRASD (1'b0),
+            // Observation Output (Ignore)
+            .OBSV_CTL ()
     );
 
   end else begin: err_no_mem

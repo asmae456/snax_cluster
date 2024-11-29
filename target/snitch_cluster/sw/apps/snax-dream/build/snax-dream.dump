@@ -3210,8 +3210,7 @@ Disassembly of section .sdata:
 80002d26: 00 00        	<unknown>
 
 80002d28 <MODE>:
-80002d28: 01 00        	<unknown>
-80002d2a: 00 00        	<unknown>
+80002d28: 03 00 00 00  	lb	zero, 0(zero)
 80002d2c: 00 00        	<unknown>
 80002d2e: 00 00        	<unknown>
 

@@ -11,7 +11,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -26,7 +25,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -44,7 +42,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -60,7 +57,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -123,7 +119,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -168,7 +163,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -199,7 +193,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -221,7 +214,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -288,7 +280,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -311,7 +302,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -335,7 +325,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -388,7 +377,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -411,7 +399,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -454,7 +441,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -479,7 +465,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -515,7 +500,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -536,7 +520,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -552,7 +535,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -578,7 +560,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -611,12 +592,11 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
     [list \
-        "$ROOT/target/snitch_cluster/Memory_SRAM/TUDDCIM_sram.sv" \
+        "$ROOT/target/snitch_cluster/Memory_SRAM/tc_sram_fdx22.sv" \
     ]
 
 set search_path $search_path_initial
@@ -634,7 +614,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -664,7 +643,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -688,7 +666,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -714,7 +691,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -744,7 +720,6 @@ read_hdl -language sv \
         SNITCH_ENABLE_PERF \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -767,7 +742,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -790,7 +764,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -817,7 +790,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -848,7 +820,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -873,7 +844,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -903,7 +873,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -940,7 +909,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -965,7 +933,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -990,7 +957,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
@@ -1018,30 +984,6 @@ read_hdl -language sv \
     -define { \
         TARGET_GENUS \
         TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
-        TARGET_SYNTHESIS \
-        TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
-    } \
-    [list \
-        "$ROOT/target/snitch_cluster/generated/snitch_cluster_wrapper.sv" \
-    ]
-
-set search_path $search_path_initial
-lappend search_path "$ROOT/.bender/git/checkouts/axi-10c18867bc585e38/include"
-lappend search_path "$ROOT/.bender/git/checkouts/common_cells-02aa01ee4a3b2e52/include"
-lappend search_path "$ROOT/.bender/git/checkouts/register_interface-f4ec7adf92a180e1/include"
-lappend search_path "$ROOT/hw/mem_interface/include"
-lappend search_path "$ROOT/hw/reqrsp_interface/include"
-lappend search_path "$ROOT/hw/snitch/include"
-lappend search_path "$ROOT/hw/snitch_ssr/include"
-lappend search_path "$ROOT/hw/tcdm_interface/include"
-set_db init_hdl_search_path $search_path
-
-read_hdl -language sv \
-    -define { \
-        TARGET_GENUS \
-        TARGET_SNAX_DREAM \
-        TARGET_SNITCH_CLUSTER \
         TARGET_SYNTHESIS \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \

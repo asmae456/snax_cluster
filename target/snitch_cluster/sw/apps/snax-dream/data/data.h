@@ -1,6 +1,6 @@
 uint64_t ADDRESS  = 4;
 
-uint64_t MODE  = 1;
+uint64_t MODE  = 3;
 
 uint64_t DATA_LEN = 8;
 

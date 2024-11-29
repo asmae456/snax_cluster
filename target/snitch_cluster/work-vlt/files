@@ -748,7 +748,7 @@
 +incdir+/workspaces/snax_cluster/hw/tcdm_interface/include
 /workspaces/snax_cluster/target/snitch_cluster/generated/snax_dream/snax_dream_csrman_CsrManager.sv
 /workspaces/snax_cluster/target/snitch_cluster/generated/snax_dream/snax_dream_streamer_StreamerTop.sv
-/workspaces/snax_cluster/hw/snax_dream/src/snax_dream_shell_wrapper.v
+/workspaces/snax_cluster/hw/snax_dream/src/snax_dream_shell_wrapper.sv
 /workspaces/snax_cluster/target/snitch_cluster/generated/snax_dream/snax_dream_csrman_wrapper.sv
 /workspaces/snax_cluster/target/snitch_cluster/generated/snax_dream/snax_dream_streamer_wrapper.sv
 /workspaces/snax_cluster/target/snitch_cluster/generated/snax_dream/snax_dream_wrapper.sv
