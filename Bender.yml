@@ -116,7 +116,7 @@ sources:
   #Include memory IP 
   - target: tech_cells_generic_exclude_tc_sram
     files:
-      - target/snitch_cluster/Memory_SRAM/tc_sram_fdx22.sv
+      - target/snitch_cluster/Memory_SRAM/TUDDCIM_sram.sv
   
   # reqrsp_interface
   - files:
