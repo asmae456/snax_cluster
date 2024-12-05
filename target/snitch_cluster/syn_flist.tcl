@@ -596,7 +596,7 @@ read_hdl -language sv \
         TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM \
     } \
     [list \
-        "$ROOT/target/snitch_cluster/Memory_SRAM/tc_sram_fdx22.sv" \
+        "$ROOT/target/snitch_cluster/Memory_SRAM/TUDDCIM_sram.sv" \
     ]
 
 set search_path $search_path_initial
