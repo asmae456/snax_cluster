@@ -36,7 +36,7 @@ module snitch_data_mem #(
 
 `ifndef TARGET_TAPEOUT
 
-    tc_sram_impl #(
+    tc_sram #(
       .NumWords   ( TCDMDepth         ),
       .DataWidth  ( NarrowDataWidth   ),
       .ByteWidth  ( 8                 ),

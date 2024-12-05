@@ -16,6 +16,11 @@ module tc_sram #(
 ) (
     input  logic                 clk_i,    // Clock
     input  logic                 rst_ni,   // Asynchronous reset active low
+
+    // implementation-related IO
+    input  impl_in_t             impl_i,
+    output impl_out_t            impl_o,
+    
     // input ports
     input  logic  [NumPorts-1:0] req_i,    // request
     input  logic  [NumPorts-1:0] we_i,     // write enable

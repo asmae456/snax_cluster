@@ -29,7 +29,7 @@ module snitch_icache_data #(
 
 `ifndef TARGET_TAPEOUT
 
-      tc_sram_impl #(
+      tc_sram #(
         .NumWords   ( CFG.LINE_COUNT  ),
         .DataWidth  ( CFG.LINE_WIDTH  ),
         .ByteWidth  ( 8               ),
